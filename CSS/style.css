@@ -70,8 +70,15 @@ main {
 header nav ul {
 	display: flex;
 	justify-content: right;
+	font-size: 0.65rem;
+	margin: 0 2vw 0 1vw;
 }
-
+header nav ul li {
+	margin: 2px 16px 2px 16px;
+}
+header nav ul li.atual a {
+	color: rgb(47, 39, 161);
+}
 
 /*==========================================
             	SOBRE NÓS
