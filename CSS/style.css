@@ -71,7 +71,7 @@ header nav ul {
 	display: flex;
 	justify-content: right;
 	font-size: 0.65rem;
-	margin: 0 2vw 0 1vw;
+	margin: 1.1vw 2vw 1vw 1vw;
 }
 header nav ul li {
 	margin: 2px 16px 2px 16px;
