@@ -70,14 +70,14 @@ main {
 header nav ul {
 	display: flex;
 	justify-content: right;
-	font-size: 0.65rem;
+	font-size: 0.70rem;
 	margin: 1.1vw 2vw 1vw 1vw;
 }
 header nav ul li {
-	margin: 2px 19px 2px 19px;
+	margin: 2px 16px 2px 16px;
 }
 header nav ul li.atual a {
-	color: rgb(47, 39, 161);
+	color: rgb(243, 150, 44);
 }
 
 
@@ -94,7 +94,12 @@ header nav ul li.atual a {
 /*==========================================
             PROCRASTINAÇÃO
 ============================================*/
-
+body.procrastinacao main h1 {
+	font-weight: bold;
+	font-size: 2.6rem;
+	color: rgb(255, 180, 94);
+	margin: 4vw 5vw 5vw 0.5vw;
+}
 
 
 
