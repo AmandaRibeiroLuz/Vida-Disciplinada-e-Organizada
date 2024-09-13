@@ -77,10 +77,12 @@ header nav ul li {
 	margin: 2px 16px 2px 16px;
 }
 header nav ul li.atual a {
-	color: rgb(243, 150, 44);
+	color: hsl(32, 96%, 55%);
 }
 body.index main h1 {
 	font-size: 2.6rem;
+	font-weight: bold;
+	color: hsl(32, 98%, 55%); ;
 	margin: 4vw 5vw 5vw 0.5vw;
 }
 
@@ -100,8 +102,14 @@ body.index main h1 {
 body.procrastinacao main h1 {
 	font-weight: bold;
 	font-size: 2.6rem;
-	color: rgb(255, 180, 94);
-	margin: 4vw 5vw 5vw 0.5vw;
+	color: hsl(32, 98%, 55%);
+	margin: 4vw 5vw 0 0.6vw;
+} 
+body.procrastinacao main h2.title {
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: hsl(32, 98%, 55%);
+	margin: 0 5vw 4vw 0.6vw;
 }
 
 
@@ -150,8 +158,9 @@ body.procrastinacao main h1 {
 ============================================*/
 footer div {
 	display: flex;
-	margin: 1vw 0 0 0;
+	margin: 0.5vw 0 0.6vw 6vw;
+	font-size: 0.8rem;
 }
 footer div p {
-	margin:  0 4vw 0.5vw 1vw;
+	margin:  0 4vw 0.2vw 1vw;
 }
