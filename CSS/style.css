@@ -90,14 +90,38 @@ body.index main h1 {
 body.index main section.menu {
 	font-size: 0.9rem;
 }
+/*==========================================
+               Primeira DIV
+============================================*/
 body.index main section.primeiraDIV {
 	display: flex;
 	font-size: 0.9rem;
 	margin: 2vw 5vw 1vw 0vw;
+	padding: 1vw 2vw 1vw 2vw;
 }
+body.index main section.primeiraDIV div.UmDivUm {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
+body.index main section.primeiraDIV div.UmDivDois {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
+/*==========================================
+                Segunda DIV
+============================================*/
 body.index main section.segundaDIV {
 	display: flex;
 	font-size: 0.9rem;
+	margin: 2vw 5vw 1vw 0vw;
+	padding: 1vw 2vw 1vw 2vw;
+}
+body.index main section.segundaDIV div.DoisDivUm {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
+body.index main section.segundaDIV div.DoisDivDois {
+	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
 }
 body.index main section {
