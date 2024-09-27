@@ -65,6 +65,31 @@ main {
 }
 
 /*==========================================
+           		 HEADER
+============================================*/
+
+header nav ul {
+	display: flex;
+	justify-content: right;
+	font-size: 0.75rem;
+	font-weight: bold;
+	padding: 0.6vw 2vw 0.6vw 1vw;
+	background-color: rgb(76, 159, 255);
+}
+header nav ul li {
+	margin: 2px 16px 2px 16px;
+}
+header nav ul li.atual a {
+	color: hsl(0, 0%, 100%); 
+}
+
+	/*==========================================
+           		 MAIN
+============================================*/
+
+
+
+/*==========================================
            		 FOOTER
 ============================================*/
 footer div {

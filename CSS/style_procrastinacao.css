@@ -64,73 +64,55 @@ main {
     margin: 0 10vw 0 10vw;
 }
 
-
-
-/*==========================================
-            	SOBRE NÓS
-============================================*/
-
-
-
-
-
-
-
 /*==========================================
             PROCRASTINAÇÃO
 ============================================*/
-body.procrastinacao main h1 {
+/*==========================================
+           		 HEADER
+============================================*/
+
+header nav ul {
+	display: flex;
+	justify-content: right;
+	font-size: 0.75rem;
 	font-weight: bold;
-	font-size: 2.6rem;
-	color: hsl(286, 62%, 63%);
-	margin: 4vw 5vw 0 0.6vw;
-} 
-body.procrastinacao main h2.title {
-	font-size: 1.6rem;
-	font-weight: bold;
-	color:  hsl(286, 55%, 66%);
-	margin: 0 5vw 4vw 0.6vw;
+	padding: 0.6vw 2vw 0.6vw 1vw;
+	background-color: rgb(76, 159, 255);
+}
+header nav ul li {
+	margin: 2px 16px 2px 16px;
+}
+header nav ul li.atual a {
+	color: hsl(0, 0%, 100%); 
 }
 
-
-
-
-
-/*==========================================
-        	EXECÍCIOS FÍSICOS
+	/*==========================================
+           		 MAIN
 ============================================*/
 
-
-
-
-
-
-/*==========================================
-                ROTINA
-============================================*/
-
-
-
-
-
-
-
-/*==========================================
-            ESTUDOS / TRABALHO
-============================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
+body.procrastinacao main h1 {
+	font-weight: bold;
+	font-size: 4rem;
+	color: rgb(76, 159, 255);
+	margin: 4vw 5vw 0 0.6vw;
+	text-align: center;
+} 
+body.procrastinacao main h2.title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: rgb(76, 159, 255);
+	margin: 0 5vw 4vw 0.6vw;
+	text-align: center;
+}
+body.procrastinacao main section p {
+	margin: 2vw 1vw 2vw 1vw;
+}
+body.procrastinacao main section.banner p img {
+	background-image: url(src/img.procrastinacao/anxiety-inducing-imagery-with-angst-feelings.jpg);
+	width: 100%;
+	opacity: 0.60;
+	margin: 2vw 2vw 2vw 2vw;
+}
 
 /*==========================================
            		 FOOTER

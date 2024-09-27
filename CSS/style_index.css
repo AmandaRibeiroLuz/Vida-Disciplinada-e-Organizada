@@ -73,7 +73,7 @@ header nav ul {
 	font-size: 0.75rem;
 	font-weight: bold;
 	padding: 0.6vw 2vw 0.6vw 1vw;
-	background-color: rgb(78, 206, 136);
+	background-color:rgb(76, 159, 255);
 }
 header nav ul li {
 	margin: 2px 16px 2px 16px;
@@ -84,7 +84,8 @@ header nav ul li.atual a {
 body.index main h1 {
 	font-size: 2.6rem;
 	font-weight: bold;
-	color: hsl(286, 62%, 63%); 
+	text-align: center;
+	color: rgb(76, 159, 255); 
 	margin: 4vw 5vw 5vw 0.6vw;
 }
 body.index main section.menu {
