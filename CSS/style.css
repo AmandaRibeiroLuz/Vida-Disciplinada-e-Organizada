@@ -90,9 +90,9 @@ body.index main h1 {
 body.index main section.menu {
 	font-size: 0.9rem;
 }
-/*==========================================
-               Primeira DIV
-============================================*/
+
+/*Primeira DIV*/
+
 body.index main section.primeiraDIV {
 	display: flex;
 	font-size: 0.9rem;
@@ -107,9 +107,8 @@ body.index main section.primeiraDIV div.UmDivDois {
 	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
 }
-/*==========================================
-                Segunda DIV
-============================================*/
+/*Segunda DIV*/
+
 body.index main section.segundaDIV {
 	display: flex;
 	font-size: 0.9rem;
@@ -127,6 +126,7 @@ body.index main section.segundaDIV div.DoisDivDois {
 body.index main section {
 	font-size: 0.9rem;
 }
+
 /*==========================================
             	SOBRE NÓS
 ============================================*/
@@ -189,6 +189,21 @@ body.procrastinacao main h2.title {
 /*==========================================
             ORGANIZAÇÃO DOS AMBIENTES
 ============================================*/
+
+main section.banner h1 {
+	font-size: 2rem;
+	text-align: center;
+	margin: 2vw 2vw 2vw 2vw;
+
+}
+main section.banner p img{
+	background-image: url(src/img.organizacao/pikaso_texttoimage_mulher-organizao-de-casa.jpeg);
+	width: 100%;
+	opacity: 0.60;
+	margin: 2vw 2vw 2vw 2vw;
+
+}
+
 
 
 
