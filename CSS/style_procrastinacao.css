@@ -60,9 +60,9 @@ a{
     color: black;
     text-decoration: none;
 }
-main {
+/*main {
     margin: 0 10vw 0 10vw;
-}
+}*/
 
 /*==========================================
             PROCRASTINAÇÃO
@@ -76,7 +76,7 @@ header nav ul {
 	justify-content: right;
 	font-size: 0.75rem;
 	font-weight: bold;
-	padding: 0.6vw 2vw 0.6vw 1vw;
+	padding: 0.6vw 1vw 0.6vw 1vw;
 	background-color: rgb(76, 159, 255);
 }
 header nav ul li {
@@ -90,33 +90,55 @@ header nav ul li.atual a {
            		 MAIN
 ============================================*/
 
-body.procrastinacao main h1 {
+body main h1 {
 	font-weight: bold;
 	font-size: 4rem;
-	color: hsl(212, 100%, 65%);
-	margin: 4vw 5vw 0 0.6vw;
+	color: rgb(76, 159, 255);
+	margin: 3vw 0 0 0;
 	text-align: center;
 } 
-body.procrastinacao main h2.title {
-	font-size: 1.2rem;
+body main h2.title {
+	font-size: 1.4rem;
 	font-weight: bold;
 	color: rgb(76, 159, 255);
-	margin: 0 5vw 4vw 0.6vw;
+	margin: 0 0 3vw 0;
 	text-align: center;
 }
-body.procrastinacao main section p {
-	margin: 2vw 1vw 2vw 1vw;
-}
-body.procrastinacao main section.banner p img {
-	background-image: url(src/img.procrastinacao/anxiety-inducing-imagery-with-angst-feelings.jpg);
+body main section p img {
 	width: 100%;
-	opacity: 0.60;
-	margin: 2vw 2vw 2vw 2vw;
+	margin: 0 0 2vw 0;
 }
+body main section.text {
+	border-top: 3px ridge rgb(76, 159, 255);
+	border-bottom: 3px ridge rgb(76, 159, 255);
+	margin: 3vw 3vw 0 3vw;
+}
+body main section.text p {
+	margin: 4vw 5vw 5vw 5vw;
+	text-align: center;
+	font-size: 1.2rem;
+}
+body main section.text h2 {
+	margin: 2vw 5vw 0 5vw;
+	font-size: 1.4rem;
+	text-align: center;
+	font-weight: bold;
+}
+body main section form {
+	padding: 2vw 15vw 2vw 10vw;
+	font-weight: bold;
+	margin: 0 3vw 0 3vw;
+	border-bottom: 3px ridge rgb(76, 159, 255);
+}
+
 
 /*==========================================
            		 FOOTER
 ============================================*/
+footer {
+	background-color: rgb(76, 159, 255);
+	padding: 1vw 1vw 1vw 1vw;
+}
 footer div {
 	display: flex;
 	margin: 0.5vw 0 0.6vw 6vw;
