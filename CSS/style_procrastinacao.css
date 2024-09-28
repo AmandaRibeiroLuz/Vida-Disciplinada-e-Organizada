@@ -93,7 +93,7 @@ header nav ul li.atual a {
 body.procrastinacao main h1 {
 	font-weight: bold;
 	font-size: 4rem;
-	color: rgb(76, 159, 255);
+	color: hsl(212, 100%, 65%);
 	margin: 4vw 5vw 0 0.6vw;
 	text-align: center;
 } 
