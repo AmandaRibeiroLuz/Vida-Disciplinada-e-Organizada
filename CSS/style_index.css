@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -51,15 +138,16 @@ table {
                 GERAL
 ============================================*/
 
-html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(10px + 1vw);
+html {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: calc(10px + 1vw);
 }
 
-a{
-    color: black;
-    text-decoration: none;
+a {
+	color: black;
+	text-decoration: none;
 }
+
 /*main {
     margin: 0 10vw 0 10vw;
 }*/
@@ -67,80 +155,116 @@ a{
 /*==========================================
                 INDEX
 ============================================*/
+header nav {
+	display: flex;
+	background-color: rgb(140, 201, 252);
+	padding: 0.5vw 1vw 0.5vw 1vw;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+header nav p img {
+	border-radius: 50px;
+	justify-content: left;
+	width: 30px;
+	margin: 0 0 0 1vw;
+}
+
 header nav ul {
 	display: flex;
 	justify-content: right;
-	font-size: 0.75rem;
+	font-size: 0.9rem;
 	font-weight: bold;
-	padding: 0.6vw 2vw 0.6vw 1vw;
-	background-color:rgb(76, 159, 255);
+
 }
+
 header nav ul li {
-	margin: 2px 16px 2px 16px;
+	margin: 2px 12px 2px 12px;
 }
+
 header nav ul li.atual a {
-	color: hsl(0, 0%, 100%); 
+	color: hsl(0, 0%, 100%);
 }
-body.index main h1 {
+
+/*================================================
+                     BODY                      
+==================================================*/
+body main h1 {
 	font-size: 2.6rem;
 	font-weight: bold;
 	text-align: center;
-	color: rgb(76, 159, 255); 
+	color: rgb(140, 201, 252);
 	margin: 4vw 5vw 5vw 0.6vw;
 }
-body.index main section.menu {
+
+body main section.menu {
 	font-size: 0.9rem;
 }
-body.index main section.img {
+
+body main section.img {
 	background-image: url(src/img.home/medium-shot-woman-stretching-work.jpg);
 	margin: 2vw 2vw 2vw 2vw;
 }
 
 /*Primeira DIV*/
 
-body.index main section.primeiraDIV {
+body main section.primeiraDIV {
 	display: flex;
 	font-size: 0.9rem;
 	margin: 2vw 5vw 1vw 0vw;
 	padding: 1vw 2vw 1vw 2vw;
 }
-body.index main section.primeiraDIV div.umDivUm {
+
+body main section.primeiraDIV div.umDivUm {
 	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
-	
+
 }
-body.index main section.primeiraDIV div.umDivDois {
+
+body main section.primeiraDIV div.umDivDois {
 	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
 }
+
 /*Segunda DIV*/
 
-body.index main section.segundaDIV {
+body main section.segundaDIV {
 	display: flex;
 	font-size: 0.9rem;
 	margin: 2vw 5vw 1vw 0vw;
 	padding: 1vw 2vw 1vw 2vw;
 }
-body.index main section.segundaDIV div.doisDivUm {
+
+body main section.segundaDIV div.doisDivUm {
 	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
 }
-body.index main section.segundaDIV div.doisDivDois {
+
+body main section.segundaDIV div.doisDivDois {
 	display: flex;
 	margin: 2vw 5vw 1vw 0vw;
 }
-body.index main section {
+
+body main section {
 	font-size: 0.9rem;
 }
 
 /*==========================================
            		 FOOTER
 ============================================*/
+footer {
+	background-color: rgb(140, 201, 252);
+	padding: 2vw 1vw 2vw 1vw;
+	margin: 8vw 0 0 0;
+}
+
 footer div {
 	display: flex;
 	margin: 0.5vw 0 0.6vw 6vw;
 	font-size: 0.8rem;
 }
+
 footer div p {
-	margin:  0 4vw 0.2vw 1vw;
+	margin: 0 4vw 0.2vw 1vw;
 }
