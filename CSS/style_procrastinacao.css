@@ -194,36 +194,50 @@ header nav ul li.atual a {
            		 MAIN
 ============================================*/
 /*=============BANNER===========*/
-body main section p img {
+ main section p img {
 	width: 100%;
 	margin: 0 0 2vw 0;
 }
 
 /*=============TEXTO============*/
-body main section.text {
-	border-bottom: 3px ridge rgb(140, 201, 252);
-}
-
-body main section.text p {
-	margin: 4vw 5vw 5vw 5vw;
+main section.text p {
 	text-align: center;
+	padding: 4vw 10vw 4vw 10vw;
 	font-size: 1.2rem;
 }
 
-body main section.text h2 {
-	margin: 2vw 5vw 0 5vw;
-	font-size: 1.4rem;
-	text-align: center;
-	font-weight: bold;
+ main section.text p.blue {
+	background-color: rgb(240, 248, 255);
 }
 
 /*==========FORMULÁRIO===========*/
-body main section form {
+ main section.form form {
 	padding: 2vw 15vw 2vw 10vw;
 	font-weight: bold;
-	background-color: rgb(222, 239, 255);
+	background-color: rgb(221, 238, 255);
 	border-bottom: 3px ridge rgb(140, 201, 252);
 }
+main section.form h2 {
+	padding: 3vw 8vw 3vw 8vw;
+	font-weight: bold;
+	border-bottom: 3px ridge rgb(140, 201, 252);
+
+}
+
+/*=========REFERÊNCIAS==========*/
+main section.referencias {
+	margin: 4vw 6vw 0 6vw;
+}
+main section.referencias h2 {
+	font-weight: bold;
+	font-size: 1rem;
+	margin: 2vw 0 1vw 0;
+}
+main section.referencias p {
+	font-size: 0.8rem;
+	margin: 12px 0 12px 0;
+}
+
 
 /*==========================================
            		 FOOTER
