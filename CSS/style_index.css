@@ -148,9 +148,9 @@ a {
 	text-decoration: none;
 }
 
-/*main {
+main {
     margin: 0 10vw 0 10vw;
-}*/
+}
 
 /*==========================================
                 INDEX
@@ -168,7 +168,7 @@ header nav p img {
 	border-radius: 50px;
 	justify-content: left;
 	width: 30px;
-	margin: 0 0 0 1vw;
+	margin: 0 1vw 0 1vw;
 }
 
 header nav ul {
@@ -198,57 +198,27 @@ body main h1 {
 	margin: 4vw 5vw 5vw 0.6vw;
 }
 
-body main section.menu {
-	font-size: 0.9rem;
+main section.menu {
+	font-size: 1rem;
+	margin: 2vw 2vw 2vw 2vw;
 }
 
 body main section.img {
 	background-image: url(src/img.home/medium-shot-woman-stretching-work.jpg);
-	margin: 2vw 2vw 2vw 2vw;
+	margin: 1vw 1vw 1vw 5vw;
 }
 
 /*Primeira DIV*/
 
-body main section.primeiraDIV {
+main section.sabemos {
 	display: flex;
-	font-size: 0.9rem;
-	margin: 2vw 5vw 1vw 0vw;
-	padding: 1vw 2vw 1vw 2vw;
+	margin: 2vw 2vw 2vw 2vw;
+	
+}
+main section.sabemos div.principios {
+	margin: 0vw 2vw 0vw 2.5vw;
 }
 
-body main section.primeiraDIV div.umDivUm {
-	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
-
-}
-
-body main section.primeiraDIV div.umDivDois {
-	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
-}
-
-/*Segunda DIV*/
-
-body main section.segundaDIV {
-	display: flex;
-	font-size: 0.9rem;
-	margin: 2vw 5vw 1vw 0vw;
-	padding: 1vw 2vw 1vw 2vw;
-}
-
-body main section.segundaDIV div.doisDivUm {
-	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
-}
-
-body main section.segundaDIV div.doisDivDois {
-	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
-}
-
-body main section {
-	font-size: 0.9rem;
-}
 
 /*==========================================
            		 FOOTER
