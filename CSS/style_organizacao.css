@@ -3,87 +3,19 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -91,44 +23,25 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 body {
 	line-height: 1;
 }
-
-ol,
-ul {
+ol, ul {
 	list-style: none;
 }
-
-blockquote,
-q {
+blockquote, q {
 	quotes: none;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
 	content: '';
 	content: none;
 }
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -138,19 +51,18 @@ table {
                 GERAL
 ============================================*/
 
-html {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: calc(10px + 1vw);
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 1vw);
 }
 
-a {
-	color: black;
-	text-decoration: none;
+a{
+    color: black;
+    text-decoration: none;
 }
-
-/*main {
+main {
     margin: 0 10vw 0 10vw;
-}*/
+}
 
 /*==========================================
             ORGANIZAÇÃO DOS AMBIENTES
@@ -189,40 +101,75 @@ header nav ul li {
 header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
+/*==========================================
+           		 SECTION.BANNER
+============================================*/
+main section.banner h1 {
+	font-size: 4rem;
+	color: rgb(76, 159, 255);
+	font-weight: bold;
+	text-align: center;
+	margin: 4vw 0vw 1vw 0vw;
+}
+main section.banner h2 {
+	font-size: 1.2rem;
+	color: rgb(76, 159, 255);
+	font-weight: bold;
+	text-align: center;
+	margin: 1vw 0vw 4vw 0vw;
+}
+main section.banner p.imagem img{
+	width: 100%;
+	padding: 0 0 2vw 0;
+	border-bottom: 1.5px solid rgb(76, 159, 255);
+}
+main section.banner h3 {
+	margin: 4vw 0vw 2vw 0vw;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: bold;
+}
+main section.banner p.paragrafo {
+	margin: 2vw 0vw 2vw 0vw;
+	font-size: 0.8rem;
+}
 
 /*==========================================
-           		 MAIN
+           	SECTION.REFERENCIAS
 ============================================*/
-
-main section.banner h1 {
-	font-size: 2rem;
+main section.referencias h1 {
+	font-size: 1rem;
+	font-weight: bold;
+	border-top: 1px solid rgb(76, 159, 255);
+	padding: 2vw 0 2vw 0;
 	text-align: center;
-	margin: 2vw 2vw 2vw 2vw;
-
+}
+main section.referencias h2 {
+	font-size: 1rem;
+	margin: 2vw 0vw 2vw 0vw;
+	text-decoration: underline;
+}
+main section.referencias nav ul li {
+	font-size: 0.8rem;
+	margin: 2vw 0vw 2vw 0vw;
+}
+main section.referencias nav ul li a {
+	text-decoration: underline;
 }
 
-main section.banner p img {
-	background-image: url(src/img.organizacao/pikaso_texttoimage_mulher-organizao-de-casa.jpeg);
-	width: 100%;
-	opacity: 0.60;
-	margin: 2vw 2vw 2vw 2vw;
-}
 
 /*==========================================
            		 FOOTER
 ============================================*/
 footer {
-	background-color: rgb(140, 201, 252);
-	padding: 2vw 1vw 2vw 1vw;
-	margin: 8vw 0 0 0;
+	background-color: rgb(76, 159, 255);
+	padding: 2vw 0vw 2vw 0;
 }
-
 footer div {
 	display: flex;
 	margin: 0.5vw 0 0.6vw 6vw;
 	font-size: 0.8rem;
 }
-
 footer div p {
-	margin: 0 4vw 0.2vw 1vw;
+	margin:  0 4vw 0.2vw 1vw;
 }
