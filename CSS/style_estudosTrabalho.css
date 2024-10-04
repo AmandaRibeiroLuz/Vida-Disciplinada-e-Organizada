@@ -192,7 +192,25 @@ header nav ul li.atual a {
 ============================================*/
 
 
+/*==========================================
+            ESTUDOS / TRABALHO
+============================================*/
+body.estudosTrabalho main h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(318, 100%, 43%);
+    margin: 2vw 2vw 2vw 0;
 
+}
+body.estudosTrabalho main section.intro p{
+    margin: 10px 3vw 2px 1vw;
+    
+}
+body.estudosTrabalho main section.importacia h2{
+    font-size: 1.6rem;
+    color: rgb(26, 0, 73);
+    margin: 3.5vw 2vw 2vw 0;
+}
 
 /*==========================================
            		 FOOTER
