@@ -191,7 +191,7 @@ header nav ul li.atual a {
 /*==========================================
            		 MAIN
 ============================================*/
-body main h1 {
+body main h1.inicio {
 	color: rgb(140, 201, 252);
 	font-size: 4rem;
 	font-weight: bold;
