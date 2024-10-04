@@ -187,9 +187,46 @@ header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
 
+body main h1.titulo {
+	font-weight: bold;
+	font-size: 2.6rem;
+	color: hsl(286, 55%, 66%);
+	margin: 4vw 5vw 0.6vw
+}
+body main section.menu {
+	font-size: 0.9rem;
+}
+body main section.primeiroDiv {
+	display: flex;
+	font-size: 0.9rem;
+	margin: 2vw 5vw 1vw 0vw;
+	padding: 1vw 2vw 1vw 2vw;
+}
+body main section.primeiroDiv div.UMDiv1 {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
+body main section.primeiroDiv div.UMDiv2 {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
 /*==========================================
-           		 MAIN
+        		DIV
 ============================================*/
+body main section.segundoDiv {
+	display: flex;
+	font-size: 0.9rem;
+	margin: 2vw 5vw 1vw 0vw;
+	padding: 1vw 2vw 1vw 2vw;
+}
+body main section.segundoDiv div.DOISDiv1 {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
+body main section.segundoDiv div.DOISDiv2 {
+	display: flex;
+	margin: 2vw 5vw 1vw 0vw;
+}
 
 
 
