@@ -186,6 +186,9 @@ header nav ul li {
 header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
+/*===========================
+			BODY
+=============================*/
 
 body main h1.titulo {
 	font-weight: bold;
@@ -195,6 +198,7 @@ body main h1.titulo {
 }
 body main section.menu {
 	font-size: 0.9rem;
+	
 }
 body main section.primeiroDiv {
 	display: flex;
@@ -204,11 +208,11 @@ body main section.primeiroDiv {
 }
 body main section.primeiroDiv div.UMDiv1 {
 	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
+	margin: 2vw 5vw 1vw 5vw;
 }
 body main section.primeiroDiv div.UMDiv2 {
 	display: flex;
-	margin: 2vw 5vw 1vw 0vw;
+	margin: 2vw 5vw 1vw 5vw;
 }
 /*==========================================
         		DIV
