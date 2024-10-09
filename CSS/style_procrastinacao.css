@@ -158,13 +158,15 @@ a {
 /*==========================================
            		 HEADER
 ============================================*/
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
-	background-color: rgb(140, 201, 252);
+	background-color: #d1ae95;
 	padding: 0.5vw 1vw 0.5vw 1vw;
 	align-items: center;
 	justify-content: space-between;
-
 }
 
 header nav p img {
@@ -189,7 +191,6 @@ header nav ul li {
 header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
-
 /*==========================================
            		 MAIN
 ============================================*/
@@ -203,25 +204,22 @@ header nav ul li.atual a {
 main section.text p {
 	text-align: center;
 	padding: 4vw 10vw 4vw 10vw;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 
- main section.text p.blue {
-	background-color: rgb(240, 248, 255);
+ main section.text p.bege {
+	background-color: #e2ddd7;
 }
 
 /*==========FORMULÁRIO===========*/
  main section.form form {
 	padding: 2vw 15vw 2vw 10vw;
 	font-weight: bold;
-	background-color: rgb(221, 238, 255);
-	border-bottom: 3px ridge rgb(140, 201, 252);
+	background-color:  #e2ddd7;
 }
 main section.form h2 {
 	padding: 3vw 8vw 3vw 8vw;
 	font-weight: bold;
-	border-bottom: 3px ridge rgb(140, 201, 252);
-
 }
 
 /*=========REFERÊNCIAS==========*/
@@ -243,17 +241,15 @@ main section.referencias p {
            		 FOOTER
 ============================================*/
 footer {
-	background-color: rgb(140, 201, 252);
-	padding: 2vw 1vw 2vw 1vw;
-	margin: 8vw 0 0 0;
+	background-color: #704a2f;
+	padding: 2vw 0vw 2vw 0;
+	color:#e4ddd6;
 }
-
 footer div {
 	display: flex;
 	margin: 0.5vw 0 0.6vw 6vw;
 	font-size: 0.8rem;
 }
-
 footer div p {
-	margin: 0 4vw 0.2vw 1vw;
+	margin:  0 4vw 0.2vw 1vw;
 }
