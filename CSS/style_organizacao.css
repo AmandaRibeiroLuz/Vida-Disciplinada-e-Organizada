@@ -60,9 +60,10 @@ a{
     color: black;
     text-decoration: none;
 }
-main {
+/* main {
     margin: 0 10vw 0 10vw;
 }
+*/
 
 /*==========================================
             ORGANIZAÇÃO DOS AMBIENTES
@@ -70,13 +71,15 @@ main {
 /*==========================================
            		 HEADER
 ============================================*/
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
-	background-color: rgb(140, 201, 252);
+	background-color: #d1ae95;
 	padding: 0.5vw 1vw 0.5vw 1vw;
 	align-items: center;
 	justify-content: space-between;
-
 }
 
 header nav p img {
@@ -104,43 +107,37 @@ header nav ul li.atual a {
 /*==========================================
            		 SECTION.BANNER
 ============================================*/
-main section.banner h1 {
-	font-size: 4rem;
-	color: rgb(76, 159, 255);
-	font-weight: bold;
-	text-align: center;
-	margin: 4vw 0vw 1vw 0vw;
-}
-main section.banner h2 {
-	font-size: 1.2rem;
-	color: rgb(76, 159, 255);
-	font-weight: bold;
-	text-align: center;
-	margin: 1vw 0vw 4vw 0vw;
-}
 main section.banner p.imagem img{
 	width: 100%;
-	padding: 0 0 2vw 0;
-	border-bottom: 1.5px solid rgb(76, 159, 255);
 }
-main section.banner h3 {
-	margin: 4vw 0vw 2vw 0vw;
-	font-size: 1rem;
+
+/*==========================================
+           		 SECTION.IMPORTANCIA
+============================================*/
+main section.importancia {
+	background-color: #e4ddd6;
+	padding: 2vw 0 2vw 0;
+}
+main section.importancia h3 {
+	margin: 4vw 10vw 2vw 10vw;
+	font-size: 1.3rem;
 	text-align: center;
 	font-weight: bold;
 }
-main section.banner p.paragrafo {
-	margin: 2vw 0vw 2vw 0vw;
-	font-size: 0.8rem;
+main section.importancia p.paragrafo {
+	margin: 2vw 9vw 2vw 9vw;
+	font-size: 0.9rem;
 }
 
 /*==========================================
            	SECTION.REFERENCIAS
 ============================================*/
+main section.referencias {
+	background-color: #d1ae95;
+}
 main section.referencias h1 {
 	font-size: 1rem;
 	font-weight: bold;
-	border-top: 1px solid rgb(76, 159, 255);
 	padding: 2vw 0 2vw 0;
 	text-align: center;
 }
@@ -162,8 +159,9 @@ main section.referencias nav ul li a {
            		 FOOTER
 ============================================*/
 footer {
-	background-color: rgb(76, 159, 255);
+	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
+	color: hsl(0, 0%, 100%);
 }
 footer div {
 	display: flex;
