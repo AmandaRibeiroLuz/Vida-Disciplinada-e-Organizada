@@ -133,7 +133,8 @@ main section.importancia p.paragrafo {
            	SECTION.REFERENCIAS
 ============================================*/
 main section.referencias {
-	background-color: #d1ae95;
+	background-color: #cdbca5;
+	padding: 2vw 0 2vw 0;
 }
 main section.referencias h1 {
 	font-size: 1rem;
@@ -161,7 +162,7 @@ main section.referencias nav ul li a {
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
-	color: hsl(0, 0%, 100%);
+	color:#e4ddd6;
 }
 footer div {
 	display: flex;
