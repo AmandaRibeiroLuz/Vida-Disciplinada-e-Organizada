@@ -118,7 +118,7 @@ main section.importancia {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
-main section.importancia h3 {
+main section.importancia h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 1.3rem;
 	text-align: center;
@@ -146,7 +146,7 @@ main section.importancia div div p img {
 ==============================================*/
 main section.modelo {
 	background-color: #cdbca5;
-	padding: 2vw 0 2vw 0;
+	padding: 3vw 0 3vw 0;
 }
 main section.modelo div.dividir {
 	display: flex;
@@ -154,7 +154,7 @@ main section.modelo div.dividir {
 main section.modelo div.dividir div {
 	width: 50%;
 }
-main section.modelo div.dividir div.text h4 {
+main section.modelo div.dividir div.text h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 1.3rem;
 	text-align: center;
@@ -169,6 +169,37 @@ main section.modelo div.dividir div.text div p img {
 	margin: 2vw 5vw 2vw 5vw;
 }
 
+/*============================================
+           		 SECTION.TRABALO
+==============================================*/
+main section.trabalho {
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+main section.trabalho h1 {
+	margin: 4vw 30vw 4vw 30vw;
+	font-size: 1.3rem;
+	text-align: center;
+	font-weight: bold;
+	background-color: #704a2f;
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 100px;
+	color:#e4ddd6;
+}
+main section.trabalho p {
+	margin: 1vw 9vw 1vw 9vw;
+	font-size: 0.9rem;
+}
+main section.trabalho div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+main section.trabalho div p img {
+	width: 120%;
+	border: 5px solid #704a2f;
+	margin: 2vw 0 2vw 0;
+}
 /*==========================================
            	SECTION.REFERENCIAS
 ============================================*/
