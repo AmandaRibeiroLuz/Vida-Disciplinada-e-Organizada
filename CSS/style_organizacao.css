@@ -200,6 +200,15 @@ main section.trabalho div p img {
 	border: 5px solid #704a2f;
 	margin: 2vw 0 2vw 0;
 }
+
+/*============================================
+           	SECTION.EXPECTATIVAS
+==============================================*/
+main section.expectativa {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+
 /*==========================================
            	SECTION.REFERENCIAS
 ============================================*/
