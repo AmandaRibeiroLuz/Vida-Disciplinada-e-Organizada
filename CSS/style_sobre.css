@@ -191,6 +191,53 @@ header nav ul li.atual a {
 /*==========================================
            		 MAIN
 ============================================*/
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+
+.item.ativo {
+    display: block; 
+}
+
+.item img {
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 
 /*==========================================
