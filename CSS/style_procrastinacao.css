@@ -205,30 +205,43 @@ header nav ul li.atual a {
 }
 
 /*=============TEXTO============*/
-
 main section.text ul li {
 	display: flex;
-	margin: 1vw 0 1vw 0;
-
+	gap: 1vw;
+	width: 100%;
 }
-main section.text ul li p {
+main section.text ul li img {
+	width: 50%;
+}
+main section.text ul li.bege p {
 	padding: 5vw 6vw 5vw 6vw;
 	font-size: 1rem;
+	width: 50%;
+}
+main section.text ul li.text p {
+	margin: 5vw 4vw 5vw 4vw;
+	font-size: 1rem;
+	justify-content: left;
+	word-wrap: break-word;
+}
+main section.text ul li.text {
+	width: 100%;
 }
 
- main section.text p.bege {
-	background-color: #e2ddd7;
+ main section.text ul li.bege {
+	background-color: #e4ddd6;
 }
 
 /*==========FORMULÁRIO===========*/
  main section.form form {
 	padding: 2vw 15vw 2vw 10vw;
 	font-weight: bold;
-	background-color:  #e2ddd7;
+	background-color:  #cdbca5;
 }
 main section.form h2 {
 	padding: 3vw 8vw 3vw 8vw;
 	font-weight: bold;
+	background-color: #e4ddd6;
 }
 
 /*=========REFERÊNCIAS==========*/
