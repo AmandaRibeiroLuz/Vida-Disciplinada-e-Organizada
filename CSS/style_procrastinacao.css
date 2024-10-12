@@ -166,6 +166,7 @@ span.procrastinacao {
 header {
 	border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav {
 	display: flex;
 	background-color: #d1ae95;
@@ -196,50 +197,84 @@ header nav ul li {
 header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
+
 /*==========================================
            		 MAIN
 ============================================*/
 /*=============BANNER===========*/
- main img.banner {
+main img.banner {
 	width: 100%;
 }
 
 /*=============TEXTO============*/
-main section.text ul li {
+main section.text h2 {
+	padding: 3vw 0 3vw 0;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+main section.text ul li.bege {
 	display: flex;
 	gap: 1vw;
 	width: 100%;
 }
+
 main section.text ul li img {
 	width: 50%;
 }
+
 main section.text ul li.bege p {
 	padding: 5vw 6vw 5vw 6vw;
 	font-size: 1rem;
 	width: 50%;
 }
-main section.text ul li.text p {
-	margin: 5vw 4vw 5vw 4vw;
-	font-size: 1rem;
-	justify-content: left;
-	word-wrap: break-word;
-}
+
 main section.text ul li.text {
 	width: 100%;
+	justify-content: center;
 }
 
- main section.text ul li.bege {
+main section.text ul li.text p {
+	margin: 5vw 9vw 5vw 9vw;
+	font-size: 1rem;
+	word-wrap: break-word;
+}
+
+main section.text ul li.text img {
+	padding: 2vw 24vw 2vw 25vw;
+	background-color: #cdbca5;
+}
+
+main section.text ul li.bege {
 	background-color: #e4ddd6;
 }
 
-/*==========FORMULÁRIO===========*/
- main section.form form {
-	padding: 2vw 15vw 2vw 10vw;
+/*=======SECTION.PROBLEMA========*/
+main section.problema {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+main section.problema h2 {
+	padding: 3vw 0 1vw 0;
+	text-align: center;
+	font-size: 1.2rem;
 	font-weight: bold;
-	background-color:  #cdbca5;
+} 
+main section.problema p {
+	margin: 5vw 8vw 5vw 8vw;
+	font-size: 1rem;
+	word-wrap: break-word;
+}
+
+/*==========FORMULÁRIO===========*/
+main section.form form {
+	padding: 3vw 15vw 4vw 10vw;
+	font-weight: bolder;
+	background-color: #e4ddd6;
 }
 main section.form h2 {
-	padding: 3vw 8vw 3vw 8vw;
+	padding: 4vw 8vw 0 8vw;
 	font-weight: bold;
 	background-color: #e4ddd6;
 }
@@ -248,11 +283,13 @@ main section.form h2 {
 main section.referencias {
 	margin: 4vw 6vw 0 6vw;
 }
+
 main section.referencias h2 {
 	font-weight: bold;
 	font-size: 1rem;
 	margin: 2vw 0 1vw 0;
 }
+
 main section.referencias p {
 	font-size: 0.8rem;
 	margin: 12px 0 12px 0;
@@ -265,13 +302,15 @@ main section.referencias p {
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
-	color:#e4ddd6;
+	color: #e4ddd6;
 }
+
 footer div {
 	display: flex;
 	margin: 0.5vw 0 0.6vw 6vw;
 	font-size: 0.8rem;
 }
+
 footer div p {
-	margin:  0 4vw 0.2vw 1vw;
+	margin: 0 4vw 0.2vw 1vw;
 }
