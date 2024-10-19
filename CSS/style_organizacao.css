@@ -105,68 +105,81 @@ header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
 /*==========================================
-           		 SECTION.BANNER
+           		SECTION.BANNER
 ============================================*/
 main section.banner p.imagem img{
 	width: 100%;
 }
 
 /*============================================
-           		 SECTION.IMPORTANCIA
+           	SECTION.CONSEQUENCIAS
 ==============================================*/
-main section.importancia {
+main section.consequencias {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
-main section.importancia h1 {
+main section.consequencias h1 {
 	margin: 4vw 10vw 2vw 10vw;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
 }
-main section.importancia p.paragrafo {
+main section.consequencias p.paragrafo {
 	margin: 2vw 9vw 2vw 9vw;
 	font-size: 0.9rem;
+	line-height: 1.3rem;
+	text-align: justify;
 }
-main section.importancia div {
+main section.consequencias div {
 	display: flex;
 	justify-content: space-around;
+	width: 100%;
 }
-main section.importancia div p {
+main section.consequencias div p {
 	width: 50%;
 	margin: 2vw 6vw 2vw 6vw;
 	text-align: center;
 }
-main section.importancia div div p img {
+main section.consequencias div p img {
 	border: 5px solid #704a2f;
+	width: 50%;
 }
 
 /*============================================
-           		 SECTION.MODELO
+           	SECTION.BENEFICIOS
 ==============================================*/
-main section.modelo {
+main section.beneficios {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
-main section.modelo div.dividir {
+main section.beneficios div.dividir {
 	display: flex;
+	width: 100%;
+	justify-content: space-around;
 }
-main section.modelo div.dividir div {
+main section.beneficios div.dividir div.imagem p {
 	width: 50%;
 }
-main section.modelo div.dividir div.text h1 {
+main section.beneficios div.dividir div.imagem p img {
+	border: 5px solid #704a2f;
+	margin: 2vw 0 2vw 0;
+}
+main section.beneficios div.dividir div.text {
+	width: 50%;
+}
+main section.beneficios div.dividir div.text h1 {
 	margin: 4vw 10vw 2vw 10vw;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
 }
-main section.modelo div.dividir div.text p {
-	margin: 2vw 5vw 2vw 5vw;
-	justify-content: left;
-}
-main section.modelo div.dividir div.text div p img {
-	border: 5px solid #704a2f;
-	margin: 2vw 5vw 2vw 5vw;
+main section.beneficios div.dividir div.text p {
+	margin: 1vw 9vw 1vw 9vw;
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	text-align: justify;
 }
 
 /*============================================
@@ -177,18 +190,21 @@ main section.trabalho {
 	padding: 3vw 0 3vw 0;
 }
 main section.trabalho h1 {
-	margin: 4vw 30vw 4vw 30vw;
-	font-size: 1.3rem;
+	margin: 4vw 20vw 4vw 20vw;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	background-color: #704a2f;
 	padding: 2vw 1vw 2vw 1vw;
 	border-radius: 100px;
 	color:#e4ddd6;
+	font-family: 'Times New Roman', Times, serif;
 }
 main section.trabalho p {
 	margin: 1vw 9vw 1vw 9vw;
 	font-size: 0.9rem;
+	line-height: 1.3rem;
+	text-align: justify;
 }
 main section.trabalho div {
 	display: flex;
@@ -202,12 +218,48 @@ main section.trabalho div p img {
 }
 
 /*============================================
-           	SECTION.EXPECTATIVAS
+           		 SECTION.MODELO
 ==============================================*/
-main section.expectativa {
+main section.modelo {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
+main section.modelo div.dividir {
+	display: flex;
+	width: 100%;
+}
+main section.modelo div.dividir div.text {
+	width: 50%;
+}
+main section.modelo div.dividir div.text h1 {
+	margin: 4vw 10vw 2vw 10vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+main section.modelo div.dividir div.text p {
+	margin: 2vw 5vw 2vw 5vw;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+main section.modelo div.dividir div.imagem {
+	width: 50%
+}
+main section.modelo div.dividir div.imagem p.imagem img {
+	border: 5px solid #704a2f;
+	margin: 2vw 5vw 2vw 5vw;
+}
+
+/*============================================
+           	SECTION.EXPECTATIVA
+==============================================*/
+main section.expectativas {
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+
+/* Seguir modelo da section consequencias*/
 
 /*==========================================
            	SECTION.REFERENCIAS
@@ -234,7 +286,6 @@ main section.referencias nav ul li {
 main section.referencias nav ul li a {
 	text-decoration: underline;
 }
-
 
 /*==========================================
            		 FOOTER
