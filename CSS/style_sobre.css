@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* Reset de CSS */
 html,
 body,
 div,
@@ -84,12 +80,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,34 +100,35 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
+    padding-bottom: 100px; /* Espaço para o footer */
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*==========================================
@@ -139,61 +136,57 @@ table {
 ============================================*/
 
 html {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 1vw);
 }
 
 a {
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
-
-/*main {
-    margin: 0 10vw 0 10vw;
-}*/
 
 /*==========================================
-           		 HEADER
+                HEADER
 ============================================*/
 header {
-	border-bottom: 2.5px solid #2f2a19;
+    border-bottom: 2.5px solid #2f2a19;
 }
 header nav {
-	display: flex;
-	background-color: #d1ae95;
-	padding: 0.5vw 1vw 0.5vw 1vw;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    background-color: #d1ae95;
+    padding: 0.5vw 1vw;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header nav p img {
-	border-radius: 50px;
-	justify-content: left;
-	width: 30px;
-	margin: 0 0 0 1vw;
+    border-radius: 50px;
+    justify-content: left;
+    width: 30px;
+    margin: 0 0 0 1vw;
 }
 
 header nav ul {
-	display: flex;
-	justify-content: right;
-	font-size: 0.9rem;
-	font-weight: bold;
-
+    display: flex;
+    justify-content: right;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 header nav ul li {
-	margin: 2px 12px 2px 12px;
+    margin: 2px 12px;
 }
 
 header nav ul li.atual a {
-	color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
 }
+
 /*==========================================
-           		 MAIN
+                MAIN
 ============================================*/
 .carrossel {
     position: relative;
-    max-width: 600px;
+    max-width: 800px; /* Aumente a largura */
     margin: auto;
     overflow: hidden;
     border: 2px solid #ccc;
@@ -210,6 +203,7 @@ header nav ul li.atual a {
     box-sizing: border-box;
     text-align: center;
     display: none;
+    height: 500px; /* Aumente a altura */
 }
 
 .item.ativo {
@@ -217,7 +211,9 @@ header nav ul li.atual a {
 }
 
 .item img {
-    width: 100%;
+    width: 50%; /* Aumente a largura da imagem */
+    height: 75%; /* Aumente a altura da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem */
     border-bottom: 2px solid #ccc;
 }
 
@@ -239,20 +235,20 @@ header nav ul li.atual a {
     right: 10px;
 }
 
-
 /*==========================================
-           		 FOOTER
+                FOOTER
 ============================================*/
 footer {
-	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
-	color:#e4ddd6;
+    background-color: #704a2f;
+    padding: 2vw 0;
+    color: #e4ddd6;
+    /* Removido as propriedades fixas */
 }
 footer div {
-	display: flex;
-	margin: 0.5vw 0 0.6vw 6vw;
-	font-size: 0.8rem;
+    display: flex;
+    margin: 0.5vw 0 0.6vw 6vw;
+    font-size: 0.8rem;
 }
 footer div p {
-	margin:  0 4vw 0.2vw 1vw;
+    margin: 0 4vw 0.2vw 1vw;
 }

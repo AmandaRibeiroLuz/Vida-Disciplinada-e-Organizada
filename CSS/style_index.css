@@ -148,13 +148,15 @@ a {
 	text-decoration: none;
 }
 
-main {
-    margin: 0 10vw 0 10vw;
-}
+
 
 /*==========================================
                 INDEX
 ============================================*/
+/*=============BANNER===========*/
+main img.banner {
+	width: 100%;
+}
 header {
 	border-bottom: 2.5px solid #2f2a19;
 }
@@ -192,33 +194,49 @@ header nav ul li.atual a {
                      BODY                      
 ==================================================*/
 body main h1 {
-	font-size: 2.6rem;
-	font-weight: bold;
-	text-align: center;
-	color: rgb(140, 201, 252);
-	margin: 4vw 5vw 5vw 0.6vw;
-}
-
-main section.menu {
-	font-size: 1rem;
-	margin: 2vw 2vw 2vw 2vw;
-}
-
-body main section.img {
-	background-image: url(src/img.home/medium-shot-woman-stretching-work.jpg);
-	margin: 1vw 1vw 1vw 5vw;
-}
-
-/*Primeira DIV*/
-
-main section.sabemos {
-	display: flex;
-	margin: 2vw 2vw 2vw 2vw;
+		padding: 3vw 0 3vw 0;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	main section.text ul li.bege {
+		display: flex;
+		gap: 1vw;
+		width: 100%;
+	}
 	
-}
-main section.sabemos div.principios {
-	margin: 0vw 2vw 0vw 2.5vw;
-}
+	main section.text ul li img {
+		width: 50%;
+	}
+	
+	main section.text ul li.bege p {
+		padding: 5vw 6vw 5vw 6vw;
+		font-size: 1rem;
+		width: 50%;
+	}
+	
+	main section.text ul li.text {
+		width: 100%;
+		justify-content: center;
+	}
+	
+	main section.text ul li.text p {
+		margin: 5vw 9vw 5vw 9vw;
+		font-size: 1rem;
+		word-wrap: break-word;
+	}
+	
+	main section.text ul li.text img {
+		padding: 2vw 24vw 2vw 25vw;
+		background-color: #cdbca5;
+	}
+	
+	main section.text ul li.bege {
+		background-color: #e4ddd6;
+	}
+	
+
+
 
 
 /*==========================================

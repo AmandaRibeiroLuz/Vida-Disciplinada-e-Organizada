@@ -11,83 +11,74 @@
         <nav>
             <p><img src="src/Logo Vita Ordinata.png" alt="Logo Vita Ordinata"></p>
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li> 
-                <li>
-                    <a href="rotina.html">Rotina</a>
-                </li>
-                <li>
-                    <a href="procrastinacao.html">Procrastinação</a>
-                </li>
-                <li>
-                    <a href="organizacao.html">Organização</a>
-                </li>
-                <li>
-                    <a href="estudosTrabalho.html">Estudos/Trabalho</a>
-                </li>
-                <li>
-                    <a href="exercicios.html">Exercícios Físicos</a>
-                </li>
-                <li class="atual">
-                    <a href="sobre.html">Sobre Nós</a>
-                </li> 
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="rotina.html">Rotina</a></li>
+                <li><a href="procrastinacao.html">Procrastinação</a></li>
+                <li><a href="organizacao.html">Organização</a></li>
+                <li><a href="estudosTrabalho.html">Estudos/Trabalho</a></li>
+                <li><a href="exercicios.html">Exercícios Físicos</a></li>
+                <li class="atual"><a href="sobre.html">Sobre Nós</a></li> 
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Sobre Nós</h1>
+        <img class="banner" src="src/img.sobre/7.png" alt="Banner." width="100%">
+        <div class="carrossel">
+            <div class="carrossel-inner">
+                <div class="item ativo">
+                    <script>
+                    let slideIndex = 0;
+                    mostrarSlides();
 
-<div class="carrossel">
-    <div class="carrossel-inner">
-        <div class="item ativo">
-            <script>
-            let slideIndex = 0;
-mostrarSlides();
+                    function mudarSlide(n) {
+                        slideIndex += n;
+                        mostrarSlides();
+                    }
 
-function mudarSlide(n) {
-    slideIndex += n;
-    mostrarSlides();
-}
+                    function mostrarSlides() {
+                        const slides = document.getElementsByClassName("item");
+                        if (slideIndex >= slides.length) { slideIndex = 0; }
+                        if (slideIndex < 0) { slideIndex = slides.length - 1; }
 
-function mostrarSlides() {
-    const slides = document.getElementsByClassName("item");
-    if (slideIndex >= slides.length) { slideIndex = 0; }
-    if (slideIndex < 0) { slideIndex = slides.length - 1; }
+                        for (let i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+                        slides[slideIndex].style.display = "block";  
+                    }
 
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slides[slideIndex].style.display = "block";  
-}
-
-// Inicializa o primeiro slide
-mostrarSlides();
-</script>
-
-            <img src="src/img.sobre/sun-flower-1681385_640.jpg" alt="Integrante 1">
-            <h3>Breno Otávio Rohregger</h3>
-            <p>Nasci em Joinville</p>
+                    // Inicializa o primeiro slide
+                    mostrarSlides();
+                    </script>
+                    
+                    <img src="src/img.sobre/imagem amanda.jpeg" alt="Integrante Amanda">
+                    <h3><strong>Amanda Ribeiro da Luz</strong></h3>
+                    <p>Nasci em Joinville, SC.<br>Tenho 15 anos.<br>Estudo no IFC Campus Araquari no Curso Técnico de Informática.</p>
+                </div>
+                <div class="item">
+                    <img src="src/img.sobre/imagem heloisa.jpeg" alt="Integrante Heloisa">
+                    <h3><strong>Heloisa de Farias Longhi</strong></h3>
+                    <p>Nasci em Joinville, SC.<br>Tenho 16 anos.<br>Estudo no IFC, Campus Araquari, faço curso técnico de informática.</p>
+                </div>
+                <div class="item">
+                    <img src="src/img.sobre/imagem jose.jpeg" alt="Integrante José">
+                    <h3><strong>José Carlos Mar Pereira Neto</strong></h3>
+                    <p>Nasci em Barra do Sul, SC.<br>Tenho 15 anos.<br>Estudo no IFC Campus Araquari, faço curso técnico de informática.</p>
+                </div>
+                <div class="item"> 
+                    <img src="src/img.sobre/imagem sara.jpeg" alt="Integrante Sara">
+                    <h3><strong>Sara Schulz</strong></h3>
+                    <p>Nasci em Santa Rosa, RS.<br>Tenho 16 anos.<br>Estudo no IFC Campus Araquari, faço curso técnico de informática.</p>
+                </div>
+            </div>
+            <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+            <button class="next" onclick="mudarSlide(1)">&#10095;</button>
         </div>
-        <div class="item">
-            <img src="src/img.sobre/sun-flower-1681385_640.jpg" alt="Integrante 2">
-            <h3>Integrante 2</h3>
-        </div>
-        <div class="item">
-            <img src="src/img.sobre/sun-flower-1681385_640.jpg" alt="Integrante 3">
-            <h3>Integrante 3</h3>
-        </div>
-    </div>
-    <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
-    <button class="next" onclick="mudarSlide(1)">&#10095;</button>
-</div>
-
     </main>
     <footer>
         <div><p>&copy 2024 - Todos os direitos reservados.</p></div>
-        <div><p>Desenvolvido por: </p></div>
+        <div><p>Desenvolvido por:</p></div>
         <div><p>Amanda Ribeiro da Luz <br>
-            Breno Otávio  Rohregger <br>
+            Breno Otávio Rohregger <br>
             Heloisa de Farias Longhi </p>
         <p>José Carlos Mar Pereira Neto <br>
             Sara Schulz <br>
