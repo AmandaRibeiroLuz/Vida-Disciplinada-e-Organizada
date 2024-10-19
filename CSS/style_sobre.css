@@ -184,56 +184,6 @@ header nav ul li.atual a {
 /*==========================================
                 MAIN
 ============================================*/
-.carrossel {
-    position: relative;
-    max-width: 800px; /* Aumente a largura */
-    margin: auto;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-}
-
-.carrossel-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.item {
-    min-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    display: none;
-    height: 500px; /* Aumente a altura */
-}
-
-.item.ativo {
-    display: block; 
-}
-
-.item img {
-    width: 50%; /* Aumente a largura da imagem */
-    height: 75%; /* Aumente a altura da imagem */
-    object-fit: cover; /* Mantém a proporção da imagem */
-    border-bottom: 2px solid #ccc;
-}
-
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
 
 /*==========================================
                 FOOTER
