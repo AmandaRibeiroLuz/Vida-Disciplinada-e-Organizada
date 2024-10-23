@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
+   License: none (public do
 */
 
 html,
@@ -152,7 +152,7 @@ span.procrastinacao {
 	font-style: italic;
 }
 
-/*main {
+/*{
     margin: 0 10vw 0 10vw;
 }*/
 h2 {
@@ -201,17 +201,17 @@ header nav ul li.atual a {
 }
 
 /*==========================================
-           		 MAIN
+					MAIN
 ============================================*/
 /*=============BANNER===========*/
-main img.banner {
+img.banner {
 	width: 100%;
 }
 
-/*=============TEXTO============*/
+/*========SECTION.TEXTO============*/
 
 
-main section.text ul li.oque {
+section.text ul li.oque {
 	gap: 1vw;
 	width: 100%;
 	background-color: #e4ddd6;
@@ -219,93 +219,96 @@ main section.text ul li.oque {
 	padding: 3vw 0 3vw 0;
 }
 
-main section.text ul li.oque div {
+section.text ul li.oque div {
 	width: 40%;
 }
 
-main section.text ul li.oque div img {
-	margin: 2vw 2vw 2vw 5vw;
+section.text ul li.oque div img {
+	margin: 12vw 2vw 2vw 4vw;
 	border: 5px solid #704a2f;
 }
 
-main section.text ul li.oque div.textoque {
+section.text ul li.oque div.textoque {
 	width: 60%;
 }
 
-main section.text ul li.oque div h2 {
+section.text ul li.oque div h2 {
 	font-size: 2rem;
 	padding: 3vw 5vw 1vw 5vw;
 	font-weight: bold;
 
 }
 
-main section.text ul li.oque div p {
+section.text ul li.oque div p {
 	padding: 2vw 6vw 5vw 5vw;
 	font-size: 1rem;
 	line-height: 1.4rem;
 	text-align: justify;
 }
 
-main section.text ul li.text {
+section.text ul li.text {
 	width: 100%;
 	justify-content: center;
 }
 
-main section.text ul li.text p {
+section.text ul li.text p {
 	margin: 5vw 9vw 5vw 9vw;
 	font-size: 1rem;
 	text-align: justify;
 	word-wrap: break-word;
 	line-height: 1.4rem;
 }
-main section.text ul li.img {
+section.text ul li.text p span {
+	font-weight: bold;
+}
+section.text ul li.img {
 	background-color: #cdbca5;
 }
-main section.text ul li.img img {
+section.text ul li.img img {
 	margin: 2vw 24vw 2vw 25vw;
 	width: 50%;
 	border: 5px solid #704a2f;
 }
-
-main section.text ul li.causas {
+/*========SECTION.CAUSAS======*/
+section.causas ul li {
 	width: 100%;
 	background-color: #e4ddd6;
 	gap: 1vw;
 }
 
-main section.text ul li.causas h2 {
+section.causas ul li h2 {
 	font-size: 2rem;
 	padding: 5vw 5vw 1vw 3vw;
 	text-align: center;
 	font-weight: bold;
 }
-main section.text ul li.causas p {
+section.causas ul li p {
 	text-align: center;
 	padding: 1vw 1vw 4vw 3vw;
 }
 
-main section.text ul li.causas div {
+section.causas ul li div {
 	display: flex;
 }
 
-main section.text ul li.causas div img {
-	margin: 3vw 5vw 2vw 2vw;
+section.causas ul li div img {
+	margin: 4vw 5vw 7vw 2vw;
 	width: 40%;
 	border: 5px solid #704a2f;
 }
 
-main section.text ul li.causas div p {
+section.causas ul li div p {
 	padding: 3vw 3vw 5vw 6vw;
 	font-size: 1rem;
 	width: 60%;
 	line-height: 1.4rem;
 	text-align: justify;
-	margin: 3vw 0 0 0;
+	
 }
-main section.text ul li.causas div.conserto{
-	background-color: #cdbca5;
+section.causas ul li div.conserto{
+	background-color: white;
 }
-main section.text ul li.causas div.conserto p {
+section.causas ul li div.conserto p {
 	padding: 3vw 8vw 5vw 8vw;
 	font-size: 1rem;
 	width: 100%;
@@ -315,51 +318,71 @@ main section.text ul li.causas div.conserto p {
 }
 
 /*=======SECTION.PROBLEMA========*/
-main section.problema {
+section.problema {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 	line-height: 1.4rem;
+	width: 100%;
 }
 
-main section.problema h2 {
-	padding: 3vw 0 1vw 0;
+section.problema h2 {
+	padding: 3vw 0 0 0;
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
 }
 
-main section.problema p {
+section.problema ul li p {
 	margin: 5vw 8vw 5vw 8vw;
 	font-size: 1rem;
 	word-wrap: break-word;
 	text-align: justify;
 }
+section.problema ul li.img {
+	display: flex;
+	margin:  0 5vw 0 5vw;
+}
+
+section.problema ul li.img img {
+	margin: 0 3vw 0 3vw;
+	width: 40%;
+	border: 5px solid #704a2f;
+}
 
 /*==========FORMULÁRIO===========*/
-main section.form form {
-	padding: 3vw 15vw 4vw 10vw;
+section.form form {
+	padding: 2vw 15vw 4vw 10vw;
 	font-weight: bolder;
 	background-color: #e4ddd6;
+	color: #704a2f;
+}
+section.form p.text {
+	margin: 5vw;
+	text-align: justify;
+	background-color: none;
 }
 
-main section.form h2 {
-	padding: 4vw 8vw 0 8vw;
+section.form form p {
+	text-align: left;
+	margin: 2vw 0 2vw 0;
 	font-weight: bold;
 	background-color: #e4ddd6;
+	color: black ;
 }
 
+
 /*=========REFERÊNCIAS==========*/
-main section.referencias {
+section.referencias {
 	margin: 4vw 6vw 0 6vw;
 }
 
-main section.referencias h2 {
+section.referencias h2 {
 	font-weight: bold;
 	font-size: 1rem;
 	margin: 2vw 0 1vw 0;
 }
 
-main section.referencias p {
+section.referencias p {
 	font-size: 0.8rem;
 	margin: 12px 0 12px 0;
 }
