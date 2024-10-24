@@ -147,26 +147,40 @@ a {
 	color: black;
 	text-decoration: none;
 }
-
-/*main {
-    margin: 0 10vw 0 10vw;
-}*/
-
+body.estudosTrabalho h2{
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+body.estudosTrabalho p{
+	text-align: center;
+	margin: 1vw;
+}
+body.estudosTrabalho p.comentario{
+	font-size: 1.2vw;
+	margin: 0.5vw 0 2vw 3vw ;
+	color: gray;
+}
+body.estudosTrabalho p.img{
+	margin: 4vw 0 0 0
+}
+body.estudosTrabalho p.img img{
+	width: 100%;
+}
 /*==========================================
            		 HEADER
 ============================================*/
-
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
 	background-color: #d1ae95;
 	padding: 0.5vw 1vw 0.5vw 1vw;
 	align-items: center;
 	justify-content: space-between;
-	position: fixed;
-	top: 0%;
-	width: 100%;
-	border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav p img {
 	border-radius: 50px;
 	justify-content: left;
@@ -179,7 +193,6 @@ header nav ul {
 	justify-content: right;
 	font-size: 0.9rem;
 	font-weight: bold;
-
 }
 
 header nav ul li {
@@ -190,29 +203,75 @@ header nav ul li.atual a {
 	color: hsl(0, 0%, 100%);
 }
 /*==========================================
-           		 MAIN
+            	Intro
 ============================================*/
-
+section.intro{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.intro h2{
+	margin: 4vw 0 2vw 0;
+}
+section.intro p{
+    margin: 2vw 3vw 2px 10vw;
+}
 
 /*==========================================
-            ESTUDOS / TRABALHO
+            	Importancia
 ============================================*/
-body.estudosTrabalho main h1{
-    font-size: 2rem;
-    font-weight: bold;
-    color: hsl(318, 100%, 43%);
-    margin: 2vw 2vw 2vw 0;
+section.importancia {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+section.importancia div.maior{
+	display: flex;
+}
+section.importancia p img{
+	width: 70%;
+	border: 5px solid #704a2f;
+}
+section.importancia h2{
+    margin: 2vw 0 2vw 0;
+}
+section.importancia p{
+	margin: 2vw 4vw 2vw 4vw;
+}
+/*==========================================
+           		 Vantagens
+============================================*/
+section.vantagens{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.vantagens h2{
+	margin: 2vw 0 0 0;
+}
+section.vantagens h2.resposta{
+	font-weight: bold;
+	background-color: #704a2f;
+	padding: 5px 10px 5px 10px;
+	border-radius: 100px;
+	color:#e4ddd6;
+	margin: 10px 40vw 2vw 40vw;
+}
+section.vantagens ul{
+	background-color: #d1ae95;
+	margin: 10px 33vw 10px 33vw;
+	border-radius: 10px;
+	padding: 10px;
+}
+section.vantagens ul li p{
+	color: #2f2a19;
+	margin: 2px;
+	font-weight: bold;
+}
+/*==========================================
+           		 Rotina
+============================================*/
 
-}
-body.estudosTrabalho main section.intro p{
-    margin: 10px 3vw 2px 1vw;
-    
-}
-body.estudosTrabalho main section.importacia h2{
-    font-size: 1.6rem;
-    color: rgb(26, 0, 73);
-    margin: 3.5vw 2vw 2vw 0;
-}
+/*==========================================
+           		 Lista
+============================================*/
 
 /*==========================================
            		 FOOTER
