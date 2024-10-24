@@ -165,9 +165,6 @@ h2 {
 /*==========================================
            		 HEADER
 ============================================*/
-header {
-	border-bottom: 2.5px solid #2f2a19;
-}
 
 header nav {
 	display: flex;
@@ -175,6 +172,10 @@ header nav {
 	padding: 0.5vw 1vw 0.5vw 1vw;
 	align-items: center;
 	justify-content: space-between;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	border-bottom: 2.5px solid #2f2a19;
 }
 
 header nav p img {
