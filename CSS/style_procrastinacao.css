@@ -53,7 +53,7 @@ ol,
 ul,
 li,
 fieldset,
-form,
+direction,
 label,
 legend,
 table,
@@ -156,7 +156,10 @@ span.procrastinacao {
     margin: 0 10vw 0 10vw;
 }*/
 h2 {
-	font-family: 'Times New Roman';
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 /*==========================================
@@ -204,12 +207,16 @@ header nav ul li.atual a {
 /*==========================================
 					MAIN
 ============================================*/
-/*=============BANNER===========*/
+/*=============================================
+					BANNER
+===========================================*/
 img.banner {
 	width: 100%;
 }
 
-/*========SECTION.TEXTO============*/
+/*========================================
+				SECTION.TEXTO
+============================================*/
 
 
 section.text ul li.oque {
@@ -259,18 +266,24 @@ section.text ul li.text p {
 	word-wrap: break-word;
 	line-height: 1.4rem;
 }
+
 section.text ul li.text p span {
 	font-weight: bold;
 }
+
 section.text ul li.img {
 	background-color: #cdbca5;
 }
+
 section.text ul li.img img {
 	margin: 2vw 24vw 2vw 25vw;
 	width: 50%;
 	border: 5px solid #704a2f;
 }
-/*========SECTION.CAUSAS======*/
+
+/*========================================
+				SECTION.CAUSAS
+======================================*/
 section.causas ul li {
 	width: 100%;
 	background-color: #e4ddd6;
@@ -283,6 +296,7 @@ section.causas ul li h2 {
 	text-align: center;
 	font-weight: bold;
 }
+
 section.causas ul li p {
 	text-align: center;
 	padding: 1vw 1vw 4vw 3vw;
@@ -304,11 +318,13 @@ section.causas ul li div p {
 	width: 60%;
 	line-height: 1.4rem;
 	text-align: justify;
-	
+
 }
-section.causas ul li div.conserto{
+
+section.causas ul li div.conserto {
 	background-color: white;
 }
+
 section.causas ul li div.conserto p {
 	padding: 3vw 8vw 5vw 8vw;
 	font-size: 1rem;
@@ -318,7 +334,9 @@ section.causas ul li div.conserto p {
 	margin: 3vw 0 0 0;
 }
 
-/*=======SECTION.PROBLEMA========*/
+/*=======================================
+				SECTION.PROBLEMA
+==========================================*/
 section.problema {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
@@ -339,9 +357,10 @@ section.problema ul li p {
 	word-wrap: break-word;
 	text-align: justify;
 }
+
 section.problema ul li.img {
 	display: flex;
-	margin:  0 5vw 0 5vw;
+	margin: 0 5vw 0 5vw;
 }
 
 section.problema ul li.img img {
@@ -350,29 +369,172 @@ section.problema ul li.img img {
 	border: 5px solid #704a2f;
 }
 
-/*==========FORMULÁRIO===========*/
-section.form form {
-	padding: 2vw 15vw 4vw 10vw;
+/*========================================
+				SECTION.DIRECTION
+==========================================*/
+section.direction {
 	font-weight: bolder;
 	background-color: #e4ddd6;
-	color: #704a2f;
+	text-align: center;
 }
-section.form p.text {
-	margin: 5vw;
+
+section.direction p.text {
 	text-align: justify;
-	background-color: none;
+	background-color: white;
+	padding: 5vw 6vw 5vw 6vw;
+
 }
 
-section.form form p {
-	text-align: left;
-	margin: 2vw 0 2vw 0;
-	font-weight: bold;
+section.direction p.responda {
+	margin: 4vw 0 0 0;
+	
+}
+
+section.direction ul {
 	background-color: #e4ddd6;
-	color: black ;
+	padding: 1vw 6vw 3vw 8vw;
+	display: flex;
+
+}
+section.direction ul li {
+	width: 40%;
+	background-color: #704a2f;
+	border: #d1ae95;
+	text-align: center;
+	padding: 2vw;
+	margin: 2vw 15vw 1vw 10vw;
+	border-radius: 100px;
 }
 
+section.direction p.label {
+	font-size: 1.1rem;
+	color: #704a2f;
+	margin: 3vw 0 1vw 0;
+	font-weight: bold;
 
-/*=========REFERÊNCIAS==========*/
+}
+
+section.direction ul li p a {
+	color: #e4ddd6;
+	
+}
+
+h2.dicastitle {
+	margin: 8vw 15vw 7vw 15vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	background-color: #2f2a19;
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 100px;
+	color:#e4ddd6;
+	font-family: 'Times New Roman', Times, serif;
+}
+/*=======================================
+				SECTION.ESTUDOS
+==========================================*/
+section.estudos {
+	background-color: #704a2f;
+	padding: 3vw 0 3vw 0;
+}
+section.estudos h3.dicassubtitle {
+	font-size: 2.3rem;
+	text-align: center;
+	font-weight: bold;
+	width: 30%;
+	margin: 2vw 33vw 0 8vw;
+	padding: 2vw 1vw 2vw 1vw;
+	color:#e4ddd6;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.estudos ul li p.numero {
+	background-color: #e4ddd6;
+	margin: 5vw 30vw 3vw 18vw;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 90px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.estudos ul li p {
+	margin: 2vw 15vw 7vw 20vw;
+	font-size: 1.1rem;
+	color: #e4ddd6;
+	line-height: 35px;
+}
+/*=======================================
+				SECTION.TRABALHO
+==========================================*/
+section.trabalho {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+section.trabalho h3.dicassubtitle {
+	font-size: 2.3rem;
+	text-align: center;
+	font-weight: bold;
+	width: 30%;
+	margin: 2vw 33vw 0 8vw;
+	padding: 2vw 1vw 2vw 1vw;
+	color: #2f2a19;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.trabalho ul li p.numero {
+	background-color: #2f2a19;
+	margin: 5vw 30vw 3vw 18vw;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 90px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	color: #cdbca5;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.trabalho ul li p {
+	margin: 2vw 15vw 7vw 20vw;
+	font-size: 1.1rem;
+	color: #2f2a19;
+	line-height: 35px;
+}
+/*=======================================
+				SECTION.TAREFAS
+==========================================*/
+section.tarefas {
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.tarefas h3.dicassubtitle {
+	font-size: 2.3rem;
+	text-align: center;
+	font-weight: bold;
+	width: 60%;
+	margin: 2vw 40vw 0 0;
+	padding: 2vw 1vw 2vw 1vw;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.tarefas ul li p.numero {
+	background-color: #704a2f;
+	margin: 5vw 30vw 3vw 18vw;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 90px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	color: #cdbca5;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.tarefas ul li p {
+	margin: 2vw 15vw 7vw 20vw;
+	font-size: 1.1rem;
+	color: #704a2f;
+	line-height: 35px;
+}
+/*=========================================
+				REFERÊNCIAS
+==========================================*/
 section.referencias {
 	margin: 4vw 6vw 0 6vw;
 }
@@ -396,14 +558,37 @@ footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
 	color: #e4ddd6;
+	display: flex;
+	font-size: 0.8rem;
+
 }
 
-footer div {
+footer ul li a {
+	color: #e4ddd6;
+}
+
+footer ul li.direitos p {
+	margin: 0 4vw 0.2vw 6vw;
+}
+
+footer ul li.des p {
+	margin: 1vw 1vw 1vw 6vw;
+}
+
+footer ul li.alunos {
 	display: flex;
-	margin: 0.5vw 0 0.6vw 6vw;
+
 	font-size: 0.8rem;
 }
 
-footer div p {
-	margin: 0 4vw 0.2vw 1vw;
+footer ul li.alunos p {
+	margin: 0.5vw 0 0.6vw 6vw;
+}
+
+footer ul.logos {
+	margin: 2vw 4vw 1vw 18vw;
+}
+
+footer ul.logos li {
+	margin: 1vw;
 }
