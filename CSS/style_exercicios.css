@@ -204,28 +204,51 @@ body main h1.titulo {
 /*===========================
 			Div
 =============================*/
-body main section div.pt1 {
+body section.pt1 h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 4vw;
+	font-family: 'Times New Roman', Times, serif;
+}
+body main section section.pt1 {
 	font-size: 0.9rem;
 	background-color: #e4ddd6;
 	padding: 5vw;
 }
-body main section div.pt1 img.img {
-	justify-content: center;
-	width: 35%;
-}
-body main section div.pt1 p.Imagem {
+body main section section.pt1 div.Imagem {
+	padding: 5vw;
+	width: 100%;
 	display: flex;
-	font-weight: bold;
-	margin: 5vw;
 }
-body main div.pt1 h1{
-	font-size: 1.6rem;
-	font-weight: bold;
-	text-align: center;
+body img.imgzinha{
+	border: 5px solid #704a2f;
 }
-body main div.pt1 ul {
+body main section section.pt1 h3.txt1{
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 5vw;
+	font-family: 'Times New Roman', Times, serif;
+}
+body p.txt2{
 	margin: 4vw;
+	font-size: 1rem;
+	font-weight: normal;
 }
+body button.botao1{
+	margin: 4vw;
+	background-color: #2f2a19;
+	color: #e4ddd6;
+	border-radius: 10px;
+	border-bottom: #2f2a19;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+/*==========================================
+           		 parte2
+============================================*/
 /*==========================================
            		 FOOTER
 ============================================*/
