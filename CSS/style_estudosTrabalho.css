@@ -268,24 +268,92 @@ section.vantagens ul li p{
 /*==========================================
            		 Rotina
 ============================================*/
-
+section.rotina{
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+section.rotina h2{
+	margin: 2vw;
+}
+section.rotina h3{
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-align: center;
+	color: #632b04;
+	text-decoration: underline;
+	margin: 2vw;
+}
 /*==========================================
            		 Lista
 ============================================*/
-
+section.lista{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.lista ol li h3{
+	text-align: center;
+	font-weight: bold;
+	margin: 2vw;
+}
+section.lista ol li p{
+	margin: 1.5vw 5vw 0 5vw;
+}
+/*==========================================
+           		 Referencias
+============================================*/
+section.referencias {
+	background-color: #d1ae95;
+	padding: 2vw;
+}
+section.referencias h2{
+	margin: 2vw;
+}
+section.referencias h3{
+	font-size: 1.2rem;
+}
+section.referencias p{
+	text-align: left;
+}
+section.referencias p a{
+	font-weight: bold;
+}
 /*==========================================
            		 FOOTER
 ============================================*/
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
-	color:#e4ddd6;
-}
-footer div {
 	display: flex;
-	margin: 0.5vw 0 0.6vw 6vw;
+	font-size: 0.8rem;
+
+}
+
+footer ul li a {
+	color: #e4ddd6;
+}
+
+footer ul li.direitos p {
+	margin: 0 4vw 0.2vw 6vw;
+}
+
+footer ul li.des p {
+	margin: 1vw 1vw 1vw 6vw;
+}
+
+footer ul li.alunos {
+	display: flex;
+
 	font-size: 0.8rem;
 }
-footer div p {
-	margin:  0 4vw 0.2vw 1vw;
+
+footer ul li.alunos p {
+	margin: 0.5vw 0 0.6vw 6vw;
+}
+
+footer ul.logos {
+	margin: 2vw 4vw 1vw 18vw;
+}
+
+footer ul.logos li {
+	margin: 1vw;
 }
