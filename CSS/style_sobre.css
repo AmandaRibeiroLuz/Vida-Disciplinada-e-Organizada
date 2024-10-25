@@ -186,48 +186,67 @@ header nav ul li.atual a {
 /*==========================================
                 MAIN
 ============================================*/
+main img.banner {
+	width: 100%;
+}
 body main h1 {
     padding: 3vw 0 3vw 0;
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
 }
-main section.text ul li.bege {
+main section.textt ul li.bege {
 		display: flex;
+		background-color: #e4ddd6;
 		gap: 1vw;
 		width: 100%;
+		align-items: center;
 	}
 	
-	main section.text ul li img {
-		width: 50%;
+	main section.textt ul li.bege p.img img {
+		width: 100%;
+		border: 5px solid #704a2f;
+		margin: 2vw;
 	}
 	
-	main section.text ul li.bege p {
-		padding: 5vw 6vw 5vw 6vw;
-		font-size: 1rem;
-		width: 50%;
+	main section.textt ul li.bege p {
+		margin: 2vw 10vw 2vw 10vw;
+		line-height: 50px;
+	}
+	main section.textt ul li.bege p.inform span {
+		font-size: 1.6rem;
+		font-family: 'Times New Roman', Times, serif;
+		font-weight: bold;
 	}
 	
-	main section.text ul li.text {
+	main section.textt ul li.text {
 		width: 100%;
         display: flex;
         gap: 1vw;
+		align-items: center;
 	}
 	
-	main section.text ul li.text p {
-		padding: 5vw 6vw 5vw 6vw;
+	main section.textt ul li.text p {
 		font-size: 1rem;
+		margin: 2vw 10vw 2vw 10vw;
 		word-wrap: break-word;
 	}
-	
-	main section.text ul li.text img {
-		width: 50%;
-		background-color: #cdbca5;
+
+	main section.textt ul li.text p.inform span {
+		font-size: 1.6rem;
+		font-family: 'Times New Roman', Times, serif;
+		font-weight: bold;
+	}
+	main section.textt ul li.text p.inform  {
+		line-height: 50px;
 	}
 	
-	main section.text ul li.bege {
-		background-color: #e4ddd6;
+	main section.textt ul li.text p.img img {
+		width: 100%;
+		border: 5px solid #704a2f;
+		margin: 2vw;
 	}
+	
 	
 /*==========================================
                 FOOTER
