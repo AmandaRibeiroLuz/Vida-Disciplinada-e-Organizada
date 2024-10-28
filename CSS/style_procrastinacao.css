@@ -168,11 +168,13 @@ h2 {
 /*==========================================
            		 HEADER
 ============================================*/
-
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 0.5vw 1vw 0.5vw 1vw;
+	padding: 5px 0 5px 0;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
@@ -184,24 +186,26 @@ header nav {
 header nav p img {
 	border-radius: 50px;
 	justify-content: left;
-	width: 30px;
-	margin: 0 0 0 1vw;
+	width: 40px;
+	margin: 0 0 0 4vw;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: right;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: bold;
-
 }
 
 header nav ul li {
-	margin: 2px 12px 2px 12px;
+	margin: 0 10px 0 10px;
 }
 
 header nav ul li.atual a {
-	color: hsl(0, 0%, 100%);
+	background-color: #704a2f;
+	color: #e4ddd6;
+	padding: 8px;
+	border-radius: 0.5rem;
 }
 
 /*==========================================
@@ -218,37 +222,35 @@ img.banner {
 				SECTION.TEXTO
 ============================================*/
 
-
 section.text ul li.oque {
 	gap: 1vw;
 	width: 100%;
 	background-color: #e4ddd6;
-	display: flex;
 	padding: 3vw 0 3vw 0;
 }
 
 section.text ul li.oque div {
-	width: 40%;
+	width: 88%;
 }
 
 section.text ul li.oque div img {
-	margin: 12vw 2vw 2vw 4vw;
+	margin: 1vw 10vw 2vw 10vw;
 	border: 5px solid #704a2f;
 }
 
 section.text ul li.oque div.textoque {
-	width: 60%;
+	width: 100%;
 }
 
 section.text ul li.oque div h2 {
 	font-size: 2rem;
-	padding: 3vw 5vw 1vw 5vw;
+	margin: 3vw 10vw 1vw 10vw;
 	font-weight: bold;
 
 }
 
 section.text ul li.oque div p {
-	padding: 2vw 6vw 5vw 5vw;
+	padding: 2vw 10vw 2vw 10vw;
 	font-size: 1rem;
 	line-height: 1.4rem;
 	text-align: justify;
@@ -276,8 +278,8 @@ section.text ul li.img {
 }
 
 section.text ul li.img img {
-	margin: 2vw 24vw 2vw 25vw;
-	width: 50%;
+	margin: 2vw 10vw 2vw 10vw;
+	width: 80%;
 	border: 5px solid #704a2f;
 }
 
@@ -287,19 +289,18 @@ section.text ul li.img img {
 section.causas ul li {
 	width: 100%;
 	background-color: #e4ddd6;
-	gap: 1vw;
 }
 
 section.causas ul li h2 {
 	font-size: 2rem;
-	padding: 5vw 5vw 1vw 3vw;
+	padding: 5vw 5vw 1vw 8vw;
 	text-align: center;
 	font-weight: bold;
 }
 
 section.causas ul li p {
 	text-align: center;
-	padding: 1vw 1vw 4vw 3vw;
+	margin: 1vw 1vw 4vw 6vw;
 }
 
 section.causas ul li div {
@@ -307,7 +308,7 @@ section.causas ul li div {
 }
 
 section.causas ul li div img {
-	margin: 4vw 5vw 7vw 2vw;
+	margin: 4vw 10vw 7vw 2vw;
 	width: 40%;
 	border: 5px solid #704a2f;
 }
@@ -421,11 +422,11 @@ section.direction ul li p a {
 
 h2.dicastitle {
 	margin: 8vw 15vw 7vw 15vw;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-align: center;
 	font-weight: bold;
 	background-color: #2f2a19;
-	padding: 2vw 1vw 2vw 1vw;
+	padding: 1.5vw 0.7vw 1.5vw 0.7vw;
 	border-radius: 100px;
 	color:#e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
@@ -438,18 +439,18 @@ section.estudos {
 	padding: 3vw 0 3vw 0;
 }
 section.estudos h3.dicassubtitle {
-	font-size: 2.3rem;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	width: 30%;
 	margin: 2vw 33vw 0 8vw;
-	padding: 2vw 1vw 2vw 1vw;
+	padding: 2vw 1vw 1vw 1vw;
 	color:#e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
 section.estudos ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 5vw 30vw 3vw 18vw;
+	margin: 3vw 30vw 2vw 18vw;
 	padding: 2vw 3vw 2vw 3vw;
 	border-radius: 90px;
 	font-size: 1.2rem;
@@ -459,8 +460,8 @@ section.estudos ul li p.numero {
 	font-family: 'Times New Roman', Times, serif;
 }
 section.estudos ul li p {
-	margin: 2vw 15vw 7vw 20vw;
-	font-size: 1.1rem;
+	margin: 2vw 15vw 5vw 20vw;
+	font-size: 1rem;
 	color: #e4ddd6;
 	line-height: 35px;
 }
@@ -472,7 +473,7 @@ section.trabalho {
 	padding: 3vw 0 3vw 0;
 }
 section.trabalho h3.dicassubtitle {
-	font-size: 2.3rem;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	width: 30%;
@@ -483,7 +484,7 @@ section.trabalho h3.dicassubtitle {
 }
 section.trabalho ul li p.numero {
 	background-color: #2f2a19;
-	margin: 5vw 30vw 3vw 18vw;
+	margin: 3vw 30vw 2vw 18vw;
 	padding: 2vw 3vw 2vw 3vw;
 	border-radius: 90px;
 	font-size: 1.2rem;
@@ -493,8 +494,8 @@ section.trabalho ul li p.numero {
 	font-family: 'Times New Roman', Times, serif;
 }
 section.trabalho ul li p {
-	margin: 2vw 15vw 7vw 20vw;
-	font-size: 1.1rem;
+	margin: 2vw 15vw 5vw 20vw;
+	font-size: 1rem;
 	color: #2f2a19;
 	line-height: 35px;
 }
@@ -502,7 +503,7 @@ section.trabalho ul li p {
 				SECTION.TAREFAS
 ==========================================*/
 section.tarefas {
-	background-color: #e4ddd6;
+	background-color: #2f2a19;
 	padding: 3vw 0 3vw 0;
 }
 section.tarefas h3.dicassubtitle {
@@ -512,12 +513,46 @@ section.tarefas h3.dicassubtitle {
 	width: 60%;
 	margin: 2vw 40vw 0 0;
 	padding: 2vw 1vw 2vw 1vw;
-	color: #704a2f;
+	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
 section.tarefas ul li p.numero {
+	background-color: #e4ddd6;
+	margin: 3vw 30vw 2vw 18vw;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 90px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.tarefas ul li p {
+	margin: 2vw 15vw 5vw 20vw;
+	font-size: 1rem;
+	color: #e4ddd6;
+	line-height: 35px;
+}
+/*=======================================
+				SECTION.OUTROS
+==========================================*/
+section.outros {
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.outros h3.dicassubtitle {
+	font-size: 2.3rem;
+	text-align: center;
+	font-weight: bold;
+	width: 60%;
+	margin: 2vw 40vw 0 0;
+	padding: 2vw 1vw 2vw 1vw;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
+}
+section.outros ul li p.numero {
 	background-color: #704a2f;
-	margin: 5vw 30vw 3vw 18vw;
+	margin: 3vw 30vw 2vw 18vw;
 	padding: 2vw 3vw 2vw 3vw;
 	border-radius: 90px;
 	font-size: 1.2rem;
@@ -526,31 +561,41 @@ section.tarefas ul li p.numero {
 	color: #cdbca5;
 	font-family: 'Times New Roman', Times, serif;
 }
-section.tarefas ul li p {
-	margin: 2vw 15vw 7vw 20vw;
-	font-size: 1.1rem;
+section.outros ul li p {
+	margin: 2vw 15vw 5vw 20vw;
+	font-size: 1rem;
 	color: #704a2f;
 	line-height: 35px;
+}
+section.outros ul li p span.saber{
+	text-decoration: underline;
+	font-weight: bold;
 }
 /*=========================================
 				REFERÊNCIAS
 ==========================================*/
-section.referencias {
-	margin: 4vw 6vw 0 6vw;
+main section.referencias {
+	background-color: #cdbca5;
+	padding: 2vw 0 2vw 0;
 }
-
-section.referencias h2 {
+main section.referencias h2 {
+	font-size: 1.2rem;
 	font-weight: bold;
+	padding: 2vw 0 2vw 0;
+	text-align: center;
+}
+main section.referencias h3 {
 	font-size: 1rem;
-	margin: 2vw 0 1vw 0;
+	margin: 2vw 0vw 2vw 0vw;
+	text-decoration: underline;
 }
-
-section.referencias p {
+main section.referencias nav ul li {
 	font-size: 0.8rem;
-	margin: 12px 0 12px 0;
+	margin: 2vw 0vw 2vw 0vw;
 }
-
-
+main section.referencias nav ul li a {
+	text-decoration: underline;
+}
 /*==========================================
            		 FOOTER
 ============================================*/

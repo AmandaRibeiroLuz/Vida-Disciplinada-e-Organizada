@@ -157,11 +157,13 @@ a {
 main img.banner {
 	width: 100%;
 }
-
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 0.5vw 1vw 0.5vw 1vw;
+	padding: 5px 0 5px 0;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
@@ -173,25 +175,28 @@ header nav {
 header nav p img {
 	border-radius: 50px;
 	justify-content: left;
-	width: 30px;
-	margin: 0 0 0 1vw;
+	width: 40px;
+	margin: 0 0 0 4vw;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: right;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: bold;
-
 }
 
 header nav ul li {
-	margin: 2px 12px 2px 12px;
+	margin: 0 10px 0 10px;
 }
 
 header nav ul li.atual a {
-	color: hsl(0, 0%, 100%);
+	background-color: #704a2f;
+	color: #e4ddd6;
+	padding: 8px;
+	border-radius: 0.5rem;
 }
+
 /*================================================
                      BODY                      
 ==================================================*/
