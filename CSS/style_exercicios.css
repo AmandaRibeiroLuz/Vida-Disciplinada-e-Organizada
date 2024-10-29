@@ -139,7 +139,7 @@ table {
 ============================================*/
 
 html {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: calc(10px + 1vw);
 }
 
@@ -254,6 +254,85 @@ body button.botao1{
 /*==========================================
            		 parte2
 ============================================*/
+body main section.pt2{
+	padding: 3vw 5vw 3vw 5vw;
+    text-align: center;
+    background-color: #704a2f;
+}
+main section.pt2 ul{
+	display: flex;
+    flex-wrap: wrap;
+    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
+    justify-content: center;
+    margin: 0 15px 0 15px;
+}
+main section.pt2 ul li {
+	width: 30%;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    /*Arredondamento da borda*/
+    margin: 2vw;
+    padding: 3vw 6vw 3vw 6vw;
+}
+main section.pt2 span{
+	font-weight: bold;
+}
+main section.pt2 h4{
+	font-weight: bold;
+	margin: 10px;
+}
+body section.pt2 h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 4vw;
+	font-family: 'Times New Roman', Times, serif;
+	color: #e4ddd6;
+}
+main section.pt2 p.txt3{
+	color: #e4ddd6;
+}
+/*============================
+			Parte 3
+==============================*/
+body main section section.pt3 {
+	font-size: 0.9rem;
+	background-color: #e4ddd6;
+	padding: 5vw;
+}
+body section.pt3 h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 4vw;
+	font-family: 'Times New Roman', Times, serif;
+}
+main section.pt3 ul{
+	display: flex;
+    flex-wrap: wrap;
+    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
+    justify-content: center;
+    margin: 0 15px 0 15px;
+}
+main section.pt3 ul li {
+	width: 30%;
+    justify-content: space-around;
+    background-color: #2f2a19;
+    border-radius: 15px;
+    /*Arredondamento da borda*/
+    margin: 2vw;
+    padding: 3vw 6vw 3vw 6vw;
+}
+main section.pt3 h4 {
+	font-weight: bold;
+	margin: 10px;
+	color: #e4ddd6;
+}
+main section.pt3 ul li p {
+	color: #e4ddd6;
+	font-size: 0.7rem;
+}
 /*==========================================
            		 FOOTER
 ============================================*/
