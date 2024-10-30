@@ -372,7 +372,7 @@ section.problema ul li.img {
 section.problema ul li.img img {
 	width: 45%;
 	border: 5px solid #2f2a19;
-	
+
 }
 
 /*========================================
@@ -396,6 +396,7 @@ section.direction p.responda {
 	font-size: 1.2rem;
 	background-color: #e4ddd6;
 }
+
 section.direction p.label {
 	font-size: 1.2rem;
 	color: #704a2f;
@@ -404,6 +405,7 @@ section.direction p.label {
 	font-weight: bold;
 
 }
+
 section.direction ul {
 	background-color: #e4ddd6;
 	padding: 1vw 6vw 8vw 8vw;
@@ -418,7 +420,7 @@ section.direction ul li {
 	text-align: center;
 	padding: 2vw;
 	margin: 2vw 15vw 0 10vw;
-	border-radius: 100px;	
+	border-radius: 100px;
 }
 
 section.direction ul li p a {
@@ -455,6 +457,7 @@ section.estudos h3.dicassubtitle {
 	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 section.estudos ul li video {
 	border: 5px solid #e4ddd6;
 	margin: 1vw 10vw 2vw 10vw;
@@ -462,7 +465,7 @@ section.estudos ul li video {
 
 section.estudos ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 3vw 20vw 2vw 18vw;
+	margin: 6vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -473,7 +476,7 @@ section.estudos ul li p.numero {
 }
 
 section.estudos ul li p {
-	margin: 2vw 15vw 5vw 20vw;
+	margin: 2vw 20vw 5vw 20vw;
 	font-size: 1rem;
 	color: #e4ddd6;
 	text-align: justify;
@@ -504,13 +507,15 @@ section.trabalho h3.dicassubtitle {
 	color: #2f2a19;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 section.trabalho ul li video {
 	border: 5px solid #2f2a19;
 	margin: 1vw 10vw 2vw 10vw;
 }
+
 section.trabalho ul li p.numero {
 	background-color: #2f2a19;
-	margin: 3vw 20vw 2vw 18vw;
+	margin: 6vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -521,7 +526,7 @@ section.trabalho ul li p.numero {
 }
 
 section.trabalho ul li p {
-	margin: 2vw 15vw 5vw 20vw;
+	margin: 2vw 20vw 5vw 20vw;
 	font-size: 1rem;
 	color: #2f2a19;
 	text-align: justify;
@@ -552,6 +557,7 @@ section.tarefas h3.dicassubtitle {
 	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 section.tarefas ul li video {
 	border: 5px solid #e4ddd6;
 	margin: 1vw 10vw 2vw 10vw;
@@ -559,7 +565,7 @@ section.tarefas ul li video {
 
 section.tarefas ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 3vw 20vw 2vw 18vw;
+	margin: 6vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -570,7 +576,7 @@ section.tarefas ul li p.numero {
 }
 
 section.tarefas ul li p {
-	margin: 2vw 15vw 5vw 20vw;
+	margin: 2vw 20vw 5vw 20vw;
 	font-size: 1rem;
 	color: #e4ddd6;
 	text-align: justify;
@@ -595,13 +601,15 @@ section.outros h3.dicassubtitle {
 	color: #704a2f;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 section.outros ul li video {
 	border: 5px solid #704a2f;
 	margin: 1vw 10vw 2vw 10vw;
 }
+
 section.outros ul li p.numero {
 	background-color: #704a2f;
-	margin: 3vw 20vw 2vw 18vw;
+	margin: 6vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -612,7 +620,7 @@ section.outros ul li p.numero {
 }
 
 section.outros ul li p {
-	margin: 5vw 15vw 5vw 20vw;
+	margin: 2vw 20vw 5vw 20vw;
 	font-size: 1rem;
 	color: #704a2f;
 	text-align: justify;
@@ -630,26 +638,30 @@ section.outros ul li p.saber a {
 ==========================================*/
 section.conclusao {
 	background-color: #704a2f;
-	padding: 5vw 0 0 0;
+	padding: 7vw 0 0 0;
 }
+
 section.conclusao h2 {
 	background-color: #e4ddd6;
 	border-radius: 80px 0 0 0;
 	margin: 0 10vw 0 10vw;
 	padding: 6vw 0 3vw 0;
 }
+
 section.conclusao p {
 	background-color: #e4ddd6;
 	border-radius: 0 0 40px 0;
 	padding: 0 6vw 8vw 6vw;
 	line-height: 1.5rem;
-	margin: 0 10vw 5vw 10vw;
+	margin: 0 10vw 7vw 10vw;
 	text-align: justify;
 }
+
 section.conclusao video {
 	border-top: 5px solid #e4ddd6;
 	border-bottom: 5px solid #e4ddd6;
 }
+
 /*=========================================
 				REFERÊNCIAS
 ==========================================*/
@@ -659,9 +671,9 @@ main section.referencias {
 }
 
 main section.referencias h2 {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	font-weight: bold;
-	padding: 2vw 0 2vw 0;
+	padding: 4vw 0 3vw 0;
 	text-align: center;
 }
 
