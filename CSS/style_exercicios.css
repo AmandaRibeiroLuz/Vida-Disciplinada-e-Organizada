@@ -1,392 +1,791 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
+
 
 
 html,
+
 body,
+
 div,
+
 span,
+
 applet,
+
 object,
+
 iframe,
+
 h1,
+
 h2,
+
 h3,
+
 h4,
+
 h5,
+
 h6,
+
 p,
+
 blockquote,
+
 pre,
+
 a,
+
 abbr,
+
 acronym,
+
 address,
+
 big,
+
 cite,
+
 code,
+
 del,
+
 dfn,
+
 em,
+
 img,
+
 ins,
+
 kbd,
+
 q,
+
 s,
+
 samp,
+
 small,
+
 strike,
+
 strong,
+
 sub,
+
 sup,
+
 tt,
+
 var,
+
 b,
+
 u,
+
 i,
+
 center,
+
 dl,
+
 dt,
+
 dd,
+
 ol,
+
 ul,
+
 li,
+
 fieldset,
+
 form,
+
 label,
+
 legend,
+
 table,
+
 caption,
+
 tbody,
+
 tfoot,
+
 thead,
+
 tr,
+
 th,
+
 td,
+
 article,
+
 aside,
+
 canvas,
+
 details,
+
 embed,
+
 figure,
+
 figcaption,
+
 footer,
+
 header,
+
 hgroup,
+
 menu,
+
 nav,
+
 output,
+
 ruby,
+
 section,
+
 summary,
+
 time,
+
 mark,
+
 audio,
+
 video {
+
 	margin: 0;
+
 	padding: 0;
+
 	border: 0;
+
 	font-size: 100%;
+
 	font: inherit;
+
 	vertical-align: baseline;
+
 }
+
+
 
 /* HTML5 display-role reset for older browsers */
+
 article,
+
 aside,
+
 details,
+
 figcaption,
+
 figure,
+
 footer,
+
 header,
+
 hgroup,
+
 menu,
+
 nav,
+
 section {
+
 	display: block;
+
 }
+
+
 
 body {
+
 	line-height: 1;
+
 }
+
+
 
 ol,
+
 ul {
+
 	list-style: none;
+
 }
+
+
 
 blockquote,
+
 q {
+
 	quotes: none;
+
 }
+
+
 
 blockquote:before,
+
 blockquote:after,
+
 q:before,
+
 q:after {
+
 	content: '';
+
 	content: none;
+
 }
+
+
 
 table {
+
 	border-collapse: collapse;
+
 	border-spacing: 0;
+
 }
 
+
+
 /*==========================================
+
                 GERAL
+
 ============================================*/
+
+
 
 html {
-	font-family: 'Times New Roman', Times, serif;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 	font-size: calc(10px + 1vw);
+
 }
+
+
 
 a {
+
 	color: black;
+
 	text-decoration: none;
+
 }
+
+
 
 /*main {
+
     margin: 0 10vw 0 10vw;
+
 }*/
 
+
+
 /*==========================================
+
            		 HEADER
+
 ============================================*/
+
 header {
+
 	border-bottom: 2.5px solid #2f2a19;
+
 }
+
 header nav {
+
 	display: flex;
+
 	background-color: #d1ae95;
+
 	padding: 5px 0 5px 0;
+
 	align-items: center;
+
 	justify-content: space-between;
+
 	position: fixed;
+
 	top: 0%;
+
 	width: 100%;
+
 	border-bottom: 2.5px solid #2f2a19;
+
 }
+
+
 
 header nav p img {
+
 	border-radius: 50px;
+
 	justify-content: left;
+
 	width: 40px;
+
 	margin: 0 0 0 4vw;
+
 }
+
+
 
 header nav ul {
+
 	display: flex;
+
 	justify-content: right;
+
 	font-size: 0.8rem;
+
 	font-weight: bold;
+
 }
+
+
 
 header nav ul li {
+
 	margin: 0 10px 0 10px;
+
 }
+
+
 
 header nav ul li.atual a {
+
 	background-color: #704a2f;
+
 	color: #e4ddd6;
+
 	padding: 8px;
+
 	border-radius: 0.5rem;
+
 }
 
+
+
 /*===========================
+
 			BODY
+
 =============================*/
+
+
 
 body main h1.titulo {
+
 	font-weight: bold;
+
 	font-size: 2.6rem;
+
 	color: rgb(140, 201, 252);
+
 	margin: 10vw;
+
 	text-align: center;
-}
-/*===========================
-			Div
-=============================*/
-body section.pt1 h1{
-	font-size: 1.2rem;
-	font-weight: bold;
-	text-align: center;
-	margin: 4vw;
-	font-family: 'Times New Roman', Times, serif;
-}
-body main section section.pt1 {
-	font-size: 0.9rem;
-	background-color: #e4ddd6;
-	padding: 5vw;
-}
-body main section section.pt1 div.Imagem {
-	padding: 5vw;
-	width: 100%;
-	display: flex;
-}
-body img.imgzinha{
-	border: 5px solid #704a2f;
-}
-body main section section.pt1 h3.txt1{
-	font-weight: bold;
-	font-size: 1.2rem;
-	padding: 5vw;
-	font-family: 'Times New Roman', Times, serif;
-}
-body p.txt2{
-	margin: 4vw;
-	font-size: 1rem;
-	font-weight: normal;
-}
-body button.botao1{
-	margin: 4vw;
-	background-color: #2f2a19;
-	color: #e4ddd6;
-	border-radius: 10px;
-	border-bottom: #2f2a19;
-	font-weight: bold;
-	font-size: 1.3rem;
-	padding: 20px;
-	font-family: 'Times New Roman', Times, serif;
-}
-/*==========================================
-           		 parte2
-============================================*/
-body main section.pt2{
-	padding: 3vw 5vw 3vw 5vw;
-    text-align: center;
-    background-color: #704a2f;
-}
-main section.pt2 ul{
-	display: flex;
-    flex-wrap: wrap;
-    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
-    justify-content: center;
-    margin: 0 15px 0 15px;
-}
-main section.pt2 ul li {
-	width: 30%;
-    justify-content: space-around;
-    background-color: white;
-    border-radius: 15px;
-    /*Arredondamento da borda*/
-    margin: 2vw;
-    padding: 3vw 6vw 3vw 6vw;
-}
-main section.pt2 span{
-	font-weight: bold;
-}
-main section.pt2 h4{
-	font-weight: bold;
-	margin: 10px;
-}
-body section.pt2 h1{
-	font-size: 1.2rem;
-	font-weight: bold;
-	text-align: center;
-	margin: 4vw;
-	font-family: 'Times New Roman', Times, serif;
-	color: #e4ddd6;
-}
-main section.pt2 p.txt3{
-	color: #e4ddd6;
-}
-/*============================
-			Parte 3
-==============================*/
-body main section.pt3{
-	padding: 3vw 5vw 3vw 5vw;
-    text-align: center;
-    background-color: #e4ddd6;
-}
-body main section section.pt3 {
-	font-size: 0.9rem;
-	background-color: #e4ddd6;
-	padding: 5vw;
-}
-body section.pt3 h1{
-	font-size: 1.2rem;
-	font-weight: bold;
-	text-align: center;
-	margin: 4vw;
-	font-family: 'Times New Roman', Times, serif;
-}
-main section.pt3 ul{
-	display: flex;
-    flex-wrap: wrap;
-    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
-    justify-content: center;
-    margin: 0 15px 0 15px;
-}
-main section.pt3 ul li {
-	width: 30%;
-    justify-content: space-around;
-    background-color: #2f2a19;
-    border-radius: 15px;
-    /*Arredondamento da borda*/
-    margin: 2vw;
-    padding: 3vw 6vw 3vw 6vw;
-}
-main section.pt3 h4 {
-	font-weight: bold;
-	margin: 10px;
-	color: #e4ddd6;
-}
-main section.pt3 ul li p {
-	color: #e4ddd6;
-	font-size: 0.7rem;
-}
-main section.pt3 span {
-	font-weight: bold;
-}
-/*======================================
-				PARTE 4
-========================================*/
-body main section.pt4 {
-	background-color: #704a2f;
-	color: #e4ddd6;
-}
-body main section.pt4 h1
-/*==========================================
-           		 FOOTER
-============================================*/
-footer {
-	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
-	color: #e4ddd6;
-	display: flex;
-	font-size: 0.8rem;
 
 }
+
+/*===========================
+
+			Div
+
+=============================*/
+
+body section.pt1 h1{
+
+	font-size: 1.6rem;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	margin: 4vw;
+
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+body main section.pt1 {
+
+	font-size: 0.9rem;
+
+	background-color: #e4ddd6;
+
+	padding: 5vw;
+
+	align-items: center;
+
+}
+
+body main section section.pt1 div.Imagem {
+
+	padding: 5vw;
+
+	width: 100%;
+
+	display: flex;
+
+}
+
+body img.imgzinha{
+
+	border: 5px solid #704a2f;
+
+}
+
+body main section section.pt1 h3.txt1{
+
+	font-weight: bold;
+
+	font-size: 1.2rem;
+
+	padding: 5vw;
+
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+body p.txt2{
+
+	margin: 4vw 0 4vw 0;
+
+	font-size: 1rem;
+
+	font-weight: normal;
+
+}
+
+body button.botao1{
+
+	margin: 4vw;
+
+	background-color: #2f2a19;
+
+	color: #e4ddd6;
+
+	border-radius: 10px;
+
+	border-bottom: #2f2a19;
+
+	font-weight: bold;
+
+	font-size: 1.3rem;
+
+	padding: 20px;
+
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*==========================================
+
+           		 parte2
+
+============================================*/
+
+body main section.pt2{
+
+	padding: 3vw 5vw 3vw 5vw;
+
+    text-align: center;
+
+    background-color: #704a2f;
+
+}
+
+main section.pt2 ul{
+
+	display: flex;
+
+    flex-wrap: wrap;
+
+    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
+
+    justify-content: center;
+
+    margin: 0 15px 0 15px;
+
+}
+
+main section.pt2 ul li {
+
+	width: 30%;
+
+    justify-content: space-around;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    /*Arredondamento da borda*/
+
+    margin: 2vw;
+
+    padding: 3vw 6vw 3vw 6vw;
+
+}
+
+main section.pt2 span{
+
+	font-weight: bold;
+
+}
+
+main section.pt2 h4{
+
+	font-weight: bold;
+
+	margin: 10px;
+
+}
+
+body section.pt2 h1{
+
+	font-size: 1.6rem;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	margin: 4vw;
+
+	font-family: 'Times New Roman', Times, serif;
+
+	color: #e4ddd6;
+
+}
+
+main section.pt2 p.txt3{
+
+	color: #e4ddd6;
+
+}
+
+/*============================
+
+			Parte 3
+
+==============================*/
+
+body main section.pt3{
+
+	padding: 3vw 5vw 3vw 5vw;
+
+    text-align: center;
+
+    background-color: #e4ddd6;
+
+}
+
+body main section section.pt3 {
+
+	font-size: 0.9rem;
+
+	background-color: #e4ddd6;
+
+	padding: 5vw;
+
+}
+
+body section.pt3 h1{
+
+	font-size: 1.6rem;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	margin: 4vw;
+
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+main section.pt3 ul{
+
+	display: flex;
+
+    flex-wrap: wrap;
+
+    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
+
+    justify-content: center;
+
+    margin: 0 15px 0 15px;
+
+}
+
+main section.pt3 ul li {
+
+	width: 30%;
+
+    justify-content: space-around;
+
+    background-color: #2f2a19;
+
+    border-radius: 15px;
+
+    /*Arredondamento da borda*/
+
+    margin: 2vw;
+
+    padding: 2vw 4vw 2vw 4vw;
+
+}
+
+main section.pt3 h4 {
+
+	font-weight: bold;
+
+	margin: 20px;
+
+	color: #e4ddd6;
+
+}
+
+main section.pt3 ul li p {
+
+	color: #e4ddd6;
+
+	font-size: 0.9rem;
+
+}
+
+main section.pt3 span {
+
+	font-weight: bold;
+
+}
+
+main section.pt3 p.txtout{
+
+	margin: 4vw;
+
+}
+
+/*======================================
+
+				PARTE 4
+
+========================================*/
+
+body main section.pt4 {
+
+	background-color: #704a2f;
+
+	color: #e4ddd6;
+
+	align-items: center;
+
+}
+
+/*==========================================
+
+           		 FOOTER
+
+============================================*/
+
+footer {
+
+	background-color: #704a2f;
+
+	padding: 2vw 0vw 2vw 0;
+
+	color: #e4ddd6;
+
+	display: flex;
+
+	font-size: 0.8rem;
+
+
+
+}
+
+
 
 footer ul li a {
+
 	color: #e4ddd6;
+
 }
+
+
 
 footer ul li.direitos p {
+
 	margin: 0 4vw 0.2vw 6vw;
+
 }
+
+
 
 footer ul li.des p {
+
 	margin: 1vw 1vw 1vw 6vw;
+
 }
+
+
 
 footer ul li.alunos {
+
 	display: flex;
 
+
+
 	font-size: 0.8rem;
+
 }
+
+
 
 footer ul li.alunos p {
+
 	margin: 0.5vw 0 0.6vw 6vw;
+
 }
 
+
+
 footer ul.logos {
+
 	margin: 2vw 4vw 1vw 18vw;
+
 }
+
+
 
 footer ul.logos li {
 
 	margin: 1vw;
 
 }
-
