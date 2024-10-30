@@ -1,5 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
    License: none (public domain)
 */
 
@@ -296,6 +294,11 @@ main section.pt2 p.txt3{
 /*============================
 			Parte 3
 ==============================*/
+body main section.pt3{
+	padding: 3vw 5vw 3vw 5vw;
+    text-align: center;
+    background-color: #e4ddd6;
+}
 body main section section.pt3 {
 	font-size: 0.9rem;
 	background-color: #e4ddd6;
@@ -333,6 +336,17 @@ main section.pt3 ul li p {
 	color: #e4ddd6;
 	font-size: 0.7rem;
 }
+main section.pt3 span {
+	font-weight: bold;
+}
+/*======================================
+				PARTE 4
+========================================*/
+body main section.pt4 {
+	background-color: #704a2f;
+	color: #e4ddd6;
+}
+body main section.pt4 h1
 /*==========================================
            		 FOOTER
 ============================================*/
@@ -372,5 +386,8 @@ footer ul.logos {
 }
 
 footer ul.logos li {
+
 	margin: 1vw;
+
 }
+
