@@ -199,10 +199,11 @@ main img.banner {
 	width: 100%;
 }
 body main h1 {
-    padding: 3vw 0 3vw 0;
+    padding: 3vw 1.3vw 3vw 1.3vw;
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
+	line-height: 1.3rem;
 }
 main section.textt ul li.bege {
 		display: flex;
@@ -213,7 +214,7 @@ main section.textt ul li.bege {
 	}
 	
 	main section.textt ul li.bege p.img img {
-		width: 80%;
+		width: 70%;
 		border: 5px solid #704a2f;
 		margin: 2vw;
 		border-radius: 10rem;
