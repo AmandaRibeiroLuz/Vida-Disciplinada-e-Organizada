@@ -77,7 +77,7 @@ header {
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 8px 0 8px 0;
+	padding: 5px 0 5px 0;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
@@ -89,19 +89,19 @@ header nav {
 header nav p img {
 	border-radius: 50px;
 	justify-content: left;
-	width: 50px;
+	width: 40px;
 	margin: 0 0 0 4vw;
 }
 
 header nav ul {
 	display: flex;
 	justify-content: right;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 }
 
 header nav ul li {
-	margin: 2px 12px 2px 12px;
+	margin: 0 10px 0 10px;
 }
 
 header nav ul li.atual a {
@@ -118,38 +118,29 @@ main section.banner h1.imagem img{
 }
 
 /*============================================
-           	SECTION.CONSEQUENCIAS
+           	SECTION.MOTIVO
 ==============================================*/
-main section.consequencias {
+main section.motivo {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
-main section.consequencias h1 {
-	margin: 4vw 10vw 2vw 10vw;
+main section.motivo h1 {
+	margin: 4vw 10vw 3vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: sans-serif;
 }
-main section.consequencias p.paragrafo {
-	margin: 2vw 9vw 2vw 9vw;
+main section.motivo p.paragrafo {
+	margin: 2vw 10vw 2vw 10vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
-main section.consequencias div {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-}
-main section.consequencias div p {
-	width: 50%;
-	margin: 2vw 6vw 2vw 6vw;
+main section.motivo p.video video{
+	margin: 0 10vw 4vw 10vw;
 	text-align: center;
-}
-main section.consequencias div p img {
 	border: 5px solid #704a2f;
-	width: 50%;
 }
 
 /*============================================
@@ -168,14 +159,14 @@ main section.beneficios div.dividir div.text {
 	width: 50%;
 }
 main section.beneficios div.dividir div.text h1 {
-	margin: 4vw 10vw 2vw 2vw;
+	margin: 4vw 10vw 5vw 2vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.beneficios div.dividir div.text p {
-	margin: 2vw 10vw 2vw 2vw;
+	margin: 3vw 10vw 3vw 2vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
@@ -184,7 +175,7 @@ main section.beneficios div.dividir div.imagem {
 }
 main section.beneficios div.dividir div.imagem p img {
 	border: 5px solid #704a2f;
-	margin: 5vw 2vw 2vw 10vw;
+	margin: 4vw 2vw 2vw 10vw;
 }
 
 /*============================================
@@ -202,18 +193,17 @@ main section.trabalho h1 {
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.trabalho p {
-	margin: 1vw 9vw 1vw 9vw;
+	margin: 1vw 10vw 1vw 10vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
 main section.trabalho div {
 	display: flex;
-	justify-content: space-between;
 	width: 100%;
 }
 main section.trabalho div p img {
-	width: 120%;
+	width: 100%;
 	border: 5px solid #704a2f;
 	margin: 2vw 0 2vw 0;
 }
@@ -228,28 +218,26 @@ main section.modelo {
 main section.modelo div.dividir {
 	display: flex;
 	width: 100%;
+	align-items: center;
 }
 main section.modelo div.dividir div.text {
 	width: 50%;
 }
 main section.modelo div.dividir div.text h1 {
-	margin: 4vw 10vw 2vw 10vw;
+	margin: 4vw 1vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.modelo div.dividir div.text p {
-	margin: 2vw 5vw 2vw 5vw;
+	margin: 2vw 2vw 2vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
-main section.modelo div.dividir div.imagem {
-	width: 50%
-}
 main section.modelo div.dividir div.imagem p.imagem img {
 	border: 5px solid #704a2f;
-	margin: 2vw 5vw 2vw 5vw;
+	margin: 2vw 10vw 2vw 5vw;
 }
 
 /*============================================
@@ -302,24 +290,24 @@ main section.realidade div.dividir {
 	align-items: center;
 }
 main section.realidade div.dividir p.video {
-	width: 50%;
+	width: 30%;
 }
 main section.realidade div.dividir p.video video {
 	border: 5px solid #704a2f;
 	margin: 2vw 2vw 2vw 10vw;
 }
 main section.realidade div.dividir div {
-	width: 50%;
+	width: 70%;
 }
 main section.realidade div.dividir div h1 {
-	margin: 4vw 10vw 2vw 2vw;
+	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.realidade div.dividir div p {
-	margin: 2vw 10vw 2vw 2vw;
+	margin: 2vw 10vw 2vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
@@ -343,30 +331,32 @@ main section.passos h1 {
 	color:#e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
-main section.passos p {
+main section.passos p.subtitulo {
 	margin: 4vw 20vw 4vw 20vw;
-	text-align: center;
+	text-align: justify;
 	line-height: 1.3rem;
 }
 main section.passos ul li {
 	border-top: 2px solid #704a2f;
 	padding: 2vw 0 2vw 0;
 }
-main section.passos ul li p.numero {
+main section.passos ul li p.passos {
 	background-color: #cdbca5;
-	margin: 2vw 45vw 2vw 45vw;
+	margin: 2vw 25vw 2vw 25vw;
 	padding: 2vw 2vw 2vw 2vw;
 	border-radius: 100px;
 	font-size: 2rem;
 	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
 }
-main section.passos ul li p.subtitulo {
-	font-size: 1.7rem;
-	font-family: sans-serif;
-	text-decoration: underline;
+main section.passos ul li p {
+	margin: 4vw 25vw 4vw 25vw;
+	text-align: justify;
+	line-height: 1.3rem;
 }
 main section.passos ul li p.video video {
 	border: 5px solid #704a2f;
+	
 }
 
 /*==========================================
@@ -379,17 +369,18 @@ main section.referencias {
 main section.referencias h1 {
 	font-size: 1rem;
 	font-weight: bold;
-	padding: 2vw 0 2vw 0;
+	padding: 2vw 10VW 2vw 10VW;
 	text-align: center;
 }
 main section.referencias h2 {
 	font-size: 1rem;
-	margin: 2vw 0vw 2vw 0vw;
+	margin: 2vw 10vw 2vw 10vw;
 	text-decoration: underline;
 }
 main section.referencias nav ul li {
 	font-size: 0.8rem;
-	margin: 2vw 0vw 2vw 0vw;
+	margin: 2vw 10vw 2vw 10vw;
+	word-wrap: break-word;
 }
 main section.referencias nav ul li a {
 	text-decoration: underline;

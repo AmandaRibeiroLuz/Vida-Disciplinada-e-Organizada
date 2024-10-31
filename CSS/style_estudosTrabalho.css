@@ -154,7 +154,7 @@ body.estudosTrabalho h2{
 }
 body.estudosTrabalho p{
 	text-align: center;
-	margin: 1vw;
+	/*margin: 1vw;*/
 }
 body.estudosTrabalho p.comentario{
 	font-size: 1.2vw;
@@ -162,7 +162,7 @@ body.estudosTrabalho p.comentario{
 	color: gray;
 }
 body.estudosTrabalho p.img{
-	margin: 4vw 0 0 0
+	/*margin: 4vw 0 0 0*/
 }
 body.estudosTrabalho p.img img{
 	width: 100%;
