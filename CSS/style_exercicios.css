@@ -454,10 +454,11 @@ body main section section.pt1 div.Imagem {
 
 	width: 100%;
 
-	display: flex;
-
 }
+body div.chato{
 
+	display: flex;
+}
 body img.imgzinha{
 
 	border: 5px solid #704a2f;
@@ -470,7 +471,7 @@ body main section section.pt1 h3.txt1{
 
 	font-size: 1.2rem;
 
-	padding: 5vw;
+	padding: 10vw 0 0 0;
 
 	font-family: 'Times New Roman', Times, serif;
 
@@ -486,7 +487,7 @@ body p.txt2{
 
 }
 
-body section.pt1 h3 a{
+body section.pt1 div.chatice a{
 
 	margin: 4vw;
 
