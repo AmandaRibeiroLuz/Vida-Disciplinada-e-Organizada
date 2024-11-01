@@ -264,10 +264,9 @@ body main h1 {
            	SECTION.REFERENCIAS
 ============================================*/
 main section.referencias p {
-    white-space: normal; 
-    overflow-wrap: break-word; 
+    
     word-wrap: break-word; 
-    padding:1vw; 
+    margin:1vw; 
 }
 
 main section.referencias {
