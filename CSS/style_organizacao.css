@@ -143,6 +143,7 @@ main section.motivo p.video video{
 	margin: 0 10vw 4vw 10vw;
 	text-align: center;
 	border: 5px solid #704a2f;
+	width: 80%;
 }
 
 /*============================================
@@ -278,37 +279,37 @@ main section.expectativas div p img {
 }
 
 /*============================================
-           	SECTION.REALIDADE
+           	SECTION.INFLUENCIAS
 ==============================================*/
-main section.realidade {
+main section.influencias {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 	text-align: center;
 }
-main section.realidade div.dividir {
+main section.influencias div.dividir {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	align-items: center;
 }
-main section.realidade div.dividir p.video {
+main section.influencias div.dividir p.video {
 	width: 30%;
 }
-main section.realidade div.dividir p.video video {
+main section.influencias div.dividir p.video video {
 	border: 5px solid #704a2f;
 	margin: 2vw 2vw 2vw 10vw;
 }
-main section.realidade div.dividir div {
+main section.influencias div.dividir div {
 	width: 70%;
 }
-main section.realidade div.dividir div h1 {
+main section.influencias div.dividir div h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
-main section.realidade div.dividir div p {
+main section.influencias div.dividir div p {
 	margin: 2vw 10vw 2vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
