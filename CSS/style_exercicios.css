@@ -420,7 +420,7 @@ body main h1.titulo {
 
 =============================*/
 
-body section.pt1 h1{
+body section.pt1 h2{
 
 	font-size: 1.6rem;
 
@@ -465,7 +465,7 @@ body img.imgzinha{
 
 }
 
-body main section section.pt1 h3.txt1{
+body main section.pt1 h3.txt1{
 
 	font-weight: bold;
 
