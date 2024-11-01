@@ -170,6 +170,7 @@ header nav {
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
+	z-index: 2;
 	top: 0%;
 	width: 100%;
 	border-bottom: 2.5px solid #2f2a19;
