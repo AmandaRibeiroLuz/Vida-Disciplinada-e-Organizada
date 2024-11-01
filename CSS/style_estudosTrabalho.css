@@ -92,6 +92,10 @@ video {
 	vertical-align: baseline;
 }
 
+*{
+	font-family: 'Times New Roman', Times, serif;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -147,209 +151,282 @@ a {
 	color: black;
 	text-decoration: none;
 }
-body.estudosTrabalho h2{
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: bold;
-}
-body.estudosTrabalho main section p{
-	text-align: justify;
-}
-body.estudosTrabalho main p.img{
-	text-align: center;
-}
-body.estudosTrabalho p.img img{
-	width: 45%;
-}
+
+/*main {
+	margin: 0 10vw 0 10vw;
+}*/
+
+
 /*==========================================
            		 HEADER
 ============================================*/
-header {
-	border-bottom: 2.5px solid #2f2a19;
-}
+
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 5px 0 5px 0;
+	padding: 0.5vw 1vw 0.5vw 1vw;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
 	top: 0%;
 	width: 100%;
 	border-bottom: 2.5px solid #2f2a19;
+	z-index: 99;
 }
 
 header nav p img {
 	border-radius: 50px;
 	justify-content: left;
-	width: 40px;
-	margin: 0 0 0 4vw;
+	width: 30px;
+	margin: 0 0 0 1vw;
 }
 
 header nav ul {
+	gap: 5px;
+	margin-right: 20px;
 	display: flex;
 	justify-content: right;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	font-weight: bold;
+
 }
 
 header nav ul li {
-	margin: 0 10px 0 10px;
+	margin: 2px 12px 2px 12px;
 }
 
 header nav ul li.atual a {
-	background-color: #704a2f;
-	color: #e4ddd6;
-	padding: 8px;
-	border-radius: 0.5rem;
-}
-/*==========================================
-            	MAIN
-============================================*/
-/*==========================================
-            	Banner
-============================================*/
-main p.banner{
-	margin: 0vw;
-}
-main p.banner img{
-	width: 100%;
-	margin: 0vw;
-}
-/*==========================================
-            	Intro
-============================================*/
-section.intro{
-	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
-}
-section.intro h2{
-	margin: 6vw 0 6vw 0;
-	
-}
-section.intro p{
-    margin: 2vw 10vw 2vw 10vw;
+	color: hsl(0, 0%, 100%);
 }
 
 /*==========================================
-            	Importancia
+           		 MAIN
 ============================================*/
-section.importancia {
-	background-color: #cdbca5;
-	padding: 3vw 0 3vw 0;
+hr{
+	width: 95%;
+	margin: 30px auto;
+	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
-section.importancia div.maior{
+.intro {
+	background-color: #cdbca5;
+	display: flex;
+	flex-direction: row;
+	padding: 50px 50px;
+	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.intro img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.image-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.intro p{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 500;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.intro h3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+body main h1.inicio {
+	color: #7f523b;
+	font-size: 4rem;
+	font-weight: bold;
+	margin: 2vw 2vw 2vw 0;
+	text-align: center;
+}
+
+body main h2.tittle {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #d1ae95;
+	margin: 2vw 2vw 2vw 0;
+	text-align: center;
+}
+div.intro p{
+	margin: 2vw 9vw;
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	text-align: justify;
+}
+
+ main section.banner p.imagem img {
+	width: 100%;
+	justify-content: center;
+	margin: 0 0 1vw 0;
+ }
+
+ main section div.intro p {
+	margin: 1vw 3vw 1.5vw 1vw;
 	display: flex;
 }
-section.importancia p.image{
-	margin: 2vw;
-}
-section.importancia p.image img{
-	width: 70%;
-	border: 5px solid #704a2f;
-}
-section.importancia h2{
-    margin: 2vw 0 2vw 0;
-}
-section.importancia p{
-	margin: 2vw 4vw 0 0;
+.texto {
+	display: none;
+	margin-left: 20px;
 }
 /*==========================================
-           		 Vantagens
+           		 SECTION COMEÇO
 ============================================*/
-section.vantagens{
-	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
-	
-}
-section.vantagens h2{
-	margin: 2vw 0 0 0;
-}
-section.vantagens h2.resposta{
-	font-weight: bold;
-	background-color: #704a2f;
-	padding: 5px 10px 5px 10px;
-	border-radius: 100px;
-	color:#e4ddd6;
-	margin: 10px 40vw 2vw 40vw;
-}
-section.vantagens p{
-	margin: 2vw 10vw 2vw 10vw;
-}
-section.vantagens ul{
-	background-color: #d1ae95;
-	margin: 10px 33vw 10px 33vw;
-	border-radius: 10px;
-	padding: 10px;
-}
-section.vantagens ul li p.lista{
+section.comeco {
 	text-align: center;
-	color: #2f2a19;
-	margin: 2vw;
+}
+
+.comeco h1{
+	font-size: 40px;
 	font-weight: bold;
+	padding: 10px;
+	width: 75%;
+	margin: auto;
+	margin-top: 10px
+}
+
+.comeco p{
+	font-size: 25px;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+
+.list-box{
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+
+.list-box li {
+	border: 0px solid black;
+	padding: 20px;
+	margin: 5px;
+	line-height: 35px;
+	background-color: #cdbca5;
+	border-radius: 20px;
+}
+
+.list-box span{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+/*==========================================
+        	 SECTION - BENEFICIOS
+============================================*/
+.beneficios h1{
+	font-weight: bold;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+}
+.beneficios p{
+	padding:  30px 50px;
+	font-size: 30px;
+	text-align: justify;
+}
+
+
+/*==========================================
+        	 SECTION - COMO ORGANIZAR
+============================================*/
+.como_organizar h1{
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	font-size: 30px;
+	opacity: 80%;
+}
+
+.como_organizar p{
+	padding: 30px 50px;
+	font-size: 30px;
+	text-align: justify;
+}
+
+.como_organizar ul{
+	padding: 0px 50px 50px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+.como_organizar li{
+	text-align: start;
+	padding: 10px;
+	border: 2px solid black;
+	margin: 5px;
 }
 
 /*==========================================
-           		 Rotina
+        	 SECTION ROTINA.EXEMPLO
 ============================================*/
-section.rotina{
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #704a2f;
+    color: white;
+}
+
+table td {
+    background-color: #f7f3ef;
+}
+.table {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.rotina_exemplo{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: #cdbca5;
-	padding: 3vw 0 3vw 0;
+	padding: 20px 0px;
+	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
-section.rotina p{
-	margin: 2vw 10vw 2vw 10vw;
-}
-section.rotina h2{
-	margin: 2vw;
-}
-section.rotina h3{
+
+.rotina_exemplo h1{
 	font-weight: bold;
-	font-size: 1.4rem;
+	padding: 50px;
+	margin: auto;
 	text-align: center;
-	color: #632b04;
-	text-decoration: underline;
-	margin: 2vw;
+	font-size: 40px;
 }
-/*==========================================
-           		 Lista
-============================================*/
-section.lista{
-	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
+
+.rotina_exemplo p{
+	font-size: 30px;
+	text-align: justify;
+
 }
-section.lista ol li h3{
-	text-align: center;
-	font-weight: bold;
-	margin: 2vw;
-}
-section.lista ol li p{
-	margin: 2vw 10vw 2vw 10vw;;
-}
-/*==========================================
-           		 Referencias
-============================================*/
-section.referencias {
-	background-color: #d1ae95;
-	padding: 2vw;
-}
-section.referencias h2{
-	font-size: 2rem;
-	margin: 2vw;
-}
-section.referencias h3{
-	margin: 0 3vw 0 3vw;
-	font-size: 1.2rem;
-}
-section.referencias p{
-	margin: 2vw 10vw 2vw 10vw;
-	text-align: left;
-}
+
 /*==========================================
            		 FOOTER
 ============================================*/
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
+	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
 
@@ -383,4 +460,15 @@ footer ul.logos {
 
 footer ul.logos li {
 	margin: 1vw;
+}
+
+
+/*==========================================
+        	 SECTION REFERENCIAS
+============================================*/
+.referencias{
+	padding: 20px 20px;
+}
+.referencias h2{
+	margin-top: 10px;
 }
