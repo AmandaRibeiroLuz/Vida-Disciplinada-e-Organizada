@@ -272,11 +272,7 @@ div.intro p{
  main section div.intro p {
 	margin: 1vw 3vw 1.5vw 1vw;
 	display: flex;
-}
-.texto {
-	display: none;
-	margin-left: 20px;
-}
+ }
 /*==========================================
            		 SECTION COMEÇO
 ============================================*/
@@ -328,13 +324,14 @@ section.comeco {
 	padding: 10px;
 	margin: auto;
 	text-align: center;
-	font-size: 40px;
+	font-size: 50px;
 }
 .beneficios p{
-	padding:  30px 50px;
+	padding: 2vw 10vw;
 	font-size: 30px;
 	text-align: justify;
 }
+
 
 
 /*==========================================
@@ -344,18 +341,17 @@ section.comeco {
 	font-weight: bold;
 	margin: auto;
 	text-align: center;
-	font-size: 30px;
-	opacity: 80%;
+	font-size: 40px;
 }
 
 .como_organizar p{
-	padding: 30px 50px;
+	padding: 2vw 10vw;
 	font-size: 30px;
 	text-align: justify;
 }
 
 .como_organizar ul{
-	padding: 0px 50px 50px;
+	padding: 0 10vw ;
 	display: flex;
 	margin: auto;
 	justify-content: center;
@@ -367,6 +363,7 @@ section.comeco {
 	border: 2px solid black;
 	margin: 5px;
 }
+
 
 /*==========================================
         	 SECTION ROTINA.EXEMPLO
@@ -421,6 +418,17 @@ table td {
 	text-align: justify;
 	
 }
+/*==========================================
+           	SECTION - FORMS
+============================================*/
+
+
+
+/*==========================================
+          SECTION RESPOSTAFORMS
+============================================*/
+
+
 
 /*==========================================
            		 FOOTER
