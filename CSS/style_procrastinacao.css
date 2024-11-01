@@ -236,8 +236,9 @@ section.text ul li.oque div {
 }
 
 section.text ul li.oque div img {
-	margin: 1vw 10vw 2vw 10vw;
+	margin: 0 10vw 2vw 10vw;
 	border: 5px solid #704a2f;
+	
 }
 
 section.text ul li.oque div.textoque {
@@ -252,7 +253,7 @@ section.text ul li.oque div h2 {
 }
 
 section.text ul li.oque div p {
-	padding: 2vw 10vw 4vw 10vw;
+	padding: 2vw 10vw 3vw 10vw;
 	font-size: 1rem;
 	line-height: 1.5rem;
 	text-align: justify;
@@ -310,8 +311,8 @@ section.causas ul li div {
 }
 
 section.causas ul li div img {
-	margin: 4vw 10vw 7vw 2vw;
-	width: 40%;
+	margin: 4vw 10vw 7vw 8vw;
+	width: 50%;
 	border: 5px solid #2f2a19;
 }
 
@@ -395,6 +396,7 @@ section.direction p.responda {
 	padding: 7vw 0 1vw 0;
 	font-size: 1.2rem;
 	background-color: #e4ddd6;
+	
 }
 
 section.direction p.label {
@@ -408,7 +410,7 @@ section.direction p.label {
 
 section.direction ul {
 	background-color: #e4ddd6;
-	padding: 1vw 6vw 8vw 8vw;
+	padding: 1vw 6vw 8vw 11vw;
 	display: flex;
 }
 
@@ -448,11 +450,11 @@ section.estudos {
 }
 
 section.estudos h3.dicassubtitle {
-	font-size: 2.4rem;
+	font-size: 2.7rem;
 	text-align: center;
 	font-weight: bold;
 	width: 30%;
-	margin: 2vw 33vw 0 7vw;
+	margin: 2vw 33vw 1vw 34vw;
 	padding: 2vw 1vw 1vw 1vw;
 	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
@@ -460,12 +462,12 @@ section.estudos h3.dicassubtitle {
 
 section.estudos ul li video {
 	border: 5px solid #e4ddd6;
-	margin: 1vw 10vw 2vw 10vw;
+	margin: 1vw 20vw 0 20vw;
 }
 
 section.estudos ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 6vw 20vw 2vw 20vw;
+	margin: 4vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -498,24 +500,24 @@ section.trabalho {
 }
 
 section.trabalho h3.dicassubtitle {
-	font-size: 2.4rem;
+	font-size: 2.7rem;
 	text-align: center;
 	font-weight: bold;
 	width: 30%;
-	margin: 2vw 33vw 0 7vw;
-	padding: 2vw 1vw 2vw 1vw;
+	margin: 2vw 33vw 1vw 34vw;
+	padding: 2vw 1vw 1vw 1vw;
 	color: #2f2a19;
 	font-family: 'Times New Roman', Times, serif;
 }
 
 section.trabalho ul li video {
 	border: 5px solid #2f2a19;
-	margin: 1vw 10vw 2vw 10vw;
+	margin: 1vw 10vw 0 20vw;
 }
 
 section.trabalho ul li p.numero {
 	background-color: #2f2a19;
-	margin: 6vw 20vw 2vw 20vw;
+	margin: 4vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -548,24 +550,24 @@ section.tarefas {
 }
 
 section.tarefas h3.dicassubtitle {
-	font-size: 2.3rem;
+	font-size: 2.7rem;
 	text-align: center;
 	font-weight: bold;
 	width: 60%;
-	margin: 2vw 40vw 0 0;
-	padding: 2vw 1vw 2vw 1vw;
+	margin: 2vw 33vw 1vw 20vw;
+	padding: 2vw 1vw 1vw 1vw;
 	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
 
 section.tarefas ul li video {
 	border: 5px solid #e4ddd6;
-	margin: 1vw 10vw 2vw 10vw;
+	margin: 1vw 10vw 0 20vw;
 }
 
 section.tarefas ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 6vw 20vw 2vw 20vw;
+	margin: 4vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -592,24 +594,24 @@ section.outros {
 }
 
 section.outros h3.dicassubtitle {
-	font-size: 2.3rem;
+	font-size: 2.7rem;
 	text-align: center;
 	font-weight: bold;
 	width: 60%;
-	margin: 2vw 40vw 0 0;
-	padding: 2vw 1vw 2vw 1vw;
+	margin: 2vw 33vw 1vw 20vw;
+	padding: 2vw 1vw 1vw 1vw;
 	color: #704a2f;
 	font-family: 'Times New Roman', Times, serif;
 }
 
 section.outros ul li video {
 	border: 5px solid #704a2f;
-	margin: 1vw 10vw 2vw 10vw;
+	margin: 1vw 10vw 0 20vw;
 }
 
 section.outros ul li p.numero {
 	background-color: #704a2f;
-	margin: 6vw 20vw 2vw 20vw;
+	margin: 4vw 20vw 2vw 20vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
