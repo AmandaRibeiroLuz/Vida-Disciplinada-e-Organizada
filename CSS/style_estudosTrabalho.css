@@ -149,23 +149,17 @@ a {
 }
 body.estudosTrabalho h2{
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
-body.estudosTrabalho p{
+body.estudosTrabalho main section p{
+	text-align: justify;
+}
+body.estudosTrabalho main p.img{
 	text-align: center;
-	/*margin: 1vw;*/
-}
-body.estudosTrabalho p.comentario{
-	font-size: 1.2vw;
-	margin: 0.5vw 0 2vw 3vw ;
-	color: gray;
-}
-body.estudosTrabalho p.img{
-	/*margin: 4vw 0 0 0*/
 }
 body.estudosTrabalho p.img img{
-	width: 100%;
+	width: 45%;
 }
 /*==========================================
            		 HEADER
@@ -209,7 +203,19 @@ header nav ul li.atual a {
 	padding: 8px;
 	border-radius: 0.5rem;
 }
-
+/*==========================================
+            	MAIN
+============================================*/
+/*==========================================
+            	Banner
+============================================*/
+main p.banner{
+	margin: 0vw;
+}
+main p.banner img{
+	width: 100%;
+	margin: 0vw;
+}
 /*==========================================
             	Intro
 ============================================*/
@@ -218,10 +224,11 @@ section.intro{
 	padding: 3vw 0 3vw 0;
 }
 section.intro h2{
-	margin: 4vw 0 2vw 0;
+	margin: 6vw 0 6vw 0;
+	
 }
 section.intro p{
-    margin: 2vw 3vw 2px 10vw;
+    margin: 2vw 10vw 2vw 10vw;
 }
 
 /*==========================================
@@ -234,7 +241,10 @@ section.importancia {
 section.importancia div.maior{
 	display: flex;
 }
-section.importancia p img{
+section.importancia p.image{
+	margin: 2vw;
+}
+section.importancia p.image img{
 	width: 70%;
 	border: 5px solid #704a2f;
 }
@@ -242,7 +252,7 @@ section.importancia h2{
     margin: 2vw 0 2vw 0;
 }
 section.importancia p{
-	margin: 2vw 4vw 2vw 4vw;
+	margin: 2vw 4vw 0 0;
 }
 /*==========================================
            		 Vantagens
@@ -250,6 +260,7 @@ section.importancia p{
 section.vantagens{
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
+	
 }
 section.vantagens h2{
 	margin: 2vw 0 0 0;
@@ -262,23 +273,31 @@ section.vantagens h2.resposta{
 	color:#e4ddd6;
 	margin: 10px 40vw 2vw 40vw;
 }
+section.vantagens p{
+	margin: 2vw 10vw 2vw 10vw;
+}
 section.vantagens ul{
 	background-color: #d1ae95;
 	margin: 10px 33vw 10px 33vw;
 	border-radius: 10px;
 	padding: 10px;
 }
-section.vantagens ul li p{
+section.vantagens ul li p.lista{
+	text-align: center;
 	color: #2f2a19;
-	margin: 2px;
+	margin: 2vw;
 	font-weight: bold;
 }
+
 /*==========================================
            		 Rotina
 ============================================*/
 section.rotina{
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
+}
+section.rotina p{
+	margin: 2vw 10vw 2vw 10vw;
 }
 section.rotina h2{
 	margin: 2vw;
@@ -304,7 +323,7 @@ section.lista ol li h3{
 	margin: 2vw;
 }
 section.lista ol li p{
-	margin: 1.5vw 5vw 0 5vw;
+	margin: 2vw 10vw 2vw 10vw;;
 }
 /*==========================================
            		 Referencias
@@ -314,16 +333,16 @@ section.referencias {
 	padding: 2vw;
 }
 section.referencias h2{
+	font-size: 2rem;
 	margin: 2vw;
 }
 section.referencias h3{
+	margin: 0 3vw 0 3vw;
 	font-size: 1.2rem;
 }
 section.referencias p{
+	margin: 2vw 10vw 2vw 10vw;
 	text-align: left;
-}
-section.referencias p a{
-	font-weight: bold;
 }
 /*==========================================
            		 FOOTER

@@ -444,6 +444,8 @@ body main section.pt1 {
 
 	align-items: center;
 
+	line-height: 1.3rem;
+
 }
 
 body main section section.pt1 div.Imagem {
@@ -484,7 +486,7 @@ body p.txt2{
 
 }
 
-body button.botao1{
+body section.pt1 h3 a{
 
 	margin: 4vw;
 
@@ -657,11 +659,14 @@ main section.pt3 h4 {
 	font-weight: bold;
 	margin: 20px;
 	color: #e4ddd6;
+	line-height: 1.3rem;
+
 }
 
 main section.pt3 ul li p {
 	color: #e4ddd6;
 	font-size: 0.9rem;
+	line-height: 1.3rem;
 }
 main section.pt3 span {
 
@@ -694,7 +699,7 @@ body main section.pt4 h1 {
 }
 body main section.pt4 div.videojose p video{
 	border: 5px solid #e4ddd6;
-	margin: 2vw 20vw 2vw 20vw;
+	margin: 2vw 28vw 2vw 28vw;
 	
 }
 body main section.pt4 ul li{
@@ -708,10 +713,12 @@ section.pt4 h4{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.6rem;
 	font-weight: bold;
+	line-height: 1.3rem;
 }
 body main section.pt4 ul li p{
 	padding: 2vw;
 	font-size: 1rem;
+	line-height: 1.3rem;
 
 }
 /*=========================================
