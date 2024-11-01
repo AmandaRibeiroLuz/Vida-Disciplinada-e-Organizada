@@ -699,8 +699,10 @@ body main section.pt4 h1 {
 }
 body main section.pt4 div.videojose p video{
 	border: 5px solid #e4ddd6;
-	margin: 2vw 28vw 2vw 28vw;
-	
+	margin: 3vw 4vw 3vw 4vw;
+}
+body main section.pt4 div.videojose {
+	display: flex;
 }
 body main section.pt4 ul li{
 	background-color: #e4ddd6;
