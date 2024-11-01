@@ -1,9 +1,11 @@
 style_organizacao.css
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
 */
+
 
 html,
 body,
@@ -86,13 +88,14 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
 }
+
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -106,243 +109,302 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+   display: block;
 }
 
+
 body {
-	line-height: 1;
+   line-height: 1;
 }
+
 
 ol,
 ul {
-	list-style: none;
+   list-style: none;
 }
+
 
 blockquote,
 q {
-	quotes: none;
+   quotes: none;
 }
+
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+   content: '';
+   content: none;
 }
+
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
+
 /*==========================================
-                GERAL
+               GERAL
 ============================================*/
 
+
 html {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: calc(10px + 1vw);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: calc(10px + 1vw);
 }
 
+
 a {
-	color: black;
-	text-decoration: none;
+   color: black;
+   text-decoration: none;
 }
+
+
+
 
 
 
 /*==========================================
-                INDEX
+               INDEX
 ============================================*/
 /*=============BANNER===========*/
 main img.banner {
-	width: 100%;
+   width: 100%;
 }
 header {
-	border-bottom: 2.5px solid #2f2a19;
+   border-bottom: 2.5px solid #2f2a19;
 }
 header nav {
-	display: flex;
-	background-color: #d1ae95;
-	padding: 5px 0 5px 0;
-	align-items: center;
-	justify-content: space-between;
-	position: fixed;
-	top: 0%;
-	width: 100%;
-	border-bottom: 2.5px solid #2f2a19;
+   display: flex;
+   background-color: #d1ae95;
+   padding: 5px 0 5px 0;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   top: 0%;
+   width: 100%;
+   border-bottom: 2.5px solid #2f2a19;
 }
+
 
 header nav p img {
-	border-radius: 50px;
-	justify-content: left;
-	width: 40px;
-	margin: 0 0 0 4vw;
+   border-radius: 50px;
+   justify-content: left;
+   width: 40px;
+   margin: 0 0 0 4vw;
 }
+
 
 header nav ul {
-	display: flex;
-	justify-content: right;
-	font-size: 0.8rem;
-	font-weight: bold;
+   display: flex;
+   justify-content: right;
+   font-size: 0.8rem;
+   font-weight: bold;
 }
+
 
 header nav ul li {
-	margin: 0 10px 0 10px;
+   margin: 0 10px 0 10px;
 }
+
 
 header nav ul li.atual a {
-	background-color: #704a2f;
-	color: #e4ddd6;
-	padding: 8px;
-	border-radius: 0.5rem;
+   background-color: #704a2f;
+   color: #e4ddd6;
+   padding: 8px;
+   border-radius: 0.5rem;
 }
+
 
 /*================================================
-                    Introdução                  
+                   Introdução                 
 ==================================================*/
 
-body main h1 {
-		padding: 3vw 0 3vw 0;
-		text-align: center;
-		font-size: 2.6rem;
-		font-weight: bold;
-		background-color: #e4ddd6;
-	}
-	main section.introducaoVidaOrganizada ul li.partBege {
-		display: flex;
-		gap: 1vw;
-		width: 100%;
-	}
-	
-	main section.introducaoVidaOrganizada ul li img {
-		width: 40%;
-	}
-	
-	main section.introducaoVidaOrganizada ul li.partBege p {
-		padding: 5vw 6vw 5vw 6vw;
-		font-size: 0.9rem;
-		width: 50%;
-		justify-content: center;
-		margin: auto;
-		line-height: 1.3rem;
 
-	}
-	
-	main section.introducaoVidaOrganizada ul li.partBege img {
-		margin: 0 10vw 0 10vw ;
-		}
-	main section.introducaoVidaOrganizada ul li.partBranco {
-		width: 100%;
-		justify-content: center;
-		line-height: 1.3rem;
-		font-size: 0.9rem;
-	}
-	
-	main section.introducaoVidaOrganizada ul li.partBranco p {
-		margin: 5vw 9vw 5vw 9vw;
-		font-size: 0.9rem;
-		word-wrap: break-word;
-		justify-content: center;
-		line-height: 1.3rem;
-	}
-	
-	main section.introducaoVidaOrganizada ul li.partBranco img {
-		padding: 2vw 29vw 2vw 30vw;
-		background-color: #cdbca5;
-	}
-	
-	main section.introducaoVidaOrganizada ul li.partBege {
-		background-color: #e4ddd6;
-	}
-	
+body main h1 {
+       padding: 3vw 0 3vw 0;
+       text-align: center;
+       font-size: 2.6rem;
+       font-weight: bold;
+       background-color: #e4ddd6;
+   }
+   main section.introducao {
+       background-color: #e4ddd6;
+       padding: 3vw 0;
+   }
+   main section.introducao div.dividir {
+       display: flex;
+       width: 100%;
+   }
+   main section.introducao div.dividir div p.imagem{
+       margin: 2vw 5vw 2vw 10vw;
+       width: 50%;
+   }
+   main section.introducao div.dividir div p.imagem img{
+   border: 5px solid #704a2f; 
+   }
+   main section.introducao div.dividir div.texto {
+       text-align: center;
+       width: 50%;
+       margin: 2vw 10vw 2vw 5vw;
+   }
+   main section.introducao div.dividir div.texto p.paragrafo {
+       font-size: 0.9rem;
+       text-align: justify;
+       line-height: 1.3rem;
+   }
+/*================================================
+                         Introducao 2        
+==================================================*/
+   main section.introducaoDOIS{
+       background-color: white;
+       padding: 3vw 0;
+   }
+   main section.introducaoDOIS p.paragrafo {
+       margin: 2vw 10vw 5vw 10vw;
+       font-size: 0.9rem;
+       line-height: 1.3rem;
+       text-align: justify;
+   }
+   main section.introducaoDOIS p.paragbaixo {
+       margin: 5vw 10vw 1.5vw 10vw;
+       font-size: 0.9rem;
+       line-height: 1.3rem;
+       text-align: justify;
+   }
+   main section.introducaoDOIS p.imagem{
+       width: 80%;
+       text-align: center;
+       background-color: #cdbca5;
+       padding: 3vw 10vw 3vw 10vw;
+   }
+   main section.introducaoDOIS p.imagem img {
+       border: 5px solid #704a2f;
+   }
+   /*================================================
+                         Introducao 3        
+==================================================*/
+main section.introducaoTRES{
+   background-color: #e4ddd6;
+   padding: 3vw 0;
+   display: flex;
+   align-items: center;
+}
+main section.introducaoTRES p.paragrafo {
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   margin: 3vw 5vw 3vw 10vw;
+   text-align:justify;
+}
+  
+   main section.introducaoTRES p.imagem {
+       margin: 3vw 10vw 3vw 5vw;
+   }
+   main section.introducaoTRES p.imagem img{
+       border: 5px solid #704a2f;
+   }
+  
+  
+  
+
+
+
 
 
 
 /*==========================================
-           	SECTION.REFERENCIAS
+           SECTION.REFERENCIAS
 ============================================*/
 main section.referencias p {
-    
-    word-wrap: break-word; 
-    margin:1vw; 
+   font-size: 0.8rem;
+   word-wrap: break-word;
+   margin:1vw;
 }
+
 
 main section.referencias {
-	background-color: #cdbca5;
-	padding: 2vw 0 2vw 0;
+   background-color: #cdbca5;
+   padding: 2vw 0 2vw 0;
 }
-main section.referencias h1 {
-	font-size: 1rem;
-	font-weight: bold;
-	padding: 2vw 2vw 2vw 2vw;
-	text-align: center;
-}
+
+
 main section.referencias h2 {
-	font-size: 1rem;
-	margin: 2vw 2vw 2vw 2vw;
-	text-decoration: underline;
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 2vw 10VW 2vw 10VW;
+   text-align: center;
 }
-main section.referencias nav ul li {
-	font-size: 0.8rem;
-	margin: 2vw 0vw 2vw 0vw;
-}
-main section.referencias nav ul li a {
-	text-decoration: underline;
-}
+
+
 /*==========================================
-           		 FOOTER
+                FOOTER
 ============================================*/
 footer {
-	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
-	color:#e4ddd6;
+   background-color: #704a2f;
+   padding: 2vw 0vw 2vw 0;
+   color:#e4ddd6;
 }
 footer div {
-	display: flex;
-	margin: 0.5vw 0 0.6vw 6vw;
-	font-size: 0.8rem;
+   display: flex;
+   margin: 0.5vw 0 0.6vw 6vw;
+   font-size: 0.8rem;
 }
 footer div p {
-	margin:  0 4vw 0.2vw 1vw;
+   margin:  0 4vw 0.2vw 1vw;
 }
+
 
 footer {
-	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
-	color: #e4ddd6;
-	display: flex;
-	font-size: 0.8rem;
+   background-color: #704a2f;
+   padding: 2vw 0vw 2vw 0;
+   color: #e4ddd6;
+   display: flex;
+   font-size: 0.8rem;
+
 
 }
+
 
 footer ul li a {
-	color: #e4ddd6;
+   color: #e4ddd6;
 }
+
 
 footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+   margin: 0 4vw 0.2vw 6vw;
 }
+
 
 footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
+   margin: 1vw 1vw 1vw 6vw;
 }
+
 
 footer ul li.alunos {
-	display: flex;
+   display: flex;
 
-	font-size: 0.8rem;
+
+   font-size: 0.8rem;
 }
+
 
 footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
+   margin: 0.5vw 0 0.6vw 6vw;
 }
+
 
 footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
+   margin: 2vw 4vw 1vw 18vw;
 }
 
+
 footer ul.logos li {
-	margin: 1vw;
+   margin: 1vw;
 }
+
+
+
+
+
