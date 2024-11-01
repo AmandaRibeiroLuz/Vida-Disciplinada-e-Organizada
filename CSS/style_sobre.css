@@ -234,15 +234,19 @@ main section.historia p.historia {
     font-size: 1.1rem;
 	line-height: 1.3rem;
 }
+main section.textt {
+	background-color:#704a2f;
+	padding: 1vw 0 0 0;
+}
 main section.textt h2.time {
 	background-color: #e4ddd6;
-	margin: 2vw 20vw 2vw 20vw;
-	padding: 2vw 4vw 2vw 4vw;
+	margin: 2vw 20vw;
+	padding: 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
-	color: #704a2f;
+	color:#704a2f;
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.textt ul li.bege {
@@ -275,6 +279,7 @@ main section.textt ul li.bege {
         display: flex;
         gap: 1vw;
 		align-items: center;
+		background-color: #cdbca5;
 	}
 	
 	main section.textt ul li.text p {
