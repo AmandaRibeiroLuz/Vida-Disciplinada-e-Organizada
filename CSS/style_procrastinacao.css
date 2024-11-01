@@ -238,7 +238,7 @@ section.text ul li.oque div {
 section.text ul li.oque div img {
 	margin: 0 10vw 2vw 10vw;
 	border: 5px solid #704a2f;
-	
+
 }
 
 section.text ul li.oque div.textoque {
@@ -311,16 +311,17 @@ section.causas ul li div {
 }
 
 section.causas ul li div img {
-	margin: 4vw 10vw 7vw 8vw;
+	margin: 4vw 8vw 7vw 10vw;
 	width: 50%;
 	border: 5px solid #2f2a19;
 }
 
 section.causas ul li div p {
-	padding: 3vw 3vw 5vw 6vw;
+	padding: 3vw 3vw 5vw 0;
+	margin: 0 10vw 0 0;
 	font-size: 1rem;
-	width: 60%;
-	line-height: 1.4rem;
+	width: 50%;
+	line-height: 1.35rem;
 	text-align: justify;
 
 }
@@ -396,7 +397,7 @@ section.direction p.responda {
 	padding: 7vw 0 1vw 0;
 	font-size: 1.2rem;
 	background-color: #e4ddd6;
-	
+
 }
 
 section.direction p.label {
@@ -408,13 +409,13 @@ section.direction p.label {
 
 }
 
-section.direction ul {
+section.direction div {
 	background-color: #e4ddd6;
 	padding: 1vw 6vw 8vw 11vw;
 	display: flex;
 }
 
-section.direction ul li {
+section.direction div ul li {
 	width: 40%;
 	font-size: 1.2rem;
 	background-color: #704a2f;
