@@ -1,3 +1,5 @@
+style_sobre.css
+
 /* Reset de CSS */
 html,
 body,
@@ -198,12 +200,50 @@ header nav ul li.atual a {
 main img.banner {
 	width: 100%;
 }
-body main h1 {
-    padding: 3vw 10vw 3vw 10vw;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
+main section.objetivo {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+main section.objetivo h1 {
+	margin: 4vw 10vw 5vw 2vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+main section.objetivo p.objetivo {
+    margin: 3vw 10vw 3vw 10vw;
+    text-align: justify;
+    font-size: 1.1rem;
 	line-height: 1.3rem;
+}
+main section.historia {
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+main section.historia h2 {
+	margin: 4vw 10vw 5vw 2vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+main section.historia p.historia {
+	margin: 3vw 10vw 3vw 10vw;
+    text-align: justify;
+    font-size: 1.1rem;
+	line-height: 1.3rem;
+}
+main section.textt h2.time {
+	background-color: #e4ddd6;
+	margin: 2vw 20vw 2vw 20vw;
+	padding: 2vw 4vw 2vw 4vw;
+	border-radius: 90px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
 }
 main section.textt ul li.bege {
 		display: flex;
