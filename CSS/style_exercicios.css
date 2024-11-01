@@ -419,6 +419,9 @@ body main h1.titulo {
 			Div
 
 =============================*/
+body main img.banner{
+	width: 100%;
+}
 
 body section.pt1 h2{
 
