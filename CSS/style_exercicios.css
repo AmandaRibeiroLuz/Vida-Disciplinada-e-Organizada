@@ -444,6 +444,8 @@ body main section.pt1 {
 
 	align-items: center;
 
+	line-height: 1.3rem;
+
 }
 
 body main section section.pt1 div.Imagem {
@@ -657,11 +659,14 @@ main section.pt3 h4 {
 	font-weight: bold;
 	margin: 20px;
 	color: #e4ddd6;
+	line-height: 1.3rem;
+
 }
 
 main section.pt3 ul li p {
 	color: #e4ddd6;
 	font-size: 0.9rem;
+	line-height: 1.3rem;
 }
 main section.pt3 span {
 
@@ -708,10 +713,12 @@ section.pt4 h4{
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.6rem;
 	font-weight: bold;
+	line-height: 1.3rem;
 }
 body main section.pt4 ul li p{
 	padding: 2vw;
 	font-size: 1rem;
+	line-height: 1.3rem;
 
 }
 /*=========================================
