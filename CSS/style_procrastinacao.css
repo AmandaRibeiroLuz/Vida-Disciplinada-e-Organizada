@@ -686,6 +686,7 @@ main section.referencias h3 {
 main section.referencias nav ul li {
 	font-size: 0.8rem;
 	margin: 2vw 0vw 2vw 0vw;
+	width: 80%;
 }
 
 main section.referencias nav ul li a {
