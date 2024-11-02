@@ -92,10 +92,6 @@ video {
 	vertical-align: baseline;
 }
 
-*{
-	font-family: 'Times New Roman', Times, serif;
-}
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -151,282 +147,256 @@ a {
 	color: black;
 	text-decoration: none;
 }
-
-/*main {
-	margin: 0 10vw 0 10vw;
-}*/
-
-
 /*==========================================
            		 HEADER
 ============================================*/
-
+header {
+	border-bottom: 2.5px solid #2f2a19;
+}
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 0.5vw 1vw 0.5vw 1vw;
+	padding: 5px 0 5px 0;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
 	top: 0%;
 	width: 100%;
 	border-bottom: 2.5px solid #2f2a19;
-	z-index: 99;
 }
 
-header nav p img {
+header nav p img{
 	border-radius: 50px;
 	justify-content: left;
-	width: 30px;
-	margin: 0 0 0 1vw;
+	width: 40px;
+	margin: 0 0 0 4vw;
 }
 
 header nav ul {
-	gap: 5px;
-	margin-right: 20px;
 	display: flex;
 	justify-content: right;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: bold;
-
 }
 
 header nav ul li {
-	margin: 2px 12px 2px 12px;
+	margin: 0 10px 0 10px;
 }
 
 header nav ul li.atual a {
-	color: hsl(0, 0%, 100%);
+	background-color: #704a2f;
+	color: #e4ddd6;
+	padding: 8px;
+	border-radius: 0.5rem;
 }
-
 /*==========================================
-           		 MAIN
+            	MAIN
 ============================================*/
-hr{
-	width: 95%;
-	margin: 30px auto;
-	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+body.estudosTrabalho section h2{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family:'Times New Roman', Times, serif ;
 }
-.intro {
-	background-color: #cdbca5;
-	display: flex;
-	flex-direction: row;
-	padding: 50px 50px;
-	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+body.estudosTrabalho main section p{
+	text-align: justify;
 }
-
-.intro img{
+body.estudosTrabalho section p.img{
+	text-align: center;
+}
+body.estudosTrabalho section p.img img{
+	width: 45%;
+}
+/*==========================================
+            	Banner
+============================================*/
+main p.banner img{
 	width: 100%;
-	border-radius: 20px;
-}
-
-.image-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-}
-
-.intro p{
-	font-family: 'Times New Roman', Times, serif;
-	font-weight: 500;
-	padding: 20px;
-	font-size: 25px;
-}
-
-.intro h3{
-	text-align: center;
-	font-weight: bold;
-	font-size: 40px;
-}
-
-body main h1.inicio {
-	color: #7f523b;
-	font-size: 4rem;
-	font-weight: bold;
-	margin: 2vw 2vw 2vw 0;
-	text-align: center;
-}
-
-body main h2.tittle {
-	font-size: 1.2rem;
-	font-weight: bold;
-	color: #d1ae95;
-	margin: 2vw 2vw 2vw 0;
-	text-align: center;
-}
-div.intro p{
-	margin: 2vw 9vw;
-	font-size: 0.9rem;
-	line-height: 1.3rem;
-	text-align: justify;
-}
-
- main section.banner p.imagem img {
-	width: 100%;
-	justify-content: center;
-	margin: 0 0 1vw 0;
- }
-
- main section div.intro p {
-	margin: 1vw 3vw 1.5vw 1vw;
-	display: flex;
-}
-.texto {
-	display: none;
-	margin-left: 20px;
 }
 /*==========================================
-           		 SECTION COMEÇO
+            	Intro
 ============================================*/
-section.comeco {
+section.intro{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.intro h2{
+	margin: 6vw 0 6vw 0;
+	
+}
+section.intro p{
+    margin: 2vw 10vw 2vw 10vw;
+}
+section.intro p.video video{
+	margin: 0 10vw 4vw 10vw;
 	text-align: center;
+	border: 9px solid #704a2f;
+	width: 80%;
 }
 
-.comeco h1{
-	font-size: 40px;
-	font-weight: bold;
-	padding: 10px;
-	width: 75%;
-	margin: auto;
-	margin-top: 10px
-}
-
-.comeco p{
-	font-size: 25px;
-	padding: 10px;
-	padding-bottom: 50px;
-}
-
-.list-box{
-	display: flex;
-	flex-direction: row;
-	margin: 20px;
-}
-
-.list-box li {
-	border: 0px solid black;
-	padding: 20px;
-	margin: 5px;
-	line-height: 35px;
+/*==========================================
+            	Importancia
+============================================*/
+section.importancia {
 	background-color: #cdbca5;
-	border-radius: 20px;
+	padding: 3vw 0 3vw 0;
 }
-
-.list-box span{
-	font-weight: bold;
-	font-size: 30px;
+section.importancia h2{
+    margin: 2vw 0 2vw 0;
 }
-
-
-/*==========================================
-        	 SECTION - BENEFICIOS
-============================================*/
-.beneficios h1{
-	font-weight: bold;
-	padding: 10px;
-	margin: auto;
-	text-align: center;
-	font-size: 40px;
-}
-.beneficios p{
-	padding:  30px 50px;
-	font-size: 30px;
-	text-align: justify;
-}
-
-
-/*==========================================
-        	 SECTION - COMO ORGANIZAR
-============================================*/
-.como_organizar h1{
-	font-weight: bold;
-	margin: auto;
-	text-align: center;
-	font-size: 30px;
-	opacity: 80%;
-}
-
-.como_organizar p{
-	padding: 30px 50px;
-	font-size: 30px;
-	text-align: justify;
-}
-
-.como_organizar ul{
-	padding: 0px 50px 50px;
+section.importancia div.maior{
 	display: flex;
-	margin: auto;
-	justify-content: center;
-	align-items: center;
+	width: 100%;
 }
-.como_organizar li{
-	text-align: start;
-	padding: 10px;
-	border: 2px solid black;
-	margin: 5px;
-}
-
-/*==========================================
-        	 SECTION ROTINA.EXEMPLO
-============================================*/
-table {
-    width: 100%;
-    border: 1px solid #ddd;
-    border-collapse: collapse;
-    margin-top: 1rem;
-}
-
-table th, table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-
-table th {
-    background-color: #704a2f;
-    color: white;
-}
-
-table td {
-    background-color: #f7f3ef;
-}
-.table {
+section.importancia div.maior div.image {
 	width: 50%;
-	display: flex;
-	justify-content: center;
+	margin: 2vw 2vw 2vw 10vw;
 }
-.rotina_exemplo{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #cdbca5;
-	padding: 20px 0px;
-	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+section.importancia p.image img{
+	border: 5px solid #704a2f;
+	width: 70%;
+}
+section.importancia div.maior div.texto{
+	width: 50%;
+	margin: 2vw 10vw 2vw 2vw ;
+}
+section.importancia p{
+	margin: 0.7vw 0 0 5vw;
+	line-height: 1.3rem;
 }
 
-.rotina_exemplo h1{
+/*==========================================
+           		 Vantagens
+============================================*/
+section.vantagens{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+	
+}
+section.vantagens h2{
+	margin: 2vw 0 0 0;
+}
+section.vantagens h2.resposta{
 	font-weight: bold;
-	padding: 50px;
-	margin: auto;
-	text-align: center;
-	font-size: 40px;
+	background-color: #704a2f;
+	padding: 10px 10px 10px 10px;
+	border-radius: 100px;
+	color:#e4ddd6;
+	margin: 2vw 40vw 2vw 40vw;
 }
-
-.rotina_exemplo p{
-	font-size: 30px;
+section.vantagens p{
+	margin: 2vw 10vw 2vw 10vw;
+	line-height: 1.3rem;
+}
+section.vantagens div.maior{
+	display: flex;
+}
+section.vantagens div.maior div.lista{
+	width: 50%;
+	margin: 2vw 2vw 2vw 10vw;
+}
+section.vantagens ul{
+	background-color: #d1ae95;
+	border-radius: 25px;
+	padding: 2vw;
+	margin: 0 10vw 0 0;
+}
+section.vantagens ul li{
 	text-align: justify;
-
+	color: #2f2a19;
+	margin: 2vw;
+	font-weight: bold;
 }
-
+section.vantagens div.maior div.text{
+	width: 50%;
+}
+section.vantagens div.maior div.text p{
+	margin: 5vw 10vw 2vw 2vw ;
+}
+section.vantagens p.img img{
+	border: #2f2a19 solid 9px;
+}
+/*==========================================
+           		 Rotina
+============================================*/
+section.rotina{
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+section.rotina p{
+	margin: 2vw 10vw 2vw 10vw;
+}
+section.rotina h2{
+	margin: 2vw;
+}
+section.rotina h3{
+	font-weight: bold;
+	font-size: 1.7rem;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	background-color: #e4ddd6;
+	padding: 1.5vw;
+	border-radius: 10vw;
+	color: #632b04;
+	text-decoration: underline;
+	margin: 2vw 35vw;
+}
+section.rotina p.diferente{
+	background-color: #632b04;
+	color: #cdbca5;
+	padding: 2vw;
+	border-radius: 1.3vw;
+	font-family: 'Times New Roman', Times, serif;
+}
+/*==========================================
+           		 Lista
+============================================*/
+section.lista{
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+}
+section.lista ul li h3{
+	text-align: center;
+	font-weight: bold;
+	margin: 4vw 33vw ;
+	background-color: #632b04;
+	color: #e4ddd6;
+	padding: 40px;
+	border-radius: 2vw ;
+}
+section.lista ul li p{
+	margin: 2vw 10vw 2vw 10vw;;
+}
+section.lista p.video{
+	margin: 2vw 10vw 4vw 10vw;
+	text-align: center;
+	width: 80%;
+}
+/*==========================================
+           		 Referencias
+============================================*/
+section.referencias {
+	background-color: #d1ae95;
+	padding: 2vw;
+}
+section.referencias h2{
+	font-size: 2rem;
+	margin: 2vw;
+}
+section.referencias h3{
+	margin: 0 3vw 0 3vw;
+	font-size: 1.2rem;
+}
+section.referencias p{
+	margin: 2vw 10vw 2vw 10vw;
+	text-align: left;
+}
 /*==========================================
            		 FOOTER
 ============================================*/
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
-	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
 
@@ -460,15 +430,4 @@ footer ul.logos {
 
 footer ul.logos li {
 	margin: 1vw;
-}
-
-
-/*==========================================
-        	 SECTION REFERENCIAS
-============================================*/
-.referencias{
-	padding: 20px 20px;
-}
-.referencias h2{
-	margin-top: 10px;
 }
