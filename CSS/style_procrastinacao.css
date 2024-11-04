@@ -141,6 +141,8 @@ table {
 html {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: calc(10px + 1vw);
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 a {
@@ -423,7 +425,7 @@ section.direction div ul li {
 	border-radius: 100px;
 }
 
-section.direction ul li p a {
+section.direction ul li a {
 	color: #e4ddd6;
 
 }

@@ -278,6 +278,7 @@ div.intro p{
 ============================================*/
 section.comeco {
 	text-align: center;
+	margin: 4vw 0 3vw 0;
 }
 
 .comeco h1{
@@ -298,15 +299,15 @@ section.comeco {
 .list-box{
 	display: flex;
 	flex-direction: row;
-	margin: 20px;
+	margin: 0 10vw 0 10vw;
 }
-
 .list-box li {
 	border: 0px solid black;
-	padding: 20px;
-	margin: 5px;
+	padding: 90px;
+	width: 65%;
+	margin: 25px 40px 25px 40px;
 	line-height: 35px;
-	background-color: #cdbca5;
+	background-color: #e4ddd6;
 	border-radius: 20px;
 }
 
@@ -326,6 +327,10 @@ section.comeco {
 	text-align: center;
 	font-size: 50px;
 }
+.beneficios {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
 .beneficios p{
 	padding: 2vw 10vw;
 	font-size: 30px;
@@ -339,29 +344,35 @@ section.comeco {
 ============================================*/
 .como_organizar h1{
 	font-weight: bold;
-	margin: auto;
+	margin: 3vw 0 1.5vw 0;
 	text-align: center;
 	font-size: 40px;
+	font-size: 1.6rem;
+}
+.como_organizar {
+	margin: 2vw 10vw 5vw 10vw;
 }
 
 .como_organizar p{
-	padding: 2vw 10vw;
+	margin: 2vw 0 3vw 0;
 	font-size: 30px;
 	text-align: justify;
 }
 
 .como_organizar ul{
-	padding: 0 10vw ;
+	gap: 2vw;
 	display: flex;
-	margin: auto;
+	margin: 1vw 0 2vw 0;
 	justify-content: center;
 	align-items: center;
 }
 .como_organizar li{
-	text-align: start;
-	padding: 10px;
+	text-align: center;
+	background-color: #e4ddd6;
+	padding: 50px;
 	border: 2px solid black;
-	margin: 5px;
+	width: 50%;
+
 }
 
 
@@ -372,7 +383,7 @@ table {
     width: 100%;
     border: 1px solid #ddd;
     border-collapse: collapse;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 table th, table td {
@@ -390,9 +401,10 @@ table td {
     background-color: #f7f3ef;
 }
 .table {
-	width: 50%;
+	width: 58%;
 	display: flex;
 	justify-content: center;
+	margin: 1vw 0 3vw 0
 }
 .rotina_exemplo{
 	width: 100%;
@@ -407,10 +419,9 @@ table td {
 
 .rotina_exemplo h1{
 	font-weight: bold;
-	padding: 50px;
-	margin: auto;
+	margin: 2.5vw 0 2.5vw 0;
 	text-align: center;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 .rotina_exemplo p{
@@ -421,8 +432,24 @@ table td {
 /*==========================================
            	SECTION - FORMS
 ============================================*/
-
-
+.forms {
+	justify-content: center;
+	background-color: #704a2f;
+	padding: 5vw 10vw 5vw 10vw;
+}
+.forms h1 {
+	font-size: 2rem;
+	margin: 0 0 2.8vw 0;
+	text-align: center;
+	color: white;
+}
+.forms form {
+	border: 2px solid white;
+	padding: 5vw 5vw 5vw 5vw;
+	margin: 0 11vw 0 11vw;
+	background-color: #e4ddd6;
+	width: 60%;
+}
 
 /*==========================================
           SECTION RESPOSTAFORMS
@@ -478,6 +505,7 @@ footer ul.logos li {
 ============================================*/
 .referencias{
 	padding: 20px 20px;
+	background-color: #cdbca5;
 }
 .referencias h2{
 	margin-top: 10px;
