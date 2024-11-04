@@ -82,12 +82,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -102,35 +102,36 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
-    padding-bottom: 100px; /* Espaço para o footer */
+	line-height: 1;
+	padding-bottom: 100px;
+	/* Espaço para o footer */
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /*==========================================
@@ -138,15 +139,18 @@ table {
 ============================================*/
 
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(10px + 1vw);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: calc(10px + 1vw);
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-p.inform{
+
+p.inform {
 	margin: 2vw 10vw 2vw 0;
 	line-height: 40px;
 }
@@ -157,6 +161,7 @@ p.inform{
 header {
 	border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav {
 	display: flex;
 	background-color: #d1ae95;
@@ -195,49 +200,83 @@ header nav ul li.atual a {
 }
 
 /*==========================================
-                MAIN
+                SECTION.OBJETIVO
 ============================================*/
 main img.banner {
 	width: 100%;
 }
+
 main section.objetivo {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
-main section.objetivo h1 {
+
+main section.objetivo details summary {
 	margin: 4vw 10vw 5vw 2vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
-main section.objetivo p.objetivo {
-    margin: 3vw 10vw 3vw 10vw;
-    text-align: justify;
-    font-size: 1.1rem;
+
+main section.objetivo details p.objetivo {
+	margin: 3vw 10vw 3vw 10vw;
+	text-align: justify;
+	font-size: 1.1rem;
 	line-height: 1.3rem;
 }
-main section.historia {
+
+/*==========================================
+            SECTION.DESENVOLVIMENTO
+============================================*/
+main section.desenvolvimento {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
-main section.historia h2 {
+
+main section.desenvolvimento details summary {
 	margin: 4vw 10vw 5vw 2vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
-main section.historia p.historia {
+
+main section.desenvolvimento details p.desenvolvimento {
 	margin: 3vw 10vw 3vw 10vw;
-    text-align: justify;
-    font-size: 1.1rem;
+	text-align: justify;
+	font-size: 1.1rem;
 	line-height: 1.3rem;
 }
+
+/*==========================================
+            	SECTION.HISTORIA
+============================================*/
+main section.historia {
+	background-color: #cdbca5;
+	padding: 3vw 0 3vw 0;
+}
+
+main section.historia details summary {
+	margin: 4vw 10vw 5vw 2vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main section.historia details p.historia {
+	margin: 3vw 10vw 3vw 10vw;
+	text-align: justify;
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+}
+
 main section.textt {
-	background-color:#704a2f;
+	background-color: #704a2f;
 	padding: 1vw 0 0 0;
 }
+
 main section.textt h2.time {
 	background-color: #e4ddd6;
 	margin: 2vw 20vw;
@@ -246,66 +285,68 @@ main section.textt h2.time {
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
-	color:#704a2f;
+	color: #704a2f;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.textt ul li.bege {
-		display: flex;
-		background-color: #e4ddd6;
-		gap: 1vw;
-		width: 100%;
-		align-items: center;
-	}
-	
-	main section.textt ul li.bege p.img img {
-		width: 70%;
-		border: 5px solid #704a2f;
-		margin: 2vw;
-		border-radius: 10rem;
-	}
-	
-	main section.textt ul li.bege p.img{
-		margin: 2vw 0 2vw 10vw;
-	}
+	display: flex;
+	background-color: #e4ddd6;
+	gap: 1vw;
+	width: 100%;
+	align-items: center;
+}
 
-	main section.textt ul li.bege p.inform span {
-		font-size: 1.6rem;
-		font-family: 'Times New Roman', Times, serif;
-		font-weight: bold;
-	}
-	
-	main section.textt ul li.text {
-		width: 100%;
-        display: flex;
-        gap: 1vw;
-		align-items: center;
-		background-color: #cdbca5;
-	}
-	
-	main section.textt ul li.text p {
-		font-size: 1rem;
-		margin: 2vw 0 2vw 10vw;
-		word-wrap: break-word;
-	}
+main section.textt ul li.bege p.img img {
+	width: 70%;
+	border: 5px solid #704a2f;
+	margin: 2vw;
+	border-radius: 10rem;
+}
 
-	main section.textt ul li.text p.inform span {
-		font-size: 1.6rem;
-		font-family: 'Times New Roman', Times, serif;
-		font-weight: bold;
-	}
-	main section.textt ul li.text p.inform  {
-		line-height: 40px;
-		margin: 0 10vw 0 0;
-	}
-	
-	main section.textt ul li.text p.img img {
-		width: 80%;
-		border: 5px solid #704a2f;
-		margin: 2vw;
-		border-radius: 10rem;
-	}
-	
-	
+main section.textt ul li.bege p.img {
+	margin: 2vw 0 2vw 10vw;
+}
+
+main section.textt ul li.bege p.inform span {
+	font-size: 1.6rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+main section.textt ul li.text {
+	width: 100%;
+	display: flex;
+	gap: 1vw;
+	align-items: center;
+	background-color: #cdbca5;
+}
+
+main section.textt ul li.text p {
+	font-size: 1rem;
+	margin: 2vw 0 2vw 10vw;
+	word-wrap: break-word;
+}
+
+main section.textt ul li.text p.inform span {
+	font-size: 1.6rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+main section.textt ul li.text p.inform {
+	line-height: 40px;
+	margin: 0 10vw 0 0;
+}
+
+main section.textt ul li.text p.img img {
+	width: 80%;
+	border: 5px solid #704a2f;
+	margin: 2vw;
+	border-radius: 10rem;
+}
+
+
 /*==========================================
                 FOOTER
 ============================================*/
@@ -315,7 +356,6 @@ footer {
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
-
 }
 
 footer ul li a {
