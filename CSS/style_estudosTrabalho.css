@@ -192,20 +192,24 @@ header nav ul li.atual a {
 /*==========================================
             	MAIN
 ============================================*/
-body.estudosTrabalho section h2{
+body.estudosTrabalho main h2{
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
 	font-family:'Times New Roman', Times, serif ;
 }
-body.estudosTrabalho main section p{
+body.estudosTrabalho main p{
 	text-align: justify;
 }
-body.estudosTrabalho section p.img{
+body.estudosTrabalho main p.img{
 	text-align: center;
 }
-body.estudosTrabalho section p.img img{
+body.estudosTrabalho main p.img img{
 	width: 45%;
+}
+body.estudosTrabalho main hr{
+	margin: 1.5vw 10vw 1.5vw 10vw;
+	color: #2f2a19;
 }
 /*==========================================
             	Banner
@@ -221,9 +225,9 @@ section.intro{
 	padding: 3vw 0 3vw 0;
 }
 section.intro h2{
-	margin: 6vw 0 6vw 0;
-	
+	margin: 4vw 0 0 0;
 }
+
 section.intro p{
     margin: 2vw 10vw 2vw 10vw;
 }
@@ -366,11 +370,11 @@ section.lista ul li h3{
 }
 section.lista ul li p{
 	margin: 2vw 10vw 2vw 10vw;;
-}
-section.lista p.video{
-	margin: 2vw 10vw 4vw 10vw;
+}	
+section.lista p.video video{
+	margin: 5vw 10vw 4vw 10vw;
 	text-align: center;
-	width: 80%;
+	border: 5px solid #704a2f;
 }
 /*==========================================
            		 Referencias
