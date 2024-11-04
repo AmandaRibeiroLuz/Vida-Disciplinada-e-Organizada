@@ -42,7 +42,7 @@
             <p class="imagem">
                 <img src="./src/img.rotina/rotina_banner.png" alt="logo Vita Ordinada">
             <h1 class="inicio">Planeje seu dia</h1>
-         
+
             <h2 class="tittle">Transforme rotinas em experiências agradáveis!<h2>
                     <!--colocar referencia (img1)-->
                     <div class="intro">
@@ -141,7 +141,7 @@
                     <li>● Estabeleça horários: Divida seu dia em blocos de tempo para atividades específicas.</li>
                 </ul>
             </div>
-            <div>        
+            <div>
                 <ul>
                     <li>● Inclua pausas: Reserve tempo para descanso e recuperação entre tarefas.</li>
                     <li>● Revise e ajuste: Ao final do dia, reveja o que foi feito e ajuste o planejamento para o dia
@@ -157,7 +157,7 @@
             </p>
             <div class="table">
                 <table>
-                    
+
                     <thead>
                         <tr>
                             <th>Horário</th>
@@ -170,13 +170,15 @@
                             <td>06:00 - 07:00</td>
                             <td>Exercícios físicos</td>
                             <td>
-                                <input type="checkbox" name="exeFisicos" id="exeFisicos"></td>
+                                <input type="checkbox" name="exeFisicos" id="exeFisicos">
+                            </td>
                         </tr>
                         <tr>
                             <td>07:00 - 08:00</td>
                             <td>Café da manhã e preparação para o trabalho</td>
-                            <td> 
-                                 <input type="checkbox" name="cafeManha" id="cafeManha"></td>
+                            <td>
+                                <input type="checkbox" name="cafeManha" id="cafeManha">
+                            </td>
                         </tr>
                         <tr>
                             <td>08:00 - 12:00</td>
@@ -237,167 +239,152 @@
             <form id="routineForm">
                 <!-- Disciplina e Organização em Casa -->
                 <div class="question">
-                    <label>Quantas horas por dia você dorme?</label> <br>
-                    <input type="radio" name="sleep" value="4h ou menos">4h ou menos<br>
-                    <input type="radio" name="sleep" value="6h">6h<br>
-                    <input type="radio" name="sleep" value="8h">8h<br>
-                    <input type="radio" name="sleep" value="mais de 8h">Mais de 8h
+                    <label>Quantas horas por dia você dorme?<br>
+                        <input type="radio" name="sleep" value="4h ou menos">4h ou menos<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="sleep" value="6h">6h<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="sleep" value="8h">8h<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="sleep" value="mais de 8h">Mais de 8h
+                    </label>
                 </div>
                 <div class="question">
-                    <label>Quanto tempo você dedica para o estudo?</label> <br>
+                    <label>Quanto tempo você dedica para o estudo/trabalho em casa?<br>
                     <input type="radio" name="study" value="Não estudo">Não estudo<br>
+                </label>
+                <label>
                     <input type="radio" name="study" value="Até 30 min">Até 30 min<br>
+                </label>
+                <label>
                     <input type="radio" name="study" value="1h">1h<br>
+                </label>
+                <label>
                     <input type="radio" name="study" value="Mais de 2h">Mais de 2h
+                </label>
                 </div>
                 <div class="question">
-                    <label>Você costuma fazer serviços domésticos?</label> <br>
+                    <label>Você costuma fazer serviços domésticos?<br>
                     <input type="radio" name="serviços" value="Não costumo fazer">Não costumo fazer<br>
+                </label> 
+                <label>
                     <input type="radio" name="serviços" value="Ajudo um pouco">Ajudo um pouco<br>
+                </label>
+                <label>
                     <input type="radio" name="serviços" value="Faço tudo">Faço tudo
+                </label>
                 </div>
                 <div class="question">
-                    <label>Quantas refeições você faz ao dia?</label> <br>
+                    <label>Quantas refeições você faz ao dia?<br>
                     <input type="radio" name="ref" value="Duas refeições">Duas refeições<br>
+                </label> 
+                <label>
                     <input type="radio" name="ref" value="Três refeições">Três refeições<br>
+                </label>
+                <label>
                     <input type="radio" name="ref" value="Quatro refeições">Quatro refeições<br>
+
+                </label> 
+                <label>
                     <input type="radio" name="ref" value="Cinco ou mais">Cinco ou mais
+
+                </label>
                 </div>
                 <!-- Horário escolar -->
                 <div class="question">
-                    <label>Qual turno você estuda?</label> <br>
-                    <input type="radio" name="turno" value="Matutino">Matutino<br>
-                    <input type="radio" name="turno" value="Vespertino">Vespertino<br>
-                    <input type="radio" name="turno" value="Noturno">Noturno<br>
-                    <input type="radio" name="turno" value="Integral">Integral
+                    <label>Qual turno você estuda/trabalha?<br>
+                        <input type="radio" name="turno" value="Matutino">Matutino<br>
+                    </label> 
+                    <label>
+                        <input type="radio" name="turno" value="Vespertino">Vespertino<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="turno" value="Noturno">Noturno<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="turno" value="Integral">Integral
+                    </label>
                 </div>
-                <!-- Componentes escolares -->
+                <!-- Exerc fisicos -->
                 <div class="question">
-                    <label>Você possui alguma dificuldade em alguma matéria?</label>
-                    <input type="text" name="difficulty" placeholder="Descreva suas dificuldades">
+                    <label>Com qual frequência você pratica exercícios físicos?<br>
+                    <input type="radio" name="exer.fisicos" value="Não pratico">Não pratico<br>
+                </label>
+                <label>
+                    <input type="radio" name="exer.fisicos" value="duas vezes">Duas vezes por semana<br>
+                </label>
+                <label>
+                    <input type="radio" name="exer.fisicos" value="todos os dias">Todos os dias
+                </label>
                 </div>
                 <!-- formulário -->
                 <button type="button" onclick="generateRoutine()">Gerar Rotina</button>
             </form>
             <div id="result" class="result"></div>
-        
+
             <script>
                 function generateRoutine() {
                     const form = document.getElementById('routineForm');
                     const formData = new FormData(form);
                     const data = Object.fromEntries(formData.entries());
                     let routine = "Sua rotina organizada:\n\n";
-        
+
                     // sugestões
                     if (data.sleep == "4h ou menos") {
-                        routine += "- Tente aumentar suas horas de sono para melhorar seu bem-estar.\n";
+                        routine += "- Suas horas de sono são insuficientes para a recuperação física e mental. Tente aumentar gradualmente seu sono para pelo menos 7 horas por noite. Crie um ambiente relaxante e uma rotina para dormir melhor.\n";
                     } else if (data.sleep == "6h") {
-                        routine += "- Considere aumentar suas horas de sono para melhorar sua saúde.\n";
+                        routine += "- Você pode estar perdendo benefícios essenciais de uma noite completa de descanso. Tente ajustar sua rotina para garantir de 7 a 8 horas de sono, o que é fundamental para a saúde cognitiva e o bem-estar..\n";
                     } else if (data.sleep == "8h") {
-                        routine += "- Você tem um bom padrão de sono. Continue assim!\n";
+                        routine += "- Seu padrão de sono é ideal! Manter essa regularidade no sono ajuda a melhorar sua concentração, memória e disposição diária. Continue priorizando seu descanso.\n";
                     } else if (data.sleep == "mais de 8h") {
-                        routine += "- Verifique se o excesso de sono está afetando sua produtividade.\n";
+                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
                     }
-        
+
                     if (data.study == "Não estudo") {
-                        routine += "- Considere começar a dedicar pelo menos 30 minutos ao estudo.\n";
+                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
                     } else if (data.study == "Até 30 min") {
-                        routine += "- Tente aumentar seu tempo de estudo para obter melhores resultados.\n";
+                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários..\n";
                     } else if (data.study == "1h") {
-                        routine += "- Bom tempo de estudo. Continue assim!\n";
+                        routine += "- Ótimo! Estudar por 1 hora diariamente é um bom ritmo. Para melhores resultados, diversifique suas técnicas de estudo, como resumos, mapas mentais e revisões espaçadas\n";
                     } else if (data.study == "Mais de 2h") {
-                        routine += "- Excelente dedicação ao estudo. Mantenha essa rotina!\n";
+                        routine += "- Excelente dedicação! Apenas cuide para fazer pausas entre as sessões de estudo para garantir que seu cérebro tenha tempo de processar as informações e evitar sobrecarga mental\n";
                     }
-        
+
                     if (data.chores == "Não costumo fazer") {
-                        routine += "- Inclua algumas tarefas domésticas em sua rotina para ajudar em casa.\n";
+                        routine += "- Adicionar tarefas domésticas simples à sua rotina pode ajudar a desenvolver responsabilidade e habilidades organizacionais. Comece com pequenas tarefas diárias, como arrumar o quarto ou lavar a louça.\n";
                     } else if (data.chores == "Ajudo um pouco") {
-                        routine += "- Continue ajudando nas tarefas domésticas conforme necessário.\n";
+                        routine += "- Ótimo que você já ajuda em casa! Tente aumentar sua participação, talvez se envolvendo em tarefas semanais maiores. Isso ajuda a manter a casa organizada e contribui para a convivência familiar.\n";
                     } else if (data.chores == "Faço tudo") {
-                        routine += "- Ótimo, você está se dedicando bem às tarefas domésticas!\n";
+                        routine += "- Você está fazendo um excelente trabalho! Mantenha o equilíbrio entre suas responsabilidades domésticas e pessoais, e não hesite em pedir ajuda quando necessário para não se sobrecarregar!\n";
                     }
-    
+
                     if (data.meals == "Duas refeições") {
-                        routine += "- Considere adicionar mais refeições para garantir uma dieta equilibrada.\n";
+                        routine += "- Fazer apenas duas refeições por dia pode deixar seu corpo sem nutrientes ao longo do dia. Tente incorporar lanches saudáveis entre as refeições e garantir que cada refeição seja balanceada.\n";
                     } else if (data.meals == "Três refeições") {
-                        routine += "- Boa rotina de refeições. Mantenha uma dieta balanceada.\n";
+                        routine += "- Três refeições por dia é uma boa base. Tente equilibrar carboidratos, proteínas e gorduras saudáveis em cada refeição e, se possível, adicione um ou dois lanches saudáveis para manter sua energia.\n";
                     } else if (data.meals == "Quatro refeições") {
-                        routine += "- Excelente! Quatro refeições são ideais para manter a energia.\n";
+                        routine += "- Quatro refeições é um ótimo padrão alimentar. Certifique-se de que todas elas sejam ricas em nutrientes e mantenha um bom equilíbrio de alimentos naturais e integrais.\n";
                     } else if (data.meals == "Cinco ou mais") {
-                        routine += "- Ótimo! Certifique-se de que suas refeições são equilibradas.\n";
+                        routine += "- Excelente! Ter várias refeições ao longo do dia ajuda a manter seu metabolismo ativo. Apenas garanta que suas escolhas alimentares sejam saudáveis e equilibradas para obter o máximo benefício.\n";
                     }
-        
-                    routine += `- Seu turno de estudos: ${data.shift}\n`;
-                    routine += `- Seu hobby atlético: ${data.sport}\n`;
-                    routine += `- Seus outros hobbies: ${data.hobby}\n`;
-                    routine += `- Dificuldade em matéria: ${data.difficulty}\n`;
-        
-                    // dificuldades
-                    if (data.difficulty) {
-                        routine += "- Considere procurar ajuda adicional ou tutoria para melhorar em suas matérias difíceis.\n";
+
+                    if (data.meals == "Não pratico") {
+                        routine += "- A prática regular de exercícios é essencial para a saúde física e mental. Comece com atividades leves, como caminhadas ou alongamentos diários, e aumente progressivamente a intensidade.\n";
+                    } else if (data.meals == "Duas vezes") {
+                        routine += "- Dois dias de exercícios por semana é um bom começo. Tente aumentar gradualmente para três ou quatro vezes por semana, incluindo atividades que você goste, como ciclismo ou esportes, para tornar o exercício mais prazeroso.\n";
+                    } else if (data.meals == "Quatro vezes") {
+                        routine += "- Excelente! Quatro dias de exercício por semana é uma ótima frequência. Continue variando as atividades para trabalhar diferentes grupos musculares e manter a motivação.\n";
+                    } else if (data.meals == "todos os dias") {
+                        routine += "- Exercitar-se todos os dias demonstra disciplina, mas não se esqueça de dar ao seu corpo tempo para descansar e se recuperar, especialmente se estiver fazendo atividades intensas. Dias de descanso ativo, como yoga ou caminhadas leves, são uma boa opção\n";
                     }
-        
-                    document.getElementById('result').textContent = routine;
-                }
+                    document.getElementById('result').textContent = routine;                }
             </script>
+
         </section>
         <section class="respostasForms">
-            <script>
-                function generateRoutine() {
-                    const form = document.getElementById('routineForm');
-                    const formData = new FormData(form);
-                    const data = Object.fromEntries(formData.entries());
-                    let routine = "Sua rotina organizada:\n\n";
-        
-                    if (data.sleep == "4h ou menos") {
-                        routine += "- Tente aumentar suas horas de sono para melhorar seu bem-estar.\n";
-                    } else if (data.sleep == "6h") {
-                        routine += "- Considere aumentar suas horas de sono para melhorar sua saúde.\n";
-                    } else if (data.sleep == "8h") {
-                        routine += "- Você tem um bom padrão de sono. Continue assim!\n";
-                    } else if (data.sleep == "mais de 8h") {
-                        routine += "- Verifique se o excesso de sono está afetando sua produtividade.\n";
-                    }
-        
-                    if (data.study == "Não estudo") {
-                        routine += "- Considere começar a dedicar pelo menos 30 minutos ao estudo.\n";
-                    } else if (data.study == "Até 30 min") {
-                        routine += "- Tente aumentar seu tempo de estudo para obter melhores resultados.\n";
-                    } else if (data.study == "1h") {
-                        routine += "- Bom tempo de estudo. Continue assim!\n";
-                    } else if (data.study == "Mais de 2h") {
-                        routine += "- Excelente dedicação ao estudo. Mantenha essa rotina!\n";
-                    }
-        
-                    if (data.chores == "Não costumo fazer") {
-                        routine += "- Inclua algumas tarefas domésticas em sua rotina para ajudar em casa.\n";
-                    } else if (data.chores == "Ajudo um pouco") {
-                        routine += "- Continue ajudando nas tarefas domésticas conforme necessário.\n";
-                    } else if (data.chores == "Faço tudo") {
-                        routine += "- Ótimo, você está se dedicando bem às tarefas domésticas!\n";
-                    }
-        
-                    if (data.ref == "Duas refeições") {
-                        routine += "- Considere adicionar mais refeições para garantir uma dieta equilibrada.\n";
-                    } else if (data.ref == "Três refeições") {
-                        routine += "- Boa rotina de refeições. Mantenha uma dieta balanceada.\n";
-                    } else if (data.ref == "Quatro refeições") {
-                        routine += "- Excelente! Quatro refeições são ideais para manter a energia.\n";
-                    } else if (data.ref == "Cinco ou mais") {
-                        routine += "- Ótimo! Certifique-se de que suas refeições são equilibradas.\n";
-                    }
-        
-                    routine += `- Seu turno de estudos: ${data.shift}\n`;
-                    routine += `- Dificuldade em matéria: ${data.difficulty}\n`;
-        
-                    // Adiciona sugestões baseadas nas dificuldades
-                    if (data.difficulty) {
-                        routine += "- Considere procurar ajuda adicional ou tutoria para melhorar em suas matérias difíceis.\n";
-                    }
-        
-                    document.getElementById('result').textContent = routine;
-                }
-            </script>
 
         </section>
         <section class="referencias">
@@ -407,11 +394,14 @@
                 <ul>
                     <li>
                         AFYA BLOG GRADUAÇÃO, Saiba como criar e manter uma rotina produtiva. Disponível em: <a
-                            href=" https://graduacao.afya.com.br/medicina/como-manter-uma-rotina-produtiva">" https://graduacao.afya.com.br/medicina/como-manter-uma-rotina-produtiva"</a> Acesso em 04 Out. 2024.
+                            href=" https://graduacao.afya.com.br/medicina/como-manter-uma-rotina-produtiva">"
+                            https://graduacao.afya.com.br/medicina/como-manter-uma-rotina-produtiva"</a> Acesso em 04
+                        Out. 2024.
                     </li>
                     <li>
                         LIVRO O Poder do Hábito: Por que Fazemos o que Fazemos na Vida e nos Negócios. Disponível em: <a
-                            href="https://archive.org/details/o-poder-do-habito.pdf/page/n47/mode/2up">"https://archive.org/details/o-poder-do-habito.pdf/page/n47/mode/2up"</a> Acesso em: 04 out. 2024.
+                            href="https://archive.org/details/o-poder-do-habito.pdf/page/n47/mode/2up">"https://archive.org/details/o-poder-do-habito.pdf/page/n47/mode/2up"</a>
+                        Acesso em: 04 out. 2024.
                     </li>
                 </ul>
             </nav>
@@ -419,16 +409,20 @@
             <ul>
                 <li>
                     PEXELS, Foto-do-planejador-e-materiais-de-escrita. Disponível
-                    em: <a href="https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/.">"https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/."</a> Acesso em 29 out. 2024.
+                    em: <a
+                        href="https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/.">"https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/."</a>
+                    Acesso em 29 out. 2024.
                 </li>
                 <li>
-                    Paico Oficial, pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco. Disponívelem: <a href="https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c">"https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c"</a> Acesso em 29 out. 2024.
+                    Paico Oficial,
+                    pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco.
+                    Disponívelem: <a
+                        href="https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c">"https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c"</a>
+                    Acesso em 29 out. 2024.
                 </li>
             </ul>
 
         </section>
-
-
     </main>
     <footer>
 
