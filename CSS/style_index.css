@@ -203,13 +203,9 @@ header nav ul {
    font-size: 0.8rem;
    font-weight: bold;
 }
-
-
 header nav ul li {
    margin: 0 10px 0 10px;
 }
-
-
 header nav ul li.atual a {
    background-color: #704a2f;
    color: #e4ddd6;
@@ -268,7 +264,7 @@ body main h1 {
        line-height: 1.3rem;
        text-align: justify;
    }
-   main section.introducaoDOIS p.paragbaixo {
+   main section.introducaoDOIS p.paragBaixo {
        margin: 5vw 10vw 1.5vw 10vw;
        font-size: 0.9rem;
        line-height: 1.3rem;
@@ -306,10 +302,35 @@ main section.introducaoTRES p.paragrafo {
        border: 5px solid #704a2f;
    }
   
+  /*================================================
+                         Intro Organiza       
+==================================================*/
   
-  
-
-
+main section.introOrganiza{
+   background-color: white;
+   padding: 3vw 0;
+}
+main section.introOrganiza p.paragrafo {
+   margin: 2vw 10vw 5vw 10vw;
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   text-align: justify;
+}
+main section.introOrganiza p.paragBaixo {
+   margin: 5vw 10vw 1.5vw 10vw;
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   text-align: justify;
+}
+main section.introOrganiza p.imagem{
+   width: 80%;
+   text-align: center;
+   background-color: #cdbca5;
+   padding: 3vw 10vw 3vw 10vw;
+}
+main section.introOrganiza p.imagem img {
+   border: 5px solid #704a2f;
+}
 
 
 
