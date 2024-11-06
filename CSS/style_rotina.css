@@ -145,6 +145,8 @@ table {
 html {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: calc(10px + 1vw);
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 a {
@@ -278,7 +280,7 @@ div.intro p{
 ============================================*/
 section.comeco {
 	text-align: center;
-	margin: 4vw 0 3vw 0;
+	margin: 6vw 0 6vw 0;
 }
 
 .comeco h1{
@@ -323,13 +325,13 @@ section.comeco {
 .beneficios h1{
 	font-weight: bold;
 	padding: 10px;
-	margin: auto;
+	margin: 0 10vw 2vw 10vw;
 	text-align: center;
 	font-size: 50px;
 }
 .beneficios {
 	background-color: #cdbca5;
-	padding: 3vw 0 3vw 0;
+	padding: 8vw 0 8vw 0;
 }
 .beneficios p{
 	padding: 2vw 10vw;
@@ -344,13 +346,12 @@ section.comeco {
 ============================================*/
 .como_organizar h1{
 	font-weight: bold;
-	margin: 3vw 0 1.5vw 0;
+	margin: 6vw 0 2vw 0;
 	text-align: center;
-	font-size: 40px;
-	font-size: 1.6rem;
+	font-size: 2rem;
 }
 .como_organizar {
-	margin: 2vw 10vw 5vw 10vw;
+	margin: 3vw 10vw 6vw 10vw;
 }
 
 .como_organizar p{
@@ -383,7 +384,7 @@ table {
     width: 100%;
     border: 1px solid #ddd;
     border-collapse: collapse;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 table th, table td {
@@ -427,6 +428,7 @@ table td {
 .rotina_exemplo p{
 	font-size: 30px;
 	text-align: justify;
+	margin: 0 10vw 0 10vw;
 	
 }
 /*==========================================
@@ -435,28 +437,101 @@ table td {
 .forms {
 	justify-content: center;
 	background-color: #704a2f;
-	padding: 5vw 10vw 5vw 10vw;
+	padding: 4vw 10vw 5vw 10vw;
 }
 .forms h1 {
-	font-size: 2rem;
-	margin: 0 0 2.8vw 0;
+	background-color: #e4ddd6;
+	margin: 1vw 10vw 1vw 11vw;
+	padding: 2vw 8vw 2vw 8vw;
+	border: 2px solid white;
+	font-size: 2.2rem;
+	font-weight: bold;
 	text-align: center;
-	color: white;
+	color: #704a2f;
+	font-family: 'Times New Roman', Times, serif;
+}
+.forms p.sub {
+	margin: 2vw 11vw 2vw 11vw;
+	color: #e4ddd6;
+	font-size: 1.2rem;
+	text-align: center;
 }
 .forms form {
 	border: 2px solid white;
-	padding: 5vw 5vw 5vw 5vw;
+	padding: 3vw 5vw 5vw 5vw;
 	margin: 0 11vw 0 11vw;
 	background-color: #e4ddd6;
 	width: 60%;
+	line-height: 1.3rem;
+}
+.forms div.question {
+ margin: 2.8vw 0 1vw 0;
+}
+.forms p.lembrete {
+	font-size: 0.9rem;
+	text-align: center;
+	margin: 2vw 11vw 1vw 11vw;
+	color: #e4ddd6;
 }
 
 /*==========================================
           SECTION RESPOSTAFORMS
 ============================================*/
+.respostasforms {
+	background-color: #e4ddd6;
+	padding: 5vw 21vw 5vw 22vw;
 
 
+}
+.respostasforms h1 {
+	font-size: 1.9rem;
+	font-weight: bold;
+}
+.respostasforms .resulttext {
+	line-height: 0.9rem;
+	
+}
+.result-text {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.6;
+    white-space: pre-line; /* Para manter quebras de linha no texto */
+}
 
+.suggestion {
+    margin-bottom: 10px; /* Espaço entre as sugestões */
+}
+/*==========================================
+        	 SECTION REFERENCIAS
+============================================*/
+section.referencias {
+	background-color: #cdbca5;
+	padding: 2vw 10vw 6vw 10vw;
+}
+
+section.referencias h1 {
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 4vw 0 3vw 0;
+	text-align: center;
+}
+
+section.referencias h2 {
+	font-size: 1rem;
+	margin: 2vw 0vw 2vw 0vw;
+	text-decoration: underline;
+}
+
+section.referencias nav ul li {
+	font-size: 0.8rem;
+	margin: 2vw 0vw 2vw 0vw;
+	width: 80%;
+}
+
+section.referencias nav ul li a {
+	text-decoration: underline;
+}
 /*==========================================
            		 FOOTER
 ============================================*/
@@ -500,13 +575,3 @@ footer ul.logos li {
 }
 
 
-/*==========================================
-        	 SECTION REFERENCIAS
-============================================*/
-.referencias{
-	padding: 20px 20px;
-	background-color: #cdbca5;
-}
-.referencias h2{
-	margin-top: 10px;
-}

@@ -235,157 +235,153 @@
         </section>
 
         <section class="forms">
-            <h1>Organize Sua Rotina</h1>
+            <h1>Melhore Sua Rotina:</h1>
+            <p class="sub">Para receber sugestões de melhoras em sua rotina, responda as perguntas abaixo:</p>
             <form id="routineForm">
                 <!-- Disciplina e Organização em Casa -->
                 <div class="question">
                     <label>Quantas horas por dia você dorme?<br>
-                        <input type="radio" name="sleep" value="4h ou menos">4h ou menos<br>
+                        <input type="radio" name="sono" value="4h ou menos">4h ou menos<br>
                     </label>
                     <label>
-                        <input type="radio" name="sleep" value="6h">6h<br>
+                        <input type="radio" name="sono" value="6h">6h<br>
                     </label>
                     <label>
-                        <input type="radio" name="sleep" value="8h">8h<br>
+                        <input type="radio" name="sono" value="8h">8h<br>
                     </label>
                     <label>
-                        <input type="radio" name="sleep" value="mais de 8h">Mais de 8h
+                        <input type="radio" name="sono" value="mais de 8h">Mais de 8h
                     </label>
                 </div>
                 <div class="question">
                     <label>Quanto tempo você dedica para o estudo/trabalho em casa?<br>
-                    <input type="radio" name="study" value="Não estudo">Não estudo<br>
-                </label>
-                <label>
-                    <input type="radio" name="study" value="Até 30 min">Até 30 min<br>
-                </label>
-                <label>
-                    <input type="radio" name="study" value="1h">1h<br>
-                </label>
-                <label>
-                    <input type="radio" name="study" value="Mais de 2h">Mais de 2h
-                </label>
+                        <input type="radio" name="estudos" value="Não estudo">Não estudo/trabalho em casa<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="estudos" value="Até 30 min">Até 30 min<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="estudos" value="1h">1h<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="estudos" value="Mais de 2h">Mais de 2h
+                    </label>
                 </div>
                 <div class="question">
                     <label>Você costuma fazer serviços domésticos?<br>
-                    <input type="radio" name="serviços" value="Não costumo fazer">Não costumo fazer<br>
-                </label> 
-                <label>
-                    <input type="radio" name="serviços" value="Ajudo um pouco">Ajudo um pouco<br>
-                </label>
-                <label>
-                    <input type="radio" name="serviços" value="Faço tudo">Faço tudo
-                </label>
+                        <input type="radio" name="servicos" value="Não costumo fazer">Não costumo fazer<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="servicos" value="Ajudo um pouco">Ajudo um pouco<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="servicos" value="Faço tudo">Faço tudo
+                    </label>
                 </div>
                 <div class="question">
                     <label>Quantas refeições você faz ao dia?<br>
-                    <input type="radio" name="ref" value="Duas refeições">Duas refeições<br>
-                </label> 
-                <label>
-                    <input type="radio" name="ref" value="Três refeições">Três refeições<br>
-                </label>
-                <label>
-                    <input type="radio" name="ref" value="Quatro refeições">Quatro refeições<br>
-
-                </label> 
-                <label>
-                    <input type="radio" name="ref" value="Cinco ou mais">Cinco ou mais
-
-                </label>
-                </div>
-                <!-- Horário escolar -->
-                <div class="question">
-                    <label>Qual turno você estuda/trabalha?<br>
-                        <input type="radio" name="turno" value="Matutino">Matutino<br>
-                    </label> 
-                    <label>
-                        <input type="radio" name="turno" value="Vespertino">Vespertino<br>
+                        <input type="radio" name="ref" value="Duas refeições">Duas refeições<br>
                     </label>
                     <label>
-                        <input type="radio" name="turno" value="Noturno">Noturno<br>
+                        <input type="radio" name="ref" value="Três refeições">Três refeições<br>
                     </label>
                     <label>
-                        <input type="radio" name="turno" value="Integral">Integral
+                        <input type="radio" name="ref" value="Quatro refeições">Quatro refeições<br>
+
+                    </label>
+                    <label>
+                        <input type="radio" name="ref" value="Cinco ou mais">Cinco ou mais
+
                     </label>
                 </div>
                 <!-- Exerc fisicos -->
                 <div class="question">
                     <label>Com qual frequência você pratica exercícios físicos?<br>
-                    <input type="radio" name="exer.fisicos" value="Não pratico">Não pratico<br>
-                </label>
-                <label>
-                    <input type="radio" name="exer.fisicos" value="duas vezes">Duas vezes por semana<br>
-                </label>
-                <label>
-                    <input type="radio" name="exer.fisicos" value="todos os dias">Todos os dias
-                </label>
+                        <input type="radio" name="exercicios" value="Não pratico">Não pratico<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="exercicios" value="duas vezes">Duas vezes por semana<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="exercicios" value="quatro vezes">Quatro vezes por semana<br>
+                    </label>
+                    <label>
+                        <input type="radio" name="exercicios" value="todos os dias">Todos os dias
+                    </label>
                 </div>
                 <!-- formulário -->
-                <button type="button" onclick="generateRoutine()">Gerar Rotina</button>
+                <button type="button" onclick="generateRoutine()">Gerar Sugestões</button>
+              
             </form>
-            <div id="result" class="result"></div>
-
-            <script>
-                function generateRoutine() {
-                    const form = document.getElementById('routineForm');
-                    const formData = new FormData(form);
-                    const data = Object.fromEntries(formData.entries());
-                    let routine = "Sua rotina organizada:\n\n";
-
-                    // sugestões
-                    if (data.sleep == "4h ou menos") {
-                        routine += "- Suas horas de sono são insuficientes para a recuperação física e mental. Tente aumentar gradualmente seu sono para pelo menos 7 horas por noite. Crie um ambiente relaxante e uma rotina para dormir melhor.\n";
-                    } else if (data.sleep == "6h") {
-                        routine += "- Você pode estar perdendo benefícios essenciais de uma noite completa de descanso. Tente ajustar sua rotina para garantir de 7 a 8 horas de sono, o que é fundamental para a saúde cognitiva e o bem-estar..\n";
-                    } else if (data.sleep == "8h") {
-                        routine += "- Seu padrão de sono é ideal! Manter essa regularidade no sono ajuda a melhorar sua concentração, memória e disposição diária. Continue priorizando seu descanso.\n";
-                    } else if (data.sleep == "mais de 8h") {
-                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
-                    }
-
-                    if (data.study == "Não estudo") {
-                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
-                    } else if (data.study == "Até 30 min") {
-                        routine += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários..\n";
-                    } else if (data.study == "1h") {
-                        routine += "- Ótimo! Estudar por 1 hora diariamente é um bom ritmo. Para melhores resultados, diversifique suas técnicas de estudo, como resumos, mapas mentais e revisões espaçadas\n";
-                    } else if (data.study == "Mais de 2h") {
-                        routine += "- Excelente dedicação! Apenas cuide para fazer pausas entre as sessões de estudo para garantir que seu cérebro tenha tempo de processar as informações e evitar sobrecarga mental\n";
-                    }
-
-                    if (data.chores == "Não costumo fazer") {
-                        routine += "- Adicionar tarefas domésticas simples à sua rotina pode ajudar a desenvolver responsabilidade e habilidades organizacionais. Comece com pequenas tarefas diárias, como arrumar o quarto ou lavar a louça.\n";
-                    } else if (data.chores == "Ajudo um pouco") {
-                        routine += "- Ótimo que você já ajuda em casa! Tente aumentar sua participação, talvez se envolvendo em tarefas semanais maiores. Isso ajuda a manter a casa organizada e contribui para a convivência familiar.\n";
-                    } else if (data.chores == "Faço tudo") {
-                        routine += "- Você está fazendo um excelente trabalho! Mantenha o equilíbrio entre suas responsabilidades domésticas e pessoais, e não hesite em pedir ajuda quando necessário para não se sobrecarregar!\n";
-                    }
-
-                    if (data.meals == "Duas refeições") {
-                        routine += "- Fazer apenas duas refeições por dia pode deixar seu corpo sem nutrientes ao longo do dia. Tente incorporar lanches saudáveis entre as refeições e garantir que cada refeição seja balanceada.\n";
-                    } else if (data.meals == "Três refeições") {
-                        routine += "- Três refeições por dia é uma boa base. Tente equilibrar carboidratos, proteínas e gorduras saudáveis em cada refeição e, se possível, adicione um ou dois lanches saudáveis para manter sua energia.\n";
-                    } else if (data.meals == "Quatro refeições") {
-                        routine += "- Quatro refeições é um ótimo padrão alimentar. Certifique-se de que todas elas sejam ricas em nutrientes e mantenha um bom equilíbrio de alimentos naturais e integrais.\n";
-                    } else if (data.meals == "Cinco ou mais") {
-                        routine += "- Excelente! Ter várias refeições ao longo do dia ajuda a manter seu metabolismo ativo. Apenas garanta que suas escolhas alimentares sejam saudáveis e equilibradas para obter o máximo benefício.\n";
-                    }
-
-                    if (data.meals == "Não pratico") {
-                        routine += "- A prática regular de exercícios é essencial para a saúde física e mental. Comece com atividades leves, como caminhadas ou alongamentos diários, e aumente progressivamente a intensidade.\n";
-                    } else if (data.meals == "Duas vezes") {
-                        routine += "- Dois dias de exercícios por semana é um bom começo. Tente aumentar gradualmente para três ou quatro vezes por semana, incluindo atividades que você goste, como ciclismo ou esportes, para tornar o exercício mais prazeroso.\n";
-                    } else if (data.meals == "Quatro vezes") {
-                        routine += "- Excelente! Quatro dias de exercício por semana é uma ótima frequência. Continue variando as atividades para trabalhar diferentes grupos musculares e manter a motivação.\n";
-                    } else if (data.meals == "todos os dias") {
-                        routine += "- Exercitar-se todos os dias demonstra disciplina, mas não se esqueça de dar ao seu corpo tempo para descansar e se recuperar, especialmente se estiver fazendo atividades intensas. Dias de descanso ativo, como yoga ou caminhadas leves, são uma boa opção\n";
-                    }
-                    document.getElementById('result').textContent = routine;                }
-            </script>
-
+            <p class="lembrete">As sugestões feitas são baseadas em pesquisas feitas por membros de nossa equipe e podem não se
+                aplicar a todas as pessoas, para melhores sugestões, busque um especialista.</p>
         </section>
-        <section class="respostasForms">
+        <section class="respostasforms">
+            <div id="result" class="result">
 
+                <script>
+                    function generateRoutine() {
+                        const form = document.getElementById('routineForm');
+                        const formData = new FormData(form);
+                        const data = Object.fromEntries(formData.entries());
+                        let routineForm = "Sugestões de melhora para a sua rotina:\n\n";
+                        const resultElement = document.getElementById('result');
+                        resultElement.innerHTML = routineForm; 
+                        resultElement.classList.add('result-text');
+                       
+                        if (data.sono == "4h ou menos") {
+                            routineForm += "- Suas horas de sono são insuficientes para a recuperação física e mental. Tente aumentar gradualmente seu sono para pelo menos 7 horas por noite. Crie um ambiente relaxante e uma rotina para dormir melhor.\n";
+                        } else if (data.sono == "6h") {
+                            routineForm += "- Você pode estar perdendo benefícios essenciais de uma noite completa de descanso. Tente ajustar sua rotina para garantir de 7 a 8 horas de sono, o que é fundamental para a saúde cognitiva e o bem-estar..\n";
+                        } else if (data.sono == "8h") {
+                            routineForm += "- Seu padrão de sono é ideal! Manter essa regularidade no sono ajuda a melhorar sua concentração, memória e disposição diária. Continue priorizando seu descanso.\n";
+                        } else if (data.sono == "mais de 8h") {
+                            routineForm += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
+                        }
+
+                        if (data.estudos == "Não estudo/trabalho em casa") {
+                            routineForm += "- O fato de não estudar/trabalhar pode indicar que você não está dedicando tempo suficiente ao seu aprendizado. Mesmo que você não tenha uma carga de estudos formal, procure estabelecer um tempo diário para aprender algo novo, seja lendo, praticando alguma habilidade ou fazendo cursos online. A prática constante é essencial para o crescimento pessoal.\n";
+                        } else if (data.estudos == "Até 30 min") {
+                            routineForm += "- Se você está estudando/trabalhando apenas até 30 minutos por dia, pode ser interessante tentar aumentar gradativamente o tempo de estudo. Estudos indicam que sessões de estudo mais longas e com intervalos planejados são mais eficazes para o aprendizado. Comece com 45 minutos de estudo e 15 minutos de descanso, ajustando conforme sua capacidade de concentração. \n";
+                        } else if (data.estudos == "1h") {
+                            routineForm += "- Ótimo! Estudar por 1 hora diariamente é um bom ritmo. Para melhores resultados, diversifique suas técnicas de estudo, como resumos, mapas mentais e revisões espaçadas.\n";
+                        } else if (data.estudos == "Mais de 2h") {
+                            routineForm += "- Excelente dedicação! Apenas cuide para fazer pausas entre as sessões de estudo para garantir que seu cérebro tenha tempo de processar as informações e evitar sobrecarga mental.\n";
+                        }
+
+                        if (data.servicos == "Não costumo fazer") {
+                            routineForm += "- Adicionar tarefas domésticas simples à sua rotina pode ajudar a desenvolver responsabilidade e habilidades organizacionais. Comece com pequenas tarefas diárias, como arrumar o quarto ou lavar a louça.\n";
+                        } else if (data.servicos == "Ajudo um pouco") {
+                            routineForm += "- Ótimo que você já ajuda em casa! Tente aumentar sua participação, talvez se envolvendo em tarefas semanais maiores. Isso ajuda a manter a casa organizada e contribui para a convivência familiar.\n";
+                        } else if (data.servicos == "Faço tudo") {
+                            routineForm += "- Você está fazendo um excelente trabalho! Mantenha o equilíbrio entre suas responsabilidades domésticas e pessoais, e não hesite em pedir ajuda quando necessário para não se sobrecarregar!\n";
+                        }
+
+                        if (data.ref == "Duas refeições") {
+                            routineForm += "- Fazer apenas duas refeições por dia pode deixar seu corpo sem nutrientes ao longo do dia. Tente incorporar lanches saudáveis entre as refeições e garantir que cada refeição seja balanceada.\n";
+                        } else if (data.ref == "Três refeições") {
+                            routineForm += "- Três refeições por dia é uma boa base. Tente equilibrar carboidratos, proteínas e gorduras saudáveis em cada refeição e, se possível, adicione um ou dois lanches saudáveis para manter sua energia.\n";
+                        } else if (data.ref == "Quatro refeições") {
+                            routineForm += "- Quatro refeições é um ótimo padrão alimentar. Certifique-se de que todas elas sejam ricas em nutrientes e mantenha um bom equilíbrio de alimentos naturais e integrais.\n";
+                        } else if (data.ref == "Cinco ou mais") {
+                            routineForm += "- Excelente! Ter várias refeições ao longo do dia ajuda a manter seu metabolismo ativo. Apenas garanta que suas escolhas alimentares sejam saudáveis e equilibradas para obter o máximo benefício.\n";
+                        }
+
+                        if (data.exercicios == "Não pratico") {
+                            routineForm += "- A prática regular de exercícios é essencial para a saúde física e mental. Comece com atividades leves, como caminhadas ou alongamentos diários, e aumente progressivamente a intensidade.\n";
+                        } else if (data.exercicios == "duas vezes") {
+                            routineForm += "- Dois dias de exercícios por semana é um bom começo. Tente aumentar gradualmente para três ou quatro vezes por semana, incluindo atividades que você goste, como ciclismo ou esportes, para tornar o exercício mais prazeroso.\n";
+                        } else if (data.exercicios == "quatro vezes") {
+                            routineForm += "- Excelente! Quatro dias de exercício por semana é uma ótima frequência. Continue variando as atividades para trabalhar diferentes grupos musculares e manter a motivação.\n";
+                        } else if (data.exercicios == "todos os dias") {
+                            routineForm += "- Exercitar-se todos os dias demonstra disciplina, mas não se esqueça de dar ao seu corpo tempo para descansar e se recuperar, especialmente se estiver fazendo atividades intensas. Dias de descanso ativo, como yoga ou caminhadas leves, são uma boa opção\n";
+                        }
+                        document.getElementById('result').textContent = routineForm;
+                    }
+                    
+                </script>
+                
+            </div>
         </section>
         <section class="referencias">
             <h1>Referências</h1>
@@ -404,23 +400,24 @@
                         Acesso em: 04 out. 2024.
                     </li>
                 </ul>
+                <h2>Imagens:</h2>
+                <ul>
+                    <li>
+                        PEXELS, Foto-do-planejador-e-materiais-de-escrita. Disponível
+                        em: <a
+                            href="https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/.">"https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/."</a>
+                        Acesso em 29 out. 2024.
+                    </li>
+                    <li>
+                        Paico Oficial,
+                        pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco.
+                        Disponívelem: <a
+                            href="https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c">"https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c"</a>
+                        Acesso em 29 out. 2024.
+                    </li>
+                </ul>
             </nav>
-            <h2>Imagens:</h2>
-            <ul>
-                <li>
-                    PEXELS, Foto-do-planejador-e-materiais-de-escrita. Disponível
-                    em: <a
-                        href="https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/.">"https://www.pexels.com/pt-br/foto/foto-do-planejador-e-materiais-de-escrita-760720/."</a>
-                    Acesso em 29 out. 2024.
-                </li>
-                <li>
-                    Paico Oficial,
-                    pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco.
-                    Disponívelem: <a
-                        href="https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c">"https://unsplash.com/pt-br/fotografias/pessoa-escrevendo-em-papel-branco-ao-lado-de-caneca-de-ceramica-branca-em-tecido-branco-HbO9vbXqO0c"</a>
-                    Acesso em 29 out. 2024.
-                </li>
-            </ul>
+
 
         </section>
     </main>
