@@ -212,11 +212,15 @@ main section.objetivo {
 }
 
 main section.objetivo details summary {
-	margin: 4vw 10vw 5vw 2vw;
+	margin: 4vw 25vw 4vw 25vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
+	background-color: #2f2a19;
+	padding: 2vw 0 2vw 0;
+	border-radius: 100px;
+	color: #cdbca5;
 }
 
 main section.objetivo details p.objetivo {
@@ -235,11 +239,15 @@ main section.desenvolvimento {
 }
 
 main section.desenvolvimento details summary {
-	margin: 4vw 10vw 5vw 2vw;
+	margin: 4vw 25vw 4vw 25vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
+	background-color: #704a2f;
+	padding: 2vw 0 2vw 0;
+	border-radius: 100px;
+	color: #e4ddd6;
 }
 
 main section.desenvolvimento details p.desenvolvimento {
@@ -258,11 +266,15 @@ main section.historia {
 }
 
 main section.historia details summary {
-	margin: 4vw 10vw 5vw 2vw;
+	margin: 4vw 25vw 4vw 25vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
+	background-color: #2f2a19;
+	padding: 2vw 0 2vw 0;
+	border-radius: 100px;
+	color: #cdbca5;
 }
 
 main section.historia details p.historia {
@@ -271,25 +283,31 @@ main section.historia details p.historia {
 	font-size: 1.1rem;
 	line-height: 1.3rem;
 }
-
-main section.textt {
-	background-color: #704a2f;
-	padding: 1vw 0 0 0;
+main section.historia details p.historia span {
+	font-style: italic;
 }
 
-main section.textt h2.time {
+/*==========================================
+            	SECTION.TIME
+============================================*/
+main section.time {
 	background-color: #e4ddd6;
-	margin: 2vw 20vw;
-	padding: 2vw 4vw;
-	border-radius: 90px;
-	font-size: 1.5rem;
-	font-weight: bold;
-	text-align: center;
-	color: #704a2f;
-	font-family: 'Times New Roman', Times, serif;
+	padding: 3vw 0 3vw 0;
 }
 
-main section.textt ul li.bege {
+main section.time details summary {
+	margin: 4vw 25vw 4vw 25vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #704a2f;
+	padding: 2vw 0 2vw 0;
+	border-radius: 100px;
+	color: #e4ddd6;
+}
+
+main section.time details ul li.branco {
 	display: flex;
 	background-color: #e4ddd6;
 	gap: 1vw;
@@ -297,24 +315,24 @@ main section.textt ul li.bege {
 	align-items: center;
 }
 
-main section.textt ul li.bege p.img img {
+main section.time details ul li.branco p.img img {
 	width: 70%;
 	border: 5px solid #704a2f;
 	margin: 2vw;
 	border-radius: 10rem;
 }
 
-main section.textt ul li.bege p.img {
+main section.time details ul li.branco p.img {
 	margin: 2vw 0 2vw 10vw;
 }
 
-main section.textt ul li.bege p.inform span {
+main section.time details ul li.branco p.inform span {
 	font-size: 1.6rem;
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: bold;
 }
 
-main section.textt ul li.text {
+main section.time details ul li.bege {
 	width: 100%;
 	display: flex;
 	gap: 1vw;
@@ -322,26 +340,26 @@ main section.textt ul li.text {
 	background-color: #cdbca5;
 }
 
-main section.textt ul li.text p {
+main section.time details ul li.bege p {
 	font-size: 1rem;
 	margin: 2vw 0 2vw 10vw;
 	word-wrap: break-word;
 }
 
-main section.textt ul li.text p.inform span {
+main section.time details ul li.bege p.inform span {
 	font-size: 1.6rem;
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: bold;
 }
 
-main section.textt ul li.text p.inform {
+main section.time details ul li.bege p.inform {
 	line-height: 40px;
 	margin: 0 10vw 0 0;
 }
 
-main section.textt ul li.text p.img img {
+main section.time details ul li.bege p.img img {
 	width: 80%;
-	border: 5px solid #704a2f;
+	border: 5px solid #2f2a19;
 	margin: 2vw;
 	border-radius: 10rem;
 }
