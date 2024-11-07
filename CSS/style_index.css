@@ -338,25 +338,35 @@ main section.introOrganiza p.imagem img {
 /*==========================================
            SECTION.REFERENCIAS
 ============================================*/
-main section.referencias p {
-   font-size: 0.8rem;
-   word-wrap: break-word;
-   margin:1vw;
-}
-
-
 main section.referencias {
-   background-color: #cdbca5;
-   padding: 2vw 0 2vw 0;
+	background-color: #cdbca5;
+	padding: 2vw 10vw 6vw 10vw;
 }
-
 
 main section.referencias h2 {
-   font-size: 1rem;
-   font-weight: bold;
-   padding: 2vw 10VW 2vw 10VW;
-   text-align: center;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 4vw 0 3vw 0;
+	text-align: center;
 }
+
+main section.referencias h3 {
+	font-size: 1rem;
+	margin: 2vw 0vw 2vw 0vw;
+	text-decoration: underline;
+}
+
+main section.referencias nav ul li {
+	font-size: 0.8rem;
+	margin: 2vw 0vw 2vw 0vw;
+	width: 80%;
+}
+
+main section.referencias nav ul li a {
+	text-decoration: underline;
+}
+
+
 
 
 /*==========================================
