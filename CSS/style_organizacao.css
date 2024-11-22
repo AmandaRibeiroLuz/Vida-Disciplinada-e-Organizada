@@ -365,6 +365,33 @@ main section.passos ul li p.video video {
 }
 
 /*==========================================
+           	SECTION.VIDEOS
+============================================*/
+main section.videos {
+	border-top: 2px solid #704a2f;
+	background-color: #e4ddd6;
+	padding: 3vw 0 3vw 0;
+	text-align: center;
+}
+main section.videos h1 {
+	margin: 4vw 25vw 4vw 25vw;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	background-color: #704a2f;
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 100px;
+	color:#e4ddd6;
+	font-family: 'Times New Roman', Times, serif;
+}
+main section.videos p {
+	margin: 3vw 10vw 3vw 10vw;
+}
+main section.videos p iframe {
+	border: 5px solid #704a2f;
+}
+
+/*==========================================
            	SECTION.REFERENCIAS
 ============================================*/
 main section.referencias {
