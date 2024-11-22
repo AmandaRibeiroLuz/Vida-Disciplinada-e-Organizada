@@ -141,18 +141,22 @@ table {
 html {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: calc(10px + 1vw);
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 a {
 	color: black;
 	text-decoration: none;
 }
+
 /*==========================================
            		 HEADER
 ============================================*/
 header {
 	border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav {
 	display: flex;
 	background-color: #d1ae95;
@@ -165,7 +169,7 @@ header nav {
 	border-bottom: 2.5px solid #2f2a19;
 }
 
-header nav p img{
+header nav p img {
 	border-radius: 50px;
 	justify-content: left;
 	width: 40px;
@@ -189,49 +193,59 @@ header nav ul li.atual a {
 	padding: 8px;
 	border-radius: 0.5rem;
 }
+
 /*==========================================
             	MAIN
 ============================================*/
-body.estudosTrabalho main h2{
+body.estudosTrabalho main h2 {
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
-	font-family:'Times New Roman', Times, serif ;
+	font-family: 'Times New Roman', Times, serif;
 }
-body.estudosTrabalho main p{
+
+body.estudosTrabalho main p {
 	text-align: justify;
+	
 }
-body.estudosTrabalho main p.img{
+
+body.estudosTrabalho main p.img {
 	text-align: center;
 }
-body.estudosTrabalho main p.img img{
+
+body.estudosTrabalho main p.img img {
 	width: 45%;
 }
-body.estudosTrabalho main hr{
+
+body.estudosTrabalho main hr {
 	margin: 1.5vw 10vw 1.5vw 10vw;
 	color: #2f2a19;
 }
+
 /*==========================================
             	Banner
 ============================================*/
-main p.banner img{
+main p.banner img {
 	width: 100%;
 }
+
 /*==========================================
             	Intro
 ============================================*/
-section.intro{
+section.intro {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
-section.intro h2{
+
+section.intro h2 {
 	margin: 4vw 0 0 0;
 }
 
-section.intro p{
-    margin: 2vw 10vw 2vw 10vw;
+section.intro p {
+	margin: 2vw 10vw 2vw 10vw;
 }
-section.intro p.video video{
+
+section.intro p.video video {
 	margin: 0 10vw 4vw 10vw;
 	text-align: center;
 	border: 9px solid #704a2f;
@@ -245,26 +259,32 @@ section.importancia {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
-section.importancia h2{
-    margin: 2vw 0 2vw 0;
+
+section.importancia h2 {
+	margin: 2vw 0 2vw 0;
 }
-section.importancia div.maior{
+
+section.importancia div.maior {
 	display: flex;
 	width: 100%;
 }
+
 section.importancia div.maior div.image {
 	width: 50%;
 	margin: 2vw 2vw 2vw 10vw;
 }
-section.importancia p.image img{
+
+section.importancia p.image img {
 	border: 5px solid #704a2f;
-	width: 70%;
+	width: 100%;
 }
-section.importancia div.maior div.texto{
+
+section.importancia div.maior div.texto {
 	width: 50%;
-	margin: 2vw 10vw 2vw 2vw ;
+	margin: 2vw 10vw 2vw 2vw;
 }
-section.importancia p{
+
+section.importancia p {
 	margin: 0.7vw 0 0 5vw;
 	line-height: 1.3rem;
 }
@@ -272,68 +292,83 @@ section.importancia p{
 /*==========================================
            		 Vantagens
 ============================================*/
-section.vantagens{
+section.vantagens {
 	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
-	
+	padding: 6vw 0 5vw 0;
 }
-section.vantagens h2{
-	margin: 2vw 0 0 0;
+
+section.vantagens h2.vantagem {
+	margin: 7vw 10vw 3 10vw;
 }
-section.vantagens h2.resposta{
+
+section.vantagens h2.resposta {
 	font-weight: bold;
-	background-color: #704a2f;
+	background-color: #cdbca5;
 	padding: 10px 10px 10px 10px;
 	border-radius: 100px;
-	color:#e4ddd6;
-	margin: 2vw 40vw 2vw 40vw;
+	color: #704a2f;
+	margin: 5vw 10vw 4vw 10vw;
 }
-section.vantagens p{
-	margin: 2vw 10vw 2vw 10vw;
+
+section.vantagens p {
+	margin: 4vw 10vw 4vw 10vw;
 	line-height: 1.3rem;
 }
-section.vantagens div.maior{
+
+section.vantagens div.maior {
 	display: flex;
 }
-section.vantagens div.maior div.lista{
+
+section.vantagens div.maior div.lista {
 	width: 50%;
 	margin: 2vw 2vw 2vw 10vw;
 }
-section.vantagens ul{
-	background-color: #d1ae95;
+
+section.vantagens ul {
+	background-color: #cdbca5;
 	border-radius: 25px;
 	padding: 2vw;
-	margin: 0 10vw 0 0;
+	margin: 0 5vw 0 0;
 }
-section.vantagens ul li{
+
+section.vantagens ul li {
 	text-align: justify;
 	color: #2f2a19;
 	margin: 2vw;
 	font-weight: bold;
 }
-section.vantagens div.maior div.text{
+
+section.vantagens div.maior div.text {
 	width: 50%;
 }
-section.vantagens div.maior div.text p{
-	margin: 5vw 10vw 2vw 2vw ;
+
+section.vantagens div.maior div.text p {
+	margin: 5vw 10vw 2vw 2vw;
 }
-section.vantagens p.img img{
+
+section.vantagens p.img img {
 	border: #2f2a19 solid 9px;
+	width: 100%;
 }
+
 /*==========================================
            		 Rotina
 ============================================*/
-section.rotina{
+section.rotina {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
-section.rotina p{
-	margin: 2vw 10vw 2vw 10vw;
+
+section.rotina p {
+	margin: 4vw 10vw 4vw 10vw;
+	line-height: 1.4rem;
 }
-section.rotina h2{
-	margin: 2vw;
+
+section.rotina h2 {
+	margin: 4vw;
 }
-section.rotina h3{
+
+section.rotina h3 {
 	font-weight: bold;
 	font-size: 1.7rem;
 	font-family: 'Times New Roman', Times, serif;
@@ -342,68 +377,87 @@ section.rotina h3{
 	padding: 1.5vw;
 	border-radius: 10vw;
 	color: #632b04;
-	text-decoration: underline;
-	margin: 2vw 35vw;
+	margin: 9vw 25vw 3vw 25vw ;
 }
-section.rotina p.diferente{
-	background-color: #632b04;
+
+section.rotina p.diferente {
+	background-color: #704a2f;
 	color: #cdbca5;
 	padding: 2vw;
 	border-radius: 1.3vw;
 	font-family: 'Times New Roman', Times, serif;
 }
+section.rotina img {
+	width: 100%;
+	border: #704a2f solid 7px;
+}
 /*==========================================
            		 Lista
 ============================================*/
-section.lista{
+section.lista {
 	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
+	padding: 6vw 0 5vw 0;
 }
-section.lista ul li h3{
+
+section.lista ul li h3 {
 	text-align: center;
 	font-weight: bold;
-	margin: 4vw 33vw ;
+	margin: 9vw 10vw 3vw 10vw;
 	background-color: #632b04;
 	color: #e4ddd6;
-	padding: 40px;
-	border-radius: 2vw ;
+	padding: 20px;
+	border-radius: 2vw;
 }
-section.lista ul li p{
-	margin: 2vw 10vw 2vw 10vw;;
-}	
-section.lista p.video video{
+
+section.lista ul li p {
+	margin: 2vw 10vw 2vw 10vw;
+	;
+}
+section.lista img {
+	border: #632b04 solid 9px;
+	width: 100%;
+}
+section.lista p.video video {
 	margin: 5vw 10vw 4vw 10vw;
 	text-align: center;
+	width: 80%;
 	border: 5px solid #704a2f;
 }
+
 /*==========================================
            		 Referencias
 ============================================*/
 section.referencias {
-	background-color: #d1ae95;
+	background-color: #cdbca5;
 	padding: 2vw;
 }
-section.referencias h2{
+
+section.referencias h2 {
 	font-size: 2rem;
 	margin: 2vw;
 }
-section.referencias h3{
-	margin: 0 3vw 0 3vw;
-	font-size: 1.2rem;
+
+section.referencias h3 {
+	font-size: 1rem;
+	margin: 2vw 10vw 2vw 10vw;
+	text-decoration: underline;
 }
-section.referencias p{
+
+section.referencias p {
 	margin: 2vw 10vw 2vw 10vw;
 	text-align: left;
+	font-size: 0.8rem;
 }
+
 /*==========================================
            		 FOOTER
 ============================================*/
 footer {
 	background-color: #704a2f;
 	padding: 2vw 0vw 2vw 0;
+	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
-
 }
 
 footer ul li a {

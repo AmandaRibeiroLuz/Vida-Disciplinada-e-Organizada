@@ -1,11 +1,8 @@
 style_organizacao.css
-
-
 /* http://meyerweb.com/eric/tools/css/reset/
   v2.0 | 20110126
   License: none (public domain)
 */
-
 
 html,
 body,
@@ -96,7 +93,6 @@ video {
    vertical-align: baseline;
 }
 
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -112,11 +108,9 @@ section {
    display: block;
 }
 
-
 body {
    line-height: 1;
 }
-
 
 ol,
 ul {
@@ -129,7 +123,6 @@ q {
    quotes: none;
 }
 
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -138,33 +131,25 @@ q:after {
    content: none;
 }
 
-
 table {
    border-collapse: collapse;
    border-spacing: 0;
 }
 
-
 /*==========================================
                GERAL
 ============================================*/
-
-
 html {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-size: calc(10px + 1vw);
+   overflow-x: hidden;
+	overflow-y: scroll;
 }
-
 
 a {
    color: black;
    text-decoration: none;
 }
-
-
-
-
-
 
 /*==========================================
                INDEX
@@ -173,9 +158,11 @@ a {
 main img.banner {
    width: 100%;
 }
+
 header {
    border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav {
    display: flex;
    background-color: #d1ae95;
@@ -188,7 +175,6 @@ header nav {
    border-bottom: 2.5px solid #2f2a19;
 }
 
-
 header nav p img {
    border-radius: 50px;
    justify-content: left;
@@ -196,16 +182,17 @@ header nav p img {
    margin: 0 0 0 4vw;
 }
 
-
 header nav ul {
    display: flex;
    justify-content: right;
    font-size: 0.8rem;
    font-weight: bold;
 }
+
 header nav ul li {
    margin: 0 10px 0 10px;
 }
+
 header nav ul li.atual a {
    background-color: #704a2f;
    color: #e4ddd6;
@@ -213,161 +200,169 @@ header nav ul li.atual a {
    border-radius: 0.5rem;
 }
 
-
 /*================================================
                    Introdução                 
 ==================================================*/
-
-
 body main h1 {
-       padding: 3vw 0 3vw 0;
-       text-align: center;
-       font-size: 2.6rem;
-       font-weight: bold;
-       background-color: #e4ddd6;
-   }
-   main section.introducao {
-       background-color: #e4ddd6;
-       padding: 3vw 0;
-   }
-   main section.introducao div.dividir {
-       display: flex;
-       width: 100%;
-   }
-   main section.introducao div.dividir div p.imagem{
-       margin: 2vw 5vw 2vw 10vw;
-       width: 50%;
-   }
-   main section.introducao div.dividir div p.imagem img{
-   border: 5px solid #704a2f; 
-   }
-   main section.introducao div.dividir div.texto {
-       text-align: center;
-       width: 50%;
-       margin: 2vw 10vw 2vw 5vw;
-   }
-   main section.introducao div.dividir div.texto p.paragrafo {
-       font-size: 0.9rem;
-       text-align: justify;
-       line-height: 1.3rem;
-   }
+   padding: 3vw 0 3vw 0;
+   text-align: center;
+   font-size: 2.6rem;
+   font-weight: bold;
+   background-color: #e4ddd6;
+}
+
+main section.introducao {
+   background-color: #e4ddd6;
+   padding: 3vw 0;
+}
+
+main section.introducao div.dividir {
+   display: flex;
+   width: 100%;
+}
+
+main section.introducao div.dividir div p.imagem {
+   margin: 2vw 5vw 2vw 10vw;
+   width: 50%;
+}
+
+main section.introducao div.dividir div p.imagem img {
+   border: 5px solid #704a2f;
+}
+
+main section.introducao div.dividir div.texto {
+   text-align: center;
+   width: 50%;
+   margin: 2vw 10vw 2vw 5vw;
+}
+
+main section.introducao div.dividir div.texto p.paragrafo {
+   font-size: 0.9rem;
+   text-align: justify;
+   line-height: 1.3rem;
+}
+
 /*================================================
                          Introducao 2        
 ==================================================*/
-   main section.introducaoDOIS{
-       background-color: white;
-       padding: 3vw 0;
-   }
-   main section.introducaoDOIS p.paragrafo {
-       margin: 2vw 10vw 5vw 10vw;
-       font-size: 0.9rem;
-       line-height: 1.3rem;
-       text-align: justify;
-   }
-   main section.introducaoDOIS p.paragBaixo {
-       margin: 5vw 10vw 1.5vw 10vw;
-       font-size: 0.9rem;
-       line-height: 1.3rem;
-       text-align: justify;
-   }
-   main section.introducaoDOIS p.imagem{
-       width: 80%;
-       text-align: center;
-       background-color: #cdbca5;
-       padding: 3vw 10vw 3vw 10vw;
-   }
-   main section.introducaoDOIS p.imagem img {
-       border: 5px solid #704a2f;
-   }
-   /*================================================
+main section.introducaoDOIS {
+   background-color: white;
+   padding: 3vw 0;
+}
+
+main section.introducaoDOIS p.paragrafo {
+   margin: 2vw 10vw 5vw 10vw;
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   text-align: justify;
+}
+
+main section.introducaoDOIS p.paragBaixo {
+   margin: 5vw 10vw 1.5vw 10vw;
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   text-align: justify;
+}
+
+main section.introducaoDOIS p.imagem {
+   width: 80%;
+   text-align: center;
+   background-color: #cdbca5;
+   padding: 3vw 10vw 3vw 10vw;
+}
+
+main section.introducaoDOIS p.imagem img {
+   border: 5px solid #704a2f;
+}
+
+/*================================================
                          Introducao 3        
 ==================================================*/
-main section.introducaoTRES{
+main section.introducaoTRES {
    background-color: #e4ddd6;
    padding: 3vw 0;
    display: flex;
    align-items: center;
 }
+
 main section.introducaoTRES p.paragrafo {
    font-size: 0.9rem;
    line-height: 1.3rem;
    margin: 3vw 5vw 3vw 10vw;
-   text-align:justify;
+   text-align: justify;
 }
-  
-   main section.introducaoTRES p.imagem {
-       margin: 3vw 10vw 3vw 5vw;
-   }
-   main section.introducaoTRES p.imagem img{
-       border: 5px solid #704a2f;
-   }
-  
-  /*================================================
+
+main section.introducaoTRES p.imagem {
+   margin: 3vw 10vw 3vw 5vw;
+}
+
+main section.introducaoTRES p.imagem img {
+   border: 5px solid #704a2f;
+}
+
+/*================================================
                          Intro Organiza       
 ==================================================*/
-  
-main section.introOrganiza{
+main section.introOrganiza {
    background-color: white;
    padding: 3vw 0;
 }
+
 main section.introOrganiza p.paragrafo {
    margin: 2vw 10vw 5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
+
 main section.introOrganiza p.paragBaixo {
    margin: 5vw 10vw 1.5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
-main section.introOrganiza p.imagem{
+
+main section.introOrganiza p.imagem {
    width: 80%;
    text-align: center;
    background-color: #cdbca5;
    padding: 3vw 10vw 3vw 10vw;
 }
+
 main section.introOrganiza p.imagem img {
    border: 5px solid #704a2f;
 }
-
-
-
 
 /*==========================================
            SECTION.REFERENCIAS
 ============================================*/
 main section.referencias {
-	background-color: #cdbca5;
-	padding: 2vw 10vw 6vw 10vw;
+   background-color: #cdbca5;
+   padding: 2vw 10vw 6vw 10vw;
 }
 
 main section.referencias h2 {
-	font-size: 1.6rem;
-	font-weight: bold;
-	padding: 4vw 0 3vw 0;
-	text-align: center;
+   font-size: 1.6rem;
+   font-weight: bold;
+   padding: 4vw 0 3vw 0;
+   text-align: center;
 }
 
 main section.referencias h3 {
-	font-size: 1rem;
-	margin: 2vw 0vw 2vw 0vw;
-	text-decoration: underline;
+   font-size: 1rem;
+   margin: 2vw 0vw 2vw 0vw;
+   text-decoration: underline;
 }
 
 main section.referencias nav ul li {
-	font-size: 0.8rem;
-	margin: 2vw 0vw 2vw 0vw;
-	width: 80%;
+   font-size: 0.8rem;
+   margin: 2vw 0vw 2vw 0vw;
+   width: 80%;
 }
 
 main section.referencias nav ul li a {
-	text-decoration: underline;
+   text-decoration: underline;
 }
-
-
-
 
 /*==========================================
                 FOOTER
@@ -375,17 +370,18 @@ main section.referencias nav ul li a {
 footer {
    background-color: #704a2f;
    padding: 2vw 0vw 2vw 0;
-   color:#e4ddd6;
+   color: #e4ddd6;
 }
+
 footer div {
    display: flex;
    margin: 0.5vw 0 0.6vw 6vw;
    font-size: 0.8rem;
 }
-footer div p {
-   margin:  0 4vw 0.2vw 1vw;
-}
 
+footer div p {
+   margin: 0 4vw 0.2vw 1vw;
+}
 
 footer {
    background-color: #704a2f;
@@ -393,25 +389,19 @@ footer {
    color: #e4ddd6;
    display: flex;
    font-size: 0.8rem;
-
-
 }
-
 
 footer ul li a {
    color: #e4ddd6;
 }
 
-
 footer ul li.direitos p {
    margin: 0 4vw 0.2vw 6vw;
 }
 
-
 footer ul li.des p {
    margin: 1vw 1vw 1vw 6vw;
 }
-
 
 footer ul li.alunos {
    display: flex;
@@ -420,22 +410,14 @@ footer ul li.alunos {
    font-size: 0.8rem;
 }
 
-
 footer ul li.alunos p {
    margin: 0.5vw 0 0.6vw 6vw;
 }
-
 
 footer ul.logos {
    margin: 2vw 4vw 1vw 18vw;
 }
 
-
 footer ul.logos li {
    margin: 1vw;
 }
-
-
-
-
-

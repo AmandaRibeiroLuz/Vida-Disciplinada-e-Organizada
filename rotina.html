@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <p><img src="src/LogoVitaOrdinata.png" alt="Logo Vita Ordinata"></p>
+            <p><a href="index.html"><img src="src/LogoVitaOrdinata.png" alt="Logo Vita Ordinata"></a></p>
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -137,14 +137,14 @@
             </p>
             <div>
                 <ul>
-                    <li>● Defina prioridades: Identifique as tarefas mais importantes e comece por elas.</li>
-                    <li>● Estabeleça horários: Divida seu dia em blocos de tempo para atividades específicas.</li>
+                    <li> Defina prioridades: Identifique as tarefas mais importantes e comece por elas.</li>
+                    <li> Estabeleça horários: Divida seu dia em blocos de tempo para atividades específicas.</li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li>● Inclua pausas: Reserve tempo para descanso e recuperação entre tarefas.</li>
-                    <li>● Revise e ajuste: Ao final do dia, reveja o que foi feito e ajuste o planejamento para o dia
+                    <li> Inclua pausas: Reserve tempo para descanso e recuperação entre tarefas.</li>
+                    <li> Revise e ajuste: Ao final do dia, reveja o que foi feito e ajuste o planejamento para o dia
                         seguinte.</li>
                 </ul>
             </div>
@@ -244,10 +244,10 @@
                         <input type="radio" name="sono" value="4h ou menos">4h ou menos<br>
                     </label>
                     <label>
-                        <input type="radio" name="sono" value="6h">6h<br>
+                        <input type="radio" name="sono" value="6h">5-6h<br>
                     </label>
                     <label>
-                        <input type="radio" name="sono" value="8h">8h<br>
+                        <input type="radio" name="sono" value="8h">7-8h<br>
                     </label>
                     <label>
                         <input type="radio" name="sono" value="mais de 8h">Mais de 8h
@@ -300,10 +300,10 @@
                         <input type="radio" name="exercicios" value="Não pratico">Não pratico<br>
                     </label>
                     <label>
-                        <input type="radio" name="exercicios" value="duas vezes">Duas vezes por semana<br>
+                        <input type="radio" name="exercicios" value="duas vezes">Uma a Duas a vezes por semana<br>
                     </label>
                     <label>
-                        <input type="radio" name="exercicios" value="quatro vezes">Quatro vezes por semana<br>
+                        <input type="radio" name="exercicios" value="quatro vezes">Três a Quatro vezes por semana<br>
                     </label>
                     <label>
                         <input type="radio" name="exercicios" value="todos os dias">Todos os dias
@@ -331,9 +331,9 @@
                        
                         if (data.sono == "4h ou menos") {
                             routineForm += "- Suas horas de sono são insuficientes para a recuperação física e mental. Tente aumentar gradualmente seu sono para pelo menos 7 horas por noite. Crie um ambiente relaxante e uma rotina para dormir melhor.\n";
-                        } else if (data.sono == "6h") {
+                        } else if (data.sono == "5-6h") {
                             routineForm += "- Você pode estar perdendo benefícios essenciais de uma noite completa de descanso. Tente ajustar sua rotina para garantir de 7 a 8 horas de sono, o que é fundamental para a saúde cognitiva e o bem-estar..\n";
-                        } else if (data.sono == "8h") {
+                        } else if (data.sono == "7-8h") {
                             routineForm += "- Seu padrão de sono é ideal! Manter essa regularidade no sono ajuda a melhorar sua concentração, memória e disposição diária. Continue priorizando seu descanso.\n";
                         } else if (data.sono == "mais de 8h") {
                             routineForm += "- Embora o sono prolongado possa ser benéfico em certos casos, certifique-se de que isso não seja um sinal de fadiga excessiva. Se estiver se sentindo cansado mesmo com tanto sono, considere revisar sua alimentação e hábitos diários.\n";
@@ -370,9 +370,9 @@
                         if (data.exercicios == "Não pratico") {
                             routineForm += "- A prática regular de exercícios é essencial para a saúde física e mental. Comece com atividades leves, como caminhadas ou alongamentos diários, e aumente progressivamente a intensidade.\n";
                         } else if (data.exercicios == "duas vezes") {
-                            routineForm += "- Dois dias de exercícios por semana é um bom começo. Tente aumentar gradualmente para três ou quatro vezes por semana, incluindo atividades que você goste, como ciclismo ou esportes, para tornar o exercício mais prazeroso.\n";
+                            routineForm += "- Um a Dois dias de exercícios por semana é um bom começo. Tente aumentar gradualmente para três ou quatro vezes por semana, incluindo atividades que você goste, como ciclismo ou esportes, para tornar o exercício mais prazeroso.\n";
                         } else if (data.exercicios == "quatro vezes") {
-                            routineForm += "- Excelente! Quatro dias de exercício por semana é uma ótima frequência. Continue variando as atividades para trabalhar diferentes grupos musculares e manter a motivação.\n";
+                            routineForm += "- Excelente! Três a quatro dias de exercício por semana é uma ótima frequência. Continue variando as atividades para trabalhar diferentes grupos musculares e manter a motivação.\n";
                         } else if (data.exercicios == "todos os dias") {
                             routineForm += "- Exercitar-se todos os dias demonstra disciplina, mas não se esqueça de dar ao seu corpo tempo para descansar e se recuperar, especialmente se estiver fazendo atividades intensas. Dias de descanso ativo, como yoga ou caminhadas leves, são uma boa opção\n";
                         }

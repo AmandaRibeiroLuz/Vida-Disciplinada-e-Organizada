@@ -137,7 +137,6 @@ table {
 /*==========================================
                 GERAL
 ============================================*/
-
 html {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: calc(10px + 1vw);
@@ -225,7 +224,6 @@ img.banner {
 /*========================================
 				SECTION.TEXTO
 ============================================*/
-
 section.text ul li.oque {
 	gap: 1vw;
 	width: 100%;
@@ -373,26 +371,32 @@ section.problema ul li.img {
 
 section.problema ul li.img img {
 	border: 5px solid #2f2a19;
-
 }
+
 /*=======================================
 			SECTION.VÌDEOS
 ==========================================*/
 section.videos {
 	background-color: #e4ddd6;
 	padding: 5vw 10vw 5vw 10vw;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
 }
+
 section.videos p {
 	font-size: 1.2rem;
 	margin: 2vw 0 5vw 0;
 }
-section.videos div ul{
+
+section.videos div ul {
 	display: flex;
-	gap: 16vw;
+	gap: 10vw;
 	width: 100%;
 }
+
 section.videos div ul li {
-	width: 40%;
+	width: 100%;
 	margin: 5px;
 
 }

@@ -92,7 +92,7 @@ video {
 	vertical-align: baseline;
 }
 
-*{
+* {
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -165,6 +165,7 @@ a {
 header {
 	border-bottom: 2.5px solid #2f2a19;
 }
+
 header nav {
 	display: flex;
 	background-color: #d1ae95;
@@ -206,11 +207,12 @@ header nav ul li.atual a {
 /*==========================================
            		 MAIN
 ============================================*/
-hr{
+hr {
 	width: 95%;
 	margin: 30px auto;
 	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
+
 .intro {
 	background-color: #cdbca5;
 	display: flex;
@@ -219,25 +221,25 @@ hr{
 	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
-.intro img{
+.intro img {
 	width: 100%;
 	border-radius: 20px;
 }
 
-.image-box{
+.image-box {
 	display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
 }
 
-.intro p{
+.intro p {
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: 500;
 	padding: 20px;
 	font-size: 25px;
 }
 
-.intro h3{
+.intro h3 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 40px;
@@ -258,23 +260,25 @@ body main h2.tittle {
 	margin: 2vw 2vw 2vw 0;
 	text-align: center;
 }
-div.intro p{
+
+div.intro p {
 	margin: 2vw 9vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
 
- main section.banner p.imagem img {
+main section.banner p.imagem img {
 	width: 100%;
 	justify-content: center;
 	margin: 0 0 1vw 0;
- }
+}
 
- main section div.intro p {
+main section div.intro p {
 	margin: 1vw 3vw 1.5vw 1vw;
 	display: flex;
- }
+}
+
 /*==========================================
            		 SECTION COMEÇO
 ============================================*/
@@ -283,7 +287,7 @@ section.comeco {
 	margin: 6vw 0 6vw 0;
 }
 
-.comeco h1{
+.comeco h1 {
 	font-size: 40px;
 	font-weight: bold;
 	padding: 10px;
@@ -292,17 +296,18 @@ section.comeco {
 	margin-top: 10px
 }
 
-.comeco p{
+.comeco p {
 	font-size: 25px;
 	padding: 10px;
 	padding-bottom: 50px;
 }
 
-.list-box{
+.list-box {
 	display: flex;
 	flex-direction: row;
 	margin: 0 10vw 0 10vw;
 }
+
 .list-box li {
 	border: 0px solid black;
 	padding: 90px;
@@ -313,101 +318,103 @@ section.comeco {
 	border-radius: 20px;
 }
 
-.list-box span{
+.list-box span {
 	font-weight: bold;
 	font-size: 30px;
 }
 
-
 /*==========================================
         	 SECTION - BENEFICIOS
 ============================================*/
-.beneficios h1{
+.beneficios h1 {
 	font-weight: bold;
 	padding: 10px;
 	margin: 0 10vw 2vw 10vw;
 	text-align: center;
 	font-size: 50px;
 }
+
 .beneficios {
 	background-color: #cdbca5;
 	padding: 8vw 0 8vw 0;
 }
-.beneficios p{
+
+.beneficios p {
 	padding: 2vw 10vw;
 	font-size: 30px;
 	text-align: justify;
 }
 
-
-
 /*==========================================
         	 SECTION - COMO ORGANIZAR
 ============================================*/
-.como_organizar h1{
+.como_organizar h1 {
 	font-weight: bold;
 	margin: 6vw 0 2vw 0;
 	text-align: center;
 	font-size: 2rem;
 }
+
 .como_organizar {
 	margin: 3vw 10vw 6vw 10vw;
 }
 
-.como_organizar p{
+.como_organizar p {
 	margin: 2vw 0 3vw 0;
 	font-size: 30px;
 	text-align: justify;
 }
 
-.como_organizar ul{
+.como_organizar ul {
 	gap: 2vw;
 	display: flex;
 	margin: 1vw 0 2vw 0;
 	justify-content: center;
 	align-items: center;
 }
-.como_organizar li{
+
+.como_organizar li {
 	text-align: center;
 	background-color: #e4ddd6;
 	padding: 50px;
 	border: 2px solid black;
 	width: 50%;
-
 }
-
 
 /*==========================================
         	 SECTION ROTINA.EXEMPLO
 ============================================*/
 table {
-    width: 100%;
-    border: 1px solid #ddd;
-    border-collapse: collapse;
-    margin-top: 1rem;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin-top: 1rem;
 }
 
-table th, table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
+table th,
+table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
 }
 
 table th {
-    background-color: #704a2f;
-    color: white;
+	background-color: #704a2f;
+	color: white;
 }
 
 table td {
-    background-color: #f7f3ef;
+	background-color: #f7f3ef;
 }
+
 .table {
 	width: 58%;
 	display: flex;
 	justify-content: center;
 	margin: 1vw 0 3vw 0
 }
-.rotina_exemplo{
+
+.rotina_exemplo {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -418,19 +425,20 @@ table td {
 	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
-.rotina_exemplo h1{
+.rotina_exemplo h1 {
 	font-weight: bold;
 	margin: 2.5vw 0 2.5vw 0;
 	text-align: center;
 	font-size: 50px;
 }
 
-.rotina_exemplo p{
+.rotina_exemplo p {
 	font-size: 30px;
 	text-align: justify;
 	margin: 0 10vw 0 10vw;
-	
+
 }
+
 /*==========================================
            	SECTION - FORMS
 ============================================*/
@@ -439,6 +447,7 @@ table td {
 	background-color: #704a2f;
 	padding: 4vw 10vw 5vw 10vw;
 }
+
 .forms h1 {
 	background-color: #e4ddd6;
 	margin: 1vw 10vw 1vw 11vw;
@@ -450,12 +459,14 @@ table td {
 	color: #704a2f;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 .forms p.sub {
 	margin: 2vw 11vw 2vw 11vw;
 	color: #e4ddd6;
 	font-size: 1.2rem;
 	text-align: center;
 }
+
 .forms form {
 	border: 2px solid white;
 	padding: 3vw 5vw 5vw 5vw;
@@ -464,14 +475,25 @@ table td {
 	width: 60%;
 	line-height: 1.3rem;
 }
+
 .forms div.question {
- margin: 2.8vw 0 1vw 0;
+	margin: 2.8vw 0 1vw 0;
 }
+
 .forms p.lembrete {
 	font-size: 0.9rem;
 	text-align: center;
 	margin: 2vw 11vw 1vw 11vw;
 	color: #e4ddd6;
+}
+.forms button {
+	margin: 3vw 0 0 15vw;
+	padding: 1.2vw 2vw 1.2vw 2vw;
+	color: white;
+	background-color: #333;
+	border: none;
+	font-size: 0.9rem;
+	border-radius: 10px;
 }
 
 /*==========================================
@@ -480,28 +502,32 @@ table td {
 .respostasforms {
 	background-color: #e4ddd6;
 	padding: 5vw 21vw 5vw 22vw;
-
-
 }
+
 .respostasforms h1 {
 	font-size: 1.9rem;
 	font-weight: bold;
 }
+
 .respostasforms .resulttext {
 	line-height: 0.9rem;
-	
+
 }
+
 .result-text {
-    font-family: Arial, sans-serif;
-    font-size: 0.9rem;
-    color: #333;
-    line-height: 1.6;
-    white-space: pre-line; /* Para manter quebras de linha no texto */
+	font-family: Arial, sans-serif;
+	font-size: 0.9rem;
+	color: #333;
+	line-height: 1.6;
+	white-space: pre-line;
+	/* Para manter quebras de linha no texto */
 }
 
 .suggestion {
-    margin-bottom: 10px; /* Espaço entre as sugestões */
+	margin-bottom: 10px;
+	/* Espaço entre as sugestões */
 }
+
 /*==========================================
         	 SECTION REFERENCIAS
 ============================================*/
@@ -532,6 +558,7 @@ section.referencias nav ul li {
 section.referencias nav ul li a {
 	text-decoration: underline;
 }
+
 /*==========================================
            		 FOOTER
 ============================================*/
@@ -573,5 +600,3 @@ footer ul.logos {
 footer ul.logos li {
 	margin: 1vw;
 }
-
-

@@ -283,6 +283,7 @@ main section.historia details p.historia {
 	font-size: 1.1rem;
 	line-height: 1.3rem;
 }
+
 main section.historia details p.historia span {
 	font-style: italic;
 }
@@ -364,7 +365,6 @@ main section.time details ul li.bege p.img img {
 	border-radius: 10rem;
 }
 
-
 /*==========================================
                 FOOTER
 ============================================*/
@@ -374,6 +374,7 @@ footer {
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
+
 }
 
 footer ul li a {
