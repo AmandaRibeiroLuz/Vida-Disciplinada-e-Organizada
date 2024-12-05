@@ -177,7 +177,7 @@ header {
 header nav {
 	display: flex;
 	background-color: #d1ae95;
-	padding: 5px 0 5px 0;
+	padding: 5px;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
@@ -186,23 +186,79 @@ header nav {
 	border-bottom: 2.5px solid #2f2a19;
 }
 
-header nav p img {
+.navBar p img {
 	border-radius: 50px;
 	justify-content: left;
 	width: 40px;
 	margin: 0 0 0 4vw;
 }
 
-header nav ul {
+.navbar {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+  }
+  
+  .menu {
+	list-style: none;
+	justify-content: right;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 20px;
 	justify-content: right;
 	font-size: 0.8rem;
 	font-weight: bold;
-}
+  }
+  
+  .menu li a {
+	color: #2f2a19;
+	text-decoration: none;
+  }
+  
+  .menu li a:hover {
+	color: #704a2f;
+  }
+  
+  /* Botão de Toggle */
+  .menu-toggle {
+	display: none;
+	flex-direction: column;
+	gap: 5px;
+	margin: 0 5vw 0 ;
+	cursor: pointer;
+  }
+  
+  .menu-toggle span {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+  }
+  .menu {
+	display: none;
+	flex-direction: column;
+	background-color: #e4ddd6;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	width: 150px;
+	border-bottom-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	padding: 5vw;
+  }
 
-header nav ul li {
-	margin: 0 10px 0 10px;
-}
+  .menu li {
+	margin: 10px 0;
+  }
+
+  .menu-toggle {
+	display: flex;
+  }
+
+  .menu.active {
+	display: flex;
+  }
 
 header nav ul li.atual a {
 	background-color: #704a2f;
@@ -750,9 +806,10 @@ footer ul.logos li {
 }
 
 /*==============RESPONSIVIDADE================*/
-@media (max-width: 600px) {
-    header {
-        display: block;
-        text-align: center;
-    }  
-}
+
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+	
+  }
+	

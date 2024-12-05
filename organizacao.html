@@ -13,9 +13,14 @@ organizacao.html
 
 <body>
     <header>
-        <nav>
+        <nav class="navBar">
             <p><a href="index.html"><img src="src/LogoVitaOrdinata.png" alt="Logo Vita Ordinata"></a></p>
-            <ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -39,6 +44,13 @@ organizacao.html
                 </li>
             </ul>
         </nav>
+        <script>
+            document.getElementById("menu-toggle").addEventListener("click", function(){
+                console.log("Menu toggle clicado!");
+                const menu = document.querySelector(".menu");
+                menu.classList.toggle("active")
+            })
+        </script>
     </header>
     <main>
         <section class="banner">

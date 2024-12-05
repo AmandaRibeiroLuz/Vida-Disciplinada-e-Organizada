@@ -13,9 +13,14 @@ sobre.html
 
 <body>
     <header>
-        <nav>
+        <nav class="navBar">
             <p><a href="index.html"><img src="src/LogoVitaOrdinata.png" alt="Logo Vita Ordinata"></a></p>
-            <ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="rotina.html">Rotina</a></li>
                 <li><a href="procrastinacao.html">Procrastinação</a></li>
@@ -25,6 +30,13 @@ sobre.html
                 <li class="atual"><a href="sobre.html">Sobre Nós</a></li>
             </ul>
         </nav>
+        <script>
+            document.getElementById("menu-toggle").addEventListener("click", function(){
+                console.log("Menu toggle clicado!");
+                const menu = document.querySelector(".menu");
+                menu.classList.toggle("active")
+            })
+        </script>
     </header>
     <main>
         <img class="banner" src="src/img.sobre/banner_sobre_nos.png" alt="Banner." width="100%">
