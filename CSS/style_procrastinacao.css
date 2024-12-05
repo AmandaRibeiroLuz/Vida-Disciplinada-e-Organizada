@@ -228,31 +228,16 @@ section.text ul li.oque {
 	gap: 1vw;
 	width: 100%;
 	background-color: #e4ddd6;
-	padding: 3vw 0 3vw 0;
+	padding: 3vw 0;
 }
 
-section.text ul li.oque div {
-	width: 88%;
-}
-
-section.text ul li.oque div img {
-	margin: 0 10vw 2vw 10vw;
-	border: 5px solid #704a2f;
-
-}
-
-section.text ul li.oque div.textoque {
-	width: 100%;
-}
-
-section.text ul li.oque div h2 {
+section.text ul li.oque h2 {
 	font-size: 2.5rem;
 	margin: 3vw 10vw 3vw 10vw;
 	font-weight: bold;
-
 }
 
-section.text ul li.oque div p {
+section.text ul li.oque p {
 	padding: 2vw 10vw 3vw 10vw;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -281,8 +266,9 @@ section.text ul li.img {
 }
 
 section.text ul li.img img {
-	margin: 2vw 10vw 2vw 10vw;
+	margin: 2vw 10vw;
 	border: 5px solid #704a2f;
+	
 }
 
 /*========================================
@@ -761,4 +747,12 @@ footer ul.logos {
 
 footer ul.logos li {
 	margin: 1vw;
+}
+
+/*==============RESPONSIVIDADE================*/
+@media (max-width: 600px) {
+    header {
+        display: block;
+        text-align: center;
+    }  
 }
