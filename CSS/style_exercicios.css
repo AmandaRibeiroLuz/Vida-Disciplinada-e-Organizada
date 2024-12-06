@@ -571,12 +571,26 @@ footer ul.logos li {
 /*====================================
 ------------Respondividade------------
 ======================================*/
-@media (max-width: 600px) {
-	header {
-		display: block;
-		text-align: center;
+@media (max-width: 700px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
 	}
-	header nav ul {
-		
-	}
-}
+   header .navBar {
+		width: none;
+   }
+   section.menus img.imgzinha{
+		width: 200px;
+		margin: 0 15vw;
+   }
+   body div.chato {
+	display: block;
+	margin: 3vw;
+   }
+   body p.txt2 {
+	margin: 2vw;
+   }
+   body section.menus div.chatice a {
+	margin: 15vw;
+   }
+} 
