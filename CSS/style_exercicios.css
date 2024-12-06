@@ -406,7 +406,7 @@ body section.pt3 h1 {
 	font-size: 1.6rem;
 	font-weight: bold;
 	text-align: center;
-	margin: 4vw;
+	margin: 2vw;
 	font-family: 'Times New Roman', Times, serif;
 }
 
@@ -420,12 +420,11 @@ main section.pt3 ul {
 
 main section.pt3 ul li {
 	width: 30%;
-	justify-content: space-around;
 	background-color: #2f2a19;
 	border-radius: 15px;
 	/*Arredondamento da borda*/
 	margin: 2vw;
-	padding: 2vw 4vw 2vw 4vw;
+	padding: 2vw 2vw 2vw 2vw;
 }
 
 main section.pt3 h4 {
@@ -446,7 +445,7 @@ main section.pt3 span {
 }
 
 main section.pt3 p.txtout {
-	margin: 4vw;
+	margin: 2vw;
 }
 
 /*======================================
@@ -568,4 +567,16 @@ footer ul.logos {
 
 footer ul.logos li {
 	margin: 1vw;
+}
+/*====================================
+------------Respondividade------------
+======================================*/
+@media (max-width: 600px) {
+	header {
+		display: block;
+		text-align: center;
+	}
+	header nav ul {
+		
+	}
 }
