@@ -476,3 +476,40 @@ footer ul.logos {
 footer ul.logos li {
    margin: 1vw;
 }
+/*==============RESPONSIVIDADE================*/
+
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+   header .navBar {
+		width: none;
+	}
+   /*================================================
+                   Introdução                 
+==================================================*/
+	section.introducao h1 {
+		margin: 0 10vw;
+	}
+   section.introducao div.dividir {
+      display: block;
+      flex-wrap: wrap;
+      justify-content: center;
+		text-align: center;
+		margin: none;
+      width: 100%;
+   }
+   section.introducao p.paragrafo {
+      width: 150%;
+    margin: none;
+      text-align: center;
+   }
+   section.introducao p.imagem img {
+      width: 80%;
+      margin: 0 3vw 0 17vw;
+   } 
+   }
+   /*================================================
+                   Introdução 2                
+==================================================*/
