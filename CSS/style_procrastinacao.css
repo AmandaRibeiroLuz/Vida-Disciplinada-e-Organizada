@@ -804,7 +804,7 @@ footer ul li.alunos p {
 }
 
 footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
+	margin: 2vw 4vw 1vw 20vw;
 }
 
 footer ul.logos li {
@@ -864,5 +864,18 @@ footer ul.logos li {
 		width: 90%;
 		height: 90%;
 
+	} 
+	footer {
+		align-items: center ;
+	}
+	footer ul {
+		display: block;
+	}
+	footer ul li.alunos{
+		display: block;
+		flex-wrap: wrap;
+	}
+	footer ul.logos{
+		width: 60%;
 	}
 }
