@@ -198,9 +198,9 @@ header nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
-  }
-  
-  .menu {
+}
+
+.menu {
 	list-style: none;
 	justify-content: right;
 	padding: 0;
@@ -210,32 +210,33 @@ header nav {
 	justify-content: right;
 	font-size: 0.8rem;
 	font-weight: bold;
-  }
-  
-  .menu li a {
+}
+
+.menu li a {
 	color: #2f2a19;
 	text-decoration: none;
-  }
-  
-  .menu li a:hover {
+}
+
+.menu li a:hover {
 	color: #704a2f;
-  }
-  
-  /* Botão de Toggle */
-  .menu-toggle {
+}
+
+/* Botão de Toggle */
+.menu-toggle {
 	display: none;
 	flex-direction: column;
 	gap: 5px;
-	margin: 0 5vw 0 ;
+	margin: 0 5vw 0;
 	cursor: pointer;
-  }
-  
-  .menu-toggle span {
+}
+
+.menu-toggle span {
 	width: 25px;
 	height: 3px;
 	background-color: white;
-  }
-  .menu {
+}
+
+.menu {
 	display: none;
 	flex-direction: column;
 	background-color: #e4ddd6;
@@ -246,19 +247,19 @@ header nav {
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
 	padding: 5vw;
-  }
+}
 
-  .menu li {
+.menu li {
 	margin: 10px 0;
-  }
+}
 
-  .menu-toggle {
+.menu-toggle {
 	display: flex;
-  }
+}
 
-  .menu.active {
+.menu.active {
 	display: flex;
-  }
+}
 
 header nav ul li.atual a {
 	background-color: #704a2f;
@@ -324,7 +325,7 @@ section.text ul li.img {
 section.text ul li.img img {
 	margin: 2vw 10vw;
 	border: 5px solid #704a2f;
-	
+
 }
 
 /*========================================
@@ -337,7 +338,7 @@ section.causas ul li {
 
 section.causas ul li h2 {
 	font-size: 2.5rem;
-	padding: 5vw 0 2.5vw 0;
+	padding: 7vw 0 2.5vw 0;
 	text-align: center;
 	font-weight: bold;
 }
@@ -352,13 +353,14 @@ section.causas ul li div {
 }
 
 section.causas ul li div img {
-	margin: 4vw 7vw 7vw 10vw;
+	margin: 4vw 10vw 7vw 0;
+	width: 40%;
 	border: 5px solid #2f2a19;
 }
 
 section.causas ul li div p {
 	padding: 3vw 3vw 5vw 0;
-	margin: 0 10vw 0 0;
+	margin: 0 7vw 0 10vw;
 	font-size: 1rem;
 	width: 60%;
 	line-height: 1.35rem;
@@ -442,6 +444,10 @@ section.videos div ul li {
 	width: 100%;
 	margin: 5px;
 
+}
+
+section.videos div ul li iframe {
+	border-radius: 3vw;
 }
 
 /*========================================
@@ -806,10 +812,57 @@ footer ul.logos li {
 }
 
 /*==============RESPONSIVIDADE================*/
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
 
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-	
-  }
-	
+	header .navBar {
+		width: none;
+	}
+
+	section.causas h2 {
+		margin: 0 10vw;
+	}
+
+	section.causas ul li div {
+		display: block;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin: none;
+	}
+
+	section.causas ul li div img {
+		width: 80%;
+		margin: 0 10vw;
+	}
+
+	section.causas ul li div p {
+		margin: 0 10vw;
+		width: 78%;
+		text-align: justify;
+	}
+
+	section.causas ul li div.conserto p {
+		width: 80%;
+	}
+
+	section.problema h2 {
+		margin: 0 10vw;
+		line-height: 2.2rem;
+	}
+
+	section.videos div ul {
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	section.videos div ul li iframe {
+		width: 90%;
+		height: 90%;
+
+	}
+}
