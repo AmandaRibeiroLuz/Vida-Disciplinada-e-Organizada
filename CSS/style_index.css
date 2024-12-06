@@ -513,3 +513,21 @@ footer ul.logos li {
    /*================================================
                    Introdução 2                
 ==================================================*/
+section.introducaoDOIS p.imagem img {
+   width: 80%;
+   margin: 0 13vw 0 7vw;
+}
+/*================================================
+                   Introdução 3                
+==================================================*/
+section.introducaoTRES {
+   display: block;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   margin: none;
+   width: 100%;
+}
+section.introducaoTRES p.imagem{
+   
+}
