@@ -271,7 +271,7 @@ header nav ul li.atual a {
 /*==========================================
 					MAIN
 ============================================*/
-/*=============================================
+/*==========================================
 					BANNER
 ===========================================*/
 img.banner {
@@ -536,12 +536,12 @@ section.estudos h3.dicassubtitle {
 
 section.estudos ul li video {
 	border: 5px solid #e4ddd6;
-	margin: 1vw 20vw 0 20vw;
+	margin: 1vw 16vw 0 16vw;
 }
 
 section.estudos ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 4vw 20vw 2vw 20vw;
+	margin: 4vw 15vw 2vw 15vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -552,7 +552,7 @@ section.estudos ul li p.numero {
 }
 
 section.estudos ul li p {
-	margin: 2vw 20vw 5vw 20vw;
+	margin: 2vw 18vw 5vw 18vw;
 	font-size: 1rem;
 	color: #e4ddd6;
 	text-align: justify;
@@ -586,12 +586,12 @@ section.trabalho h3.dicassubtitle {
 
 section.trabalho ul li video {
 	border: 5px solid #2f2a19;
-	margin: 1vw 10vw 0 20vw;
+	margin: 1vw 16vw 0 16vw;
 }
 
 section.trabalho ul li p.numero {
 	background-color: #2f2a19;
-	margin: 4vw 20vw 2vw 20vw;
+	margin: 4vw 15vw 2vw 15vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -602,7 +602,7 @@ section.trabalho ul li p.numero {
 }
 
 section.trabalho ul li p {
-	margin: 2vw 20vw 5vw 20vw;
+	margin: 2vw 18vw 5vw 18vw;
 	font-size: 1rem;
 	color: #2f2a19;
 	text-align: justify;
@@ -636,12 +636,12 @@ section.tarefas h3.dicassubtitle {
 
 section.tarefas ul li video {
 	border: 5px solid #e4ddd6;
-	margin: 1vw 10vw 0 20vw;
+	margin: 1vw 16vw 0 16vw;
 }
 
 section.tarefas ul li p.numero {
 	background-color: #e4ddd6;
-	margin: 4vw 20vw 2vw 20vw;
+	margin: 4vw 15vw 2vw 15vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -652,7 +652,7 @@ section.tarefas ul li p.numero {
 }
 
 section.tarefas ul li p {
-	margin: 2vw 20vw 5vw 20vw;
+	margin: 2vw 18vw 5vw 18vw;
 	font-size: 1rem;
 	color: #e4ddd6;
 	text-align: justify;
@@ -680,12 +680,12 @@ section.outros h3.dicassubtitle {
 
 section.outros ul li video {
 	border: 5px solid #704a2f;
-	margin: 1vw 10vw 0 20vw;
+	margin: 1vw 16vw 0 16vw;
 }
 
 section.outros ul li p.numero {
 	background-color: #704a2f;
-	margin: 4vw 20vw 2vw 20vw;
+	margin: 4vw 15vw 2vw 15vw;
 	padding: 2vw 4vw 2vw 4vw;
 	border-radius: 90px;
 	font-size: 1.5rem;
@@ -696,7 +696,7 @@ section.outros ul li p.numero {
 }
 
 section.outros ul li p {
-	margin: 2vw 20vw 5vw 20vw;
+	margin: 2vw 18vw 5vw 18vw;
 	font-size: 1rem;
 	color: #704a2f;
 	text-align: justify;
@@ -864,18 +864,54 @@ footer ul.logos li {
 		width: 90%;
 		height: 90%;
 
-	} 
-	footer {
-		align-items: center ;
 	}
+
+	section.direction p.responda {
+		padding: 4vw 8vw;
+	}
+
+	section.direction p.label {
+		padding: 3vw 20vw;
+	}
+
+	section.direction p {
+		padding: 1.5vw;
+	}
+
+	section.direction div {
+		text-align: center;
+		display: block;
+	}
+
+	section.direction div ul {
+		width: 150%;
+	}
+
+	section.direction a {
+		width: 100%;
+		margin: 3vw 0;
+
+	}
+	p.
+
+	footer {
+		align-items: center;
+
+	}
+
 	footer ul {
 		display: block;
+
 	}
-	footer ul li.alunos{
+
+	footer ul li.alunos {
 		display: block;
 		flex-wrap: wrap;
+
 	}
-	footer ul.logos{
+
+	footer ul.logos {
 		width: 60%;
+
 	}
 }
