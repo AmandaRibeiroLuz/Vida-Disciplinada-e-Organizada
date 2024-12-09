@@ -384,7 +384,7 @@ main section.passos {
 	text-align: center;
 }
 main section.passos h1 {
-	margin: 4vw 20vw 4vw 20vw;
+	margin: 4vw 10vw 4vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
@@ -395,7 +395,7 @@ main section.passos h1 {
 	font-family: 'Times New Roman', Times, serif;
 }
 main section.passos p.subtitulo {
-	margin: 4vw 20vw 4vw 20vw;
+	margin: 4vw 10vw 4vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
@@ -405,7 +405,7 @@ main section.passos ul li {
 }
 main section.passos ul li p.passos {
 	background-color: #cdbca5;
-	margin: 2vw 25vw 2vw 25vw;
+	margin: 2vw 15vw 2vw 15vw;
 	padding: 2vw 2vw 2vw 2vw;
 	border-radius: 100px;
 	font-size: 2rem;
@@ -413,7 +413,7 @@ main section.passos ul li p.passos {
 	text-align: center;
 }
 main section.passos ul li p {
-	margin: 4vw 25vw 4vw 25vw;
+	margin: 4vw 15vw 4vw 15vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
@@ -432,7 +432,7 @@ main section.videos {
 	text-align: center;
 }
 main section.videos h1 {
-	margin: 4vw 25vw 4vw 25vw;
+	margin: 4vw 20vw 4vw 20vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
@@ -536,7 +536,18 @@ footer ul.logos li {
 	}
 	main section.beneficios {
 		flex-wrap: wrap;
-		display: flex;
+		display: block;
 		width: 100%;
+	}
+	main section.passos p.video video{
+		width: 97%;
+	}
+	main section.videos h1 {
+		padding: 3vw 4vw 3vw 4vw;
+	}
+	main section.videos p iframe {
+		width: 80%;
+		height: 15%;
+		margin: 2vw 0 2vw 0;
 	}
 }
