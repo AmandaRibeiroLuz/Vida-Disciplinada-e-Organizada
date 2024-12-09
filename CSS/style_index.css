@@ -500,14 +500,23 @@ footer ul.logos li {
 		margin: none;
       width: 100%;
    }
-   section.introducao p.paragrafo {
-      width: 150%;
-    margin: none;
+   main section.introducao div.dividir div.texto {
+      text-align: center;
+      width: 100%;
+      margin: 2vw 5vw 2vw 5vw;
+   }
+   main section.introducao div.dividir div.texto p.paragrafo {
+      margin: 0vw 8vw 0vw 8vw;
+      
+   }
+   main section.introducao div.dividir div p.imagem{
+      width: 100%;
+      margin: 0;
       text-align: center;
    }
    section.introducao p.imagem img {
-      width: 80%;
-      margin: 0 3vw 0 17vw;
+      width: 70%;
+      
    } 
    }
    /*================================================
@@ -520,14 +529,18 @@ section.introducaoDOIS p.imagem img {
 /*================================================
                    Introdução 3                
 ==================================================*/
-section.introducaoTRES {
+main section.introducaoTRES {
    display: block;
    flex-wrap: wrap;
    justify-content: center;
    text-align: center;
    margin: none;
    width: 100%;
+   padding: 3vw 0;
+   display: flex;
+   align-items: center;
 }
-section.introducaoTRES p.imagem{
+
+main section.introducaoTRES p.imagem {
    
 }
