@@ -780,6 +780,7 @@ footer {
 	font-size: 0.8rem;
 	justify-content: space-between;
 }
+
 footer ul.esq {
 	text-align: right;
 	margin: 2vw 0 0 0;
@@ -789,29 +790,37 @@ footer ul.esq {
 footer ul li a {
 	color: #e4ddd6;
 }
+
 footer ul.alunos li.des {
 	margin: 0 0 1vw 0;
 }
+
 footer ul.alunos li {
 	display: block;
 	font-size: 0.8rem;
 
 }
+
 footer ul li.contato {
 	margin: 2vw 0 2vw 0;
 }
 
-/*==============RESPONSIVIDADE================*/
+/*============================================
+				RESPONSIVIDADE
+==============================================*/
 @media (max-width: 768px) {
 	body {
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}
 
+
+	/*================HEADER===================*/
 	header .navBar {
 		width: none;
 	}
 
+	/*=============SECTION.CAUSAS=============*/
 	section.causas h2 {
 		margin: 0 10vw;
 	}
@@ -840,11 +849,14 @@ footer ul li.contato {
 		width: 80%;
 	}
 
+	/*============SECTION.PROBLEMA============*/
+
 	section.problema h2 {
 		margin: 0 10vw;
 		line-height: 2.2rem;
 	}
 
+	/*=============SECTION.VIDEOS=============*/
 	section.videos div ul {
 		display: block;
 		flex-wrap: wrap;
@@ -856,16 +868,14 @@ footer ul li.contato {
 
 	}
 
+	/*===========SECTION.DIRWCTION=============*/
 	section.direction p.responda {
 		padding: 4vw 8vw;
 	}
 
 	section.direction p.label {
-		padding: 3vw 20vw;
-	}
-
-	section.direction p {
-		padding: 1.5vw;
+		padding: 3vw 18vw;
+		font-size: 1.5rem;
 	}
 
 	section.direction div {
@@ -876,25 +886,34 @@ footer ul li.contato {
 	section.direction div ul {
 		width: 150%;
 	}
-	section.direction a {
-		width: 100%;
-		margin: 3vw 0;
 
+	section.direction div ul li {
+		margin: 5vw 12vw;
 	}
+
+	section.direction ul li p {
+		width: 100%;
+		padding: 2.5vw 0;
+	}
+
+	/*===============FOOTER==============*/
 	footer {
 		align-items: center;
 
 	}
+
 	footer ul {
 		display: block;
 	}
-	footer ul.alunos{
+
+	footer ul.alunos {
 		margin: 0;
 		width: 90%;
 	}
+
 	footer ul.esq {
 		width: 84%;
 		text-align: left;
 	}
-	
+
 }
