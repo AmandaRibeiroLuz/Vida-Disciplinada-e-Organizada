@@ -593,4 +593,23 @@ footer ul.logos li {
    body section.menus div.chatice a {
 	margin: 15vw;
    }
+/*=================Footer===============*/
+	footer {
+		align-items: center;
+
+	}
+
+	footer ul {
+		display: block;
+	}
+
+	footer ul.alunos {
+		margin: 0;
+		width: 90%;
+	}
+
+	footer ul.esq {
+		width: 84%;
+		text-align: left;
+	}
 } 
