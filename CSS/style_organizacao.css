@@ -1,23 +1,90 @@
 style_organizacao.css
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -25,25 +92,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -53,17 +139,18 @@ table {
                 GERAL
 ============================================*/
 
-html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(10px + 1vw);
+html {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: calc(10px + 1vw);
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+a {
+	color: black;
+	text-decoration: none;
 }
+
 /* main {
     margin: 0 10vw 0 10vw;
 }
@@ -103,9 +190,9 @@ header nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
-  }
-  
-  .menu {
+}
+
+.menu {
 	list-style: none;
 	justify-content: right;
 	padding: 0;
@@ -115,32 +202,33 @@ header nav {
 	justify-content: right;
 	font-size: 0.8rem;
 	font-weight: bold;
-  }
-  
-  .menu li a {
+}
+
+.menu li a {
 	color: #2f2a19;
 	text-decoration: none;
-	}
-  
-  .menu li a:hover {
+}
+
+.menu li a:hover {
 	color: #704a2f;
-  }
-  
-  /* Botão de Toggle */
-  .menu-toggle {
+}
+
+/* Botão de Toggle */
+.menu-toggle {
 	display: none;
 	flex-direction: column;
 	gap: 5px;
-	margin: 0 5vw 0 ;
+	margin: 0 5vw 0;
 	cursor: pointer;
-  }
-  
-  .menu-toggle span {
+}
+
+.menu-toggle span {
 	width: 25px;
 	height: 3px;
 	background-color: white;
-  }
-  .menu {
+}
+
+.menu {
 	display: none;
 	flex-direction: column;
 	background-color: #e4ddd6;
@@ -151,19 +239,19 @@ header nav {
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
 	padding: 5vw;
-  }
+}
 
-  .menu li {
+.menu li {
 	margin: 10px 0;
-  }
+}
 
-  .menu-toggle {
+.menu-toggle {
 	display: flex;
-  }
+}
 
-  .menu.active {
+.menu.active {
 	display: flex;
-  }
+}
 
 header nav ul li.atual a {
 	background-color: #704a2f;
@@ -175,7 +263,7 @@ header nav ul li.atual a {
 /*==========================================
            		SECTION.BANNER
 ============================================*/
-main section.banner h1.imagem img{
+main section.banner h1.imagem img {
 	width: 100%;
 }
 
@@ -186,6 +274,7 @@ main section.motivo {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
+
 main section.motivo h1 {
 	margin: 4vw 10vw 3vw 10vw;
 	font-size: 2rem;
@@ -193,13 +282,15 @@ main section.motivo h1 {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.motivo p.paragrafo {
 	margin: 2vw 10vw 2vw 10vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
-main section.motivo p.video video{
+
+main section.motivo p.video video {
 	margin: 0 10vw 4vw 10vw;
 	text-align: center;
 	border: 5px solid #704a2f;
@@ -213,32 +304,38 @@ main section.beneficios {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
+
 main section.beneficios div.dividir {
 	display: flex;
 	width: 100%;
 	align-items: center;
 }
+
 main section.beneficios div.dividir div.text {
 	width: 50%;
 }
+
 main section.beneficios div.dividir div.text h1 {
-	margin: 4vw 10vw 5vw 2vw;
+	margin: 4vw 3vw 5vw 10vw;
 	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.beneficios div.dividir div.text p {
-	margin: 3vw 10vw 3vw 2vw;
+	margin: 3vw 3vw 3vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
+
 main section.beneficios div.dividir div.imagem {
 	width: 50%
 }
+
 main section.beneficios div.dividir div.imagem p img {
 	border: 5px solid #704a2f;
-	margin: 4vw 2vw 2vw 10vw;
+	margin: 4vw 10vw 2vw 3vw;
 }
 
 /*============================================
@@ -248,6 +345,7 @@ main section.trabalho {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
+
 main section.trabalho h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
@@ -255,16 +353,19 @@ main section.trabalho h1 {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.trabalho p {
 	margin: 1vw 10vw 1vw 10vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
+
 main section.trabalho div {
 	display: flex;
 	width: 100%;
 }
+
 main section.trabalho div p img {
 	width: 100%;
 	border: 5px solid #704a2f;
@@ -278,14 +379,17 @@ main section.modelo {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
 }
+
 main section.modelo div.dividir {
 	display: flex;
 	width: 100%;
 	align-items: center;
 }
+
 main section.modelo div.dividir div.text {
 	width: 50%;
 }
+
 main section.modelo div.dividir div.text h1 {
 	margin: 4vw 1vw 2vw 10vw;
 	font-size: 2rem;
@@ -293,11 +397,13 @@ main section.modelo div.dividir div.text h1 {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.modelo div.dividir div.text p {
 	margin: 2vw 2vw 2vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
+
 main section.modelo div.dividir div.imagem p.imagem img {
 	border: 5px solid #704a2f;
 	margin: 2vw 10vw 2vw 5vw;
@@ -310,6 +416,7 @@ main section.expectativas {
 	background-color: #e4ddd6;
 	padding: 3vw 0 3vw 0;
 }
+
 main section.expectativas h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
@@ -317,22 +424,26 @@ main section.expectativas h1 {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.expectativas p.paragrafo {
 	margin: 2vw 10vw 2vw 10vw;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 	text-align: justify;
 }
+
 main section.expectativas div {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 }
+
 main section.expectativas div p {
 	width: 50%;
 	margin: 2vw 10vw 2vw 10vw;
 	text-align: center;
 }
+
 main section.expectativas div p img {
 	border: 5px solid #704a2f;
 	width: 100%;
@@ -346,22 +457,27 @@ main section.influencias {
 	padding: 3vw 0 3vw 0;
 	text-align: center;
 }
+
 main section.influencias div.dividir {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	align-items: center;
 }
+
 main section.influencias div.dividir p.video {
 	width: 33%;
 }
+
 main section.influencias div.dividir p.video video {
 	border: 5px solid #704a2f;
 	margin: 2vw 15vw 2vw 2vw;
 }
+
 main section.influencias div.dividir div {
 	width: 70%;
 }
+
 main section.influencias div.dividir div h1 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
@@ -369,6 +485,7 @@ main section.influencias div.dividir div h1 {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.influencias div.dividir div p {
 	margin: 2vw 10vw 2vw 10vw;
 	text-align: justify;
@@ -383,6 +500,7 @@ main section.passos {
 	padding: 3vw 0 3vw 0;
 	text-align: center;
 }
+
 main section.passos h1 {
 	margin: 4vw 10vw 4vw 10vw;
 	font-size: 2rem;
@@ -391,18 +509,21 @@ main section.passos h1 {
 	background-color: #704a2f;
 	padding: 2vw 1vw 2vw 1vw;
 	border-radius: 100px;
-	color:#e4ddd6;
+	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.passos p.subtitulo {
 	margin: 4vw 10vw 4vw 10vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
+
 main section.passos ul li {
 	border-top: 2px solid #704a2f;
 	padding: 2vw 0 2vw 0;
 }
+
 main section.passos ul li p.passos {
 	background-color: #cdbca5;
 	margin: 2vw 15vw 2vw 15vw;
@@ -412,14 +533,16 @@ main section.passos ul li p.passos {
 	font-family: 'Times New Roman', Times, serif;
 	text-align: center;
 }
+
 main section.passos ul li p {
 	margin: 4vw 15vw 4vw 15vw;
 	text-align: justify;
 	line-height: 1.3rem;
 }
+
 main section.passos ul li p.video video {
 	border: 5px solid #704a2f;
-	
+
 }
 
 /*==========================================
@@ -431,6 +554,7 @@ main section.videos {
 	padding: 3vw 0 3vw 0;
 	text-align: center;
 }
+
 main section.videos h1 {
 	margin: 4vw 20vw 4vw 20vw;
 	font-size: 2rem;
@@ -439,12 +563,14 @@ main section.videos h1 {
 	background-color: #704a2f;
 	padding: 2vw 1vw 2vw 1vw;
 	border-radius: 100px;
-	color:#e4ddd6;
+	color: #e4ddd6;
 	font-family: 'Times New Roman', Times, serif;
 }
+
 main section.videos p {
 	margin: 3vw 10vw 3vw 10vw;
 }
+
 main section.videos p iframe {
 	border: 5px solid #704a2f;
 }
@@ -456,22 +582,26 @@ main section.referencias {
 	background-color: #cdbca5;
 	padding: 2vw 0 2vw 0;
 }
+
 main section.referencias h1 {
 	font-size: 1rem;
 	font-weight: bold;
 	padding: 2vw 10VW 2vw 10VW;
 	text-align: center;
 }
+
 main section.referencias h2 {
 	font-size: 1rem;
 	margin: 2vw 10vw 2vw 10vw;
 	text-decoration: underline;
 }
+
 main section.referencias nav ul li {
 	font-size: 0.8rem;
 	margin: 2vw 10vw 2vw 10vw;
 	word-wrap: break-word;
 }
+
 main section.referencias nav ul li a {
 	text-decoration: underline;
 }
@@ -512,59 +642,103 @@ footer ul li.contato {
 }
 
 /*==========================================
-    CSS media query dentro de um stylesheet
+				RESPONSIVIDADE
 ============================================*/
 @media (max-width: 600px) {
 	body {
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}
-	header nav.navBar p{
+
+	/*=======================HEADER=======================*/
+	header nav.navBar p {
 		margin: 0 0 0 2vw;
 	}
 	header .navBar {
 		width: none;
 	}
+	header div.menu-toggle {
+		margin: 0 9vw 0 0;
+	}
+
+	/*===================SECTION.MOTIVO===================*/
 	main section.motivo p.video video {
 		width: 78%;
 	}
-	main section.beneficios div.dividir{
+
+	/*==================SECTION.BENEFICIOS=================*/
+	main section.beneficios div.dividir {
 		display: block;
 		flex-wrap: wrap;
 		width: 100%;
-		justify-content: center;
-		text-align: center;
-		margin: none;
 	}
-	main section.trabalho div p.excluir{
+
+	main section.beneficios div.dividir div.text {
+		justify-content: center;
+	}
+
+	main section.beneficios div.dividir div.text h1 {
+		width: 155%;
+	}
+
+	main section.beneficios div.dividir div.text p {
+		width: 157%;
+	}
+
+	main section.beneficios div.dividir div.imagem p.excluir {
 		display: none;
 	}
+
+	main section.beneficios div.dividir div.imagem p {
+		margin: 0 7vw;
+	}
+
+	main section.beneficios div.dividir div.imagem p img {
+		width: 215%;
+	}
+
+	/*==================SECTION.TRABALHO==================*/
+	main section.trabalho div p.excluir {
+		display: none;
+	}
+
+	/*===================SECTION.MODELO===================*/
 	main section.modelo div.dividir {
 		display: block;
 		flex-wrap: wrap;
 		width: 100%;
 	}
+
 	main section.modelo div.dividir div.text {
 		justify-content: center;
 	}
+
 	main section.modelo div.dividir div.text h1 {
 		width: 155%;
 	}
+
 	main section.modelo div.dividir div.text p {
 		width: 157%;
 	}
+
 	main section.modelo div.dividir div.imagem p.imagem {
 		margin: 0 6vw;
 	}
+
 	main section.modelo div.dividir div.imagem p.imagem img {
 		width: 87%;
 	}
+
+	/*=================SECTION.EXPECTATIVAS=================*/
 	main section.expectativas div p.excluir {
 		display: none;
 	}
+
 	main section.expectativas div p {
 		width: 100%;
 	}
+
+	/*=================SECTION.INFLUENCIAS=================*/
 	main section.influencias div.dividir {
 		display: block;
 		flex-wrap: wrap;
@@ -573,27 +747,36 @@ footer ul li.contato {
 		text-align: center;
 		margin: none;
 	}
+
 	main section.influencias div.dividir div h1 {
 		width: 110%;
 	}
+
 	main section.influencias div.dividir div p {
 		width: 116%;
 	}
+
 	main section.influencias div.dividir p.video {
 		margin: 0 0 0 8vw;
 	}
+
 	main section.influencias div.dividir p.video video {
 		width: 240%;
 	}
-	main section.passos p.video video{
+
+	/*===================SECTION.PASSOS===================*/
+	main section.passos p.video video {
 		width: 97%;
 	}
+
+	/*===================SECTION.VIDEOS===================*/
 	main section.videos h1 {
 		padding: 3vw 4vw 3vw 4vw;
 	}
+
 	main section.videos p iframe {
 		width: 80%;
-		height: 15%;
+		height: 25%;
 		margin: 2vw 0 2vw 0;
 	}
 }
