@@ -353,11 +353,11 @@ main section.influencias div.dividir {
 	align-items: center;
 }
 main section.influencias div.dividir p.video {
-	width: 30%;
+	width: 33%;
 }
 main section.influencias div.dividir p.video video {
 	border: 5px solid #704a2f;
-	margin: 2vw 2vw 2vw 10vw;
+	margin: 2vw 15vw 2vw 2vw;
 }
 main section.influencias div.dividir div {
 	width: 70%;
@@ -481,40 +481,34 @@ main section.referencias nav ul li a {
 ============================================*/
 footer {
 	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
+	padding: 2vw 10vw 2vw 10vw;
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
+	justify-content: space-between;
+}
+
+footer ul.esq {
+	text-align: right;
+	margin: 2vw 0 0 0;
+	justify-content: right;
 }
 
 footer ul li a {
 	color: #e4ddd6;
 }
 
-footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+footer ul.alunos li.des {
+	margin: 0 0 1vw 0;
 }
 
-footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
-}
-
-footer ul li.alunos {
-	display: flex;
-
+footer ul.alunos li {
+	display: block;
 	font-size: 0.8rem;
 }
 
-footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
-}
-
-footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
-}
-
-footer ul.logos li {
-	margin: 1vw;
+footer ul li.contato {
+	margin: 2vw 0 2vw 0;
 }
 
 /*==========================================
@@ -534,10 +528,62 @@ footer ul.logos li {
 	main section.motivo p.video video {
 		width: 78%;
 	}
-	main section.beneficios {
-		flex-wrap: wrap;
+	main section.beneficios div.dividir{
 		display: block;
+		flex-wrap: wrap;
 		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin: none;
+	}
+	main section.trabalho div p.excluir{
+		display: none;
+	}
+	main section.modelo div.dividir {
+		display: block;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	main section.modelo div.dividir div.text {
+		justify-content: center;
+	}
+	main section.modelo div.dividir div.text h1 {
+		width: 155%;
+	}
+	main section.modelo div.dividir div.text p {
+		width: 157%;
+	}
+	main section.modelo div.dividir div.imagem p.imagem {
+		margin: 0 6vw;
+	}
+	main section.modelo div.dividir div.imagem p.imagem img {
+		width: 87%;
+	}
+	main section.expectativas div p.excluir {
+		display: none;
+	}
+	main section.expectativas div p {
+		width: 100%;
+	}
+	main section.influencias div.dividir {
+		display: block;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+		margin: none;
+	}
+	main section.influencias div.dividir div h1 {
+		width: 110%;
+	}
+	main section.influencias div.dividir div p {
+		width: 116%;
+	}
+	main section.influencias div.dividir p.video {
+		margin: 0 0 0 8vw;
+	}
+	main section.influencias div.dividir p.video video {
+		width: 240%;
 	}
 	main section.passos p.video video{
 		width: 97%;
