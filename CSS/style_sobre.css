@@ -463,3 +463,114 @@ footer ul.logos {
 footer ul.logos li {
 	margin: 1vw;
 }
+
+/*==============RESPONSIVIDADE================*/
+
+@media screen and (max-width: 768px) {
+	/* Ajustes gerais */
+	html {
+	  font-size: calc(8px + 1vw);
+	}
+  
+	body {
+	  padding-bottom: 80px;
+	}
+  
+	/*================================================
+                 Header                 
+==================================================*/
+	header nav {
+	  flex-direction: column;
+	  padding: 10px;
+	}
+  
+	.navbar {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  
+	.menu {
+	  position: static;
+	  background-color: transparent;
+	  width: 100%;
+	  flex-direction: column;
+	  align-items: flex-start;
+	  gap: 10px;
+	  padding: 0;
+	}
+  
+	.menu li {
+	  margin: 5px 0;
+	}
+  
+	.menu-toggle {
+	  margin: 0;
+	  align-self: flex-end;
+	}
+  
+	.menu li a {
+	  font-size: 1rem;
+	}
+  
+	/*================================================
+                   Seções Principais               
+==================================================*/
+	main section.objetivo details summary,
+	main section.desenvolvimento details summary,
+	main section.historia details summary,
+	main section.time details summary {
+	  margin: 4vw 10vw;
+	  font-size: 1.5rem;
+	  padding: 1.5vw 0;
+	}
+  
+	main section.objetivo details p.objetivo,
+	main section.desenvolvimento details p.desenvolvimento,
+	main section.historia details p.historia {
+	  margin: 3vw 5vw;
+	  font-size: 1rem;
+	  line-height: 1.5rem;
+	}
+  
+	/*================================================
+                 Time                
+==================================================*/
+	main section.time details ul li.branco p.img img,
+	main section.time details ul li.bege p.img img {
+	  width: 60%;
+	  margin: 1vw;
+	}
+  
+	main section.time details ul li.branco,
+	main section.time details ul li.bege {
+	  flex-direction: column;
+	  gap: 2vw;
+	  align-items: center;
+	}
+  
+	main section.time details ul li.bege p,
+	main section.time details ul li.branco p {
+	  margin: 2vw;
+	  text-align: center;
+	}
+  
+	/*===============FOOTER==============*/
+footer {
+	align-items: center;
+ 
+ }
+ 
+ footer ul {
+	display: block;
+ }
+ 
+ footer ul.alunos {
+	margin: 0;
+	width: 90%;
+ }
+ 
+ footer ul.esq {
+	width: 84%;
+	text-align: left;
+ }
+ }
