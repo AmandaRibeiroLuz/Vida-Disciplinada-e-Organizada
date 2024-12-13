@@ -466,15 +466,16 @@ footer ul.logos li {
 
 /*==============RESPONSIVIDADE================*/
 
-@media screen and (max-width: 768px) {
-	/* Ajustes gerais */
-	html {
-	  font-size: calc(8px + 1vw);
-	}
-  
+@media (max-width: 768px) {
 	body {
-	  padding-bottom: 80px;
+	   overflow-x: hidden;
+	   overflow-y: scroll;
 	}
+ 
+	header .navBar {
+	   width: none;
+	}
+ 
   
 	/*================================================
                  Header                 
