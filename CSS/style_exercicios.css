@@ -593,6 +593,12 @@ footer ul.logos li {
    body section.menus div.chatice a {
 	margin: 15vw;
    }
+   body section.pt3 ul li p{
+	font-size: clamp(10px, 8vw, 8px);
+   }
+   body section.pt3 ul li h4 {
+	text-align: center;
+   }
 /*=================Footer===============*/
 	footer {
 		align-items: center;
