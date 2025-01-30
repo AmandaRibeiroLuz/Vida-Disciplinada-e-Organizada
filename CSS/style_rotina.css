@@ -190,9 +190,9 @@ header nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
-  }
+}
   
-  .menu {
+.menu {
 	list-style: none;
 	justify-content: right;
 	padding: 0;
@@ -202,32 +202,33 @@ header nav {
 	justify-content: right;
 	font-size: 0.8rem;
 	font-weight: bold;
-  }
+}
   
-  .menu li a {
+.menu li a {
 	color: #2f2a19;
 	text-decoration: none;
-  }
-  
-  .menu li a:hover {
+}
+
+.menu li a:hover {
 	color: #704a2f;
-  }
-  
-  /* Botão de Toggle */
-  .menu-toggle {
+}
+
+/* Botão de Toggle */
+.menu-toggle {
 	display: none;
 	flex-direction: column;
 	gap: 5px;
 	margin: 0 5vw 0 ;
 	cursor: pointer;
-  }
-  
-  .menu-toggle span {
+}
+
+.menu-toggle span {
 	width: 25px;
 	height: 3px;
 	background-color: white;
-  }
-  .menu {
+}
+
+.menu {
 	display: none;
 	flex-direction: column;
 	background-color: #e4ddd6;
@@ -238,19 +239,19 @@ header nav {
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
 	padding: 5vw;
-  }
+}
 
-  .menu li {
+.menu li {
 	margin: 10px 0;
-  }
+}
 
-  .menu-toggle {
+.menu-toggle {
 	display: flex;
-  }
+}
 
-  .menu.active {
+.menu.active {
 	display: flex;
-  }
+}
 
 header nav ul li.atual a {
 	background-color: #704a2f;
@@ -334,6 +335,7 @@ main section div.intro p {
 	margin: 1vw 3vw 1.5vw 1vw;
 	display: flex;
 }
+
 
 /*==========================================
            		 SECTION COMEÇO
@@ -492,7 +494,6 @@ table td {
 	font-size: 30px;
 	text-align: justify;
 	margin: 0 10vw 0 10vw;
-
 }
 
 /*==========================================
@@ -542,6 +543,7 @@ table td {
 	margin: 2vw 11vw 1vw 11vw;
 	color: #e4ddd6;
 }
+
 .forms button {
 	margin: 3vw 0 0 15vw;
 	padding: 1.2vw 2vw 1.2vw 2vw;
@@ -567,7 +569,6 @@ table td {
 
 .respostasforms .resulttext {
 	line-height: 0.9rem;
-
 }
 
 .result-text {
@@ -624,7 +625,10 @@ footer {
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
-
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
 }
 
 footer ul li a {
@@ -641,7 +645,6 @@ footer ul li.des p {
 
 footer ul li.alunos {
 	display: flex;
-
 	font-size: 0.8rem;
 }
 
@@ -655,4 +658,46 @@ footer ul.logos {
 
 footer ul.logos li {
 	margin: 1vw;
+}
+
+/*==========================================
+         RESPONSIVIDADE (Media Queries)
+============================================*/
+
+@media (max-width: 768px) {
+	header nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu {
+		width: 80%;
+		padding: 5vw;
+	}
+
+	.menu-toggle {
+		display: flex;
+	}
+
+	.list-box {
+		flex-direction: column;
+		width: 80%;
+		margin: 0;
+	}
+
+	.comeco h1, .beneficios h1, .rotina_exemplo h1 {
+		font-size: 2.5rem;
+	}
+
+	.forms h1 {
+		font-size: 1.8rem;
+	}
+
+	footer {
+		flex-direction: column;
+	}
+
+	footer ul {
+		width: 100%;
+	}
 }
