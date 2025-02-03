@@ -425,8 +425,13 @@ main section.pt3 ul li {
 	/*Arredondamento da borda*/
 	margin: 2vw;
 	padding: 2vw 2vw 2vw 2vw;
+	transition: box-shadow 0.3s ease;
 }
-
+.pt3 ul li:hover {
+	box-shadow: 0 4px 8px #704a2f; /* Sombra ao passar o mouse */
+	background-color: #e4ddd6; /* Opcional: muda a cor de fundo */
+	color: #704a2f;
+  }
 main section.pt3 h4 {
 	font-weight: bold;
 	margin: 20px;
@@ -645,3 +650,33 @@ footer ul.logos li {
 		text-align: left;
 	}
 } 
+/*animação*/
+
+.animacao1 {
+	display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Animação suave */
+}
+.animacao1:active {
+	transform: scale(0.9); /* Reduz o tamanho quando clicado */
+	background-color: #ffffff; /* Muda a cor ao ser clicado */
+  }
+.animacao2 {
+	display: inline-block;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Animação suave */
+}
+.animacao2:active {
+	transform: scale(0.9); /* Reduz o tamanho quando clicado */
+	background-color: #ffffff; /* Muda a cor ao ser clicado */
+  }
