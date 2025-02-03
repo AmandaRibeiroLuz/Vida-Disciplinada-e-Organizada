@@ -499,9 +499,17 @@ section.direction div ul li {
 	border-radius: 100px;
 }
 
+section.direction div ul li:hover {
+	background-color: #2f2a19;
+}
+
 section.direction ul li a {
 	color: #e4ddd6;
 
+}
+
+section.direction ul li a:hover {
+	color: #d1ae95;
 }
 
 h2.dicastitle {
@@ -565,6 +573,10 @@ section.estudos ul li p.saber a {
 	color: #e4ddd6;
 }
 
+section.estudos ul li p.saber a:hover {
+	color: #d1ae95;
+}
+
 /*=======================================
 				SECTION.TRABALHO
 ==========================================*/
@@ -613,6 +625,10 @@ section.trabalho ul li p.saber a {
 	text-decoration: underline;
 	font-weight: bold;
 	color: #2f2a19;
+}
+
+section.trabalho ul li p.saber a:hover {
+	color: #704a2f;
 }
 
 /*=======================================
@@ -709,6 +725,10 @@ section.outros ul li p.saber a {
 	color: #704a2f;
 }
 
+section.outros ul li p.saber a:hover {
+	color: #2f2a19;
+}
+
 /*=======================================
 			SECTION.CONCLUSÃO
 ==========================================*/
@@ -724,18 +744,38 @@ section.conclusao h2 {
 	padding: 6vw 0 3vw 0;
 }
 
-section.conclusao p {
+p.conclusao {
 	background-color: #e4ddd6;
 	border-radius: 0 0 40px 0;
 	padding: 0 6vw 8vw 6vw;
 	line-height: 1.5rem;
-	margin: 0 10vw 7vw 10vw;
+	margin: 0 10vw 1vw 10vw;
 	text-align: justify;
 }
 
 section.conclusao video {
 	border-top: 5px solid #e4ddd6;
 	border-bottom: 5px solid #e4ddd6;
+}
+
+p.topo {
+	text-align: center;
+	background-color: #e4ddd6;
+	padding: 2vw 4vw;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin: 2vw 10vw;
+}
+
+p.topo a {
+	color: #2f2a19;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+p.topo a:hover {
+	color: #704a2f;
 }
 
 /*=========================================
@@ -767,6 +807,11 @@ main section.referencias nav ul li {
 
 main section.referencias nav ul li a {
 	text-decoration: underline;
+}
+
+main section.referencias nav ul li a:hover {
+	color: #704a2f;
+	font-weight: bold;
 }
 
 /*==========================================
