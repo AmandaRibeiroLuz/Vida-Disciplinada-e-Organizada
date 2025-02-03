@@ -574,6 +574,12 @@ main section.videos p {
 main section.videos p iframe {
 	border: 5px solid #704a2f;
 }
+main section.videos p.topo a {
+	background-color: #704a2f;
+	padding: 2vw 10vw;
+	color: #e4ddd6;
+	margin: 5vw 0 0 0;
+}
 
 /*==========================================
            	SECTION.REFERENCIAS
@@ -604,6 +610,11 @@ main section.referencias nav ul li {
 
 main section.referencias nav ul li a {
 	text-decoration: underline;
+}
+
+main section.referencias nav ul li a:hover {
+	color: #704a2f;
+	font-weight: bold;
 }
 
 /*==========================================
