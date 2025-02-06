@@ -427,11 +427,6 @@ main section.pt3 ul li {
 	padding: 2vw 2vw 2vw 2vw;
 	transition: box-shadow 0.3s ease;
 }
-.pt3 ul li:hover {
-	box-shadow: 0 4px 8px #704a2f; /* Sombra ao passar o mouse */
-	background-color: #e4ddd6; /* Opcional: muda a cor de fundo */
-	color: #704a2f;
-  }
 main section.pt3 h4 {
 	font-weight: bold;
 	margin: 20px;
@@ -666,17 +661,57 @@ footer ul.logos li {
 	transform: scale(0.9); /* Reduz o tamanho quando clicado */
 	background-color: #ffffff; /* Muda a cor ao ser clicado */
   }
-.animacao2 {
-	display: inline-block;
-  padding: 5px 10px;
-  background-color: #3498db;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: transform 0.3s ease; /* Animação suave */
+.animacao1:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
 }
-.animacao2:active {
-	transform: scale(0.9); /* Reduz o tamanho quando clicado */
-	background-color: #ffffff; /* Muda a cor ao ser clicado */
+  .animacao2 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #3498db;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .animacao2:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+  }
+  
+  .animacao2:active {
+	transform: scale(0.95);
+	background-color: #2980b9;
+  }
+.animacao3 li{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.animacao3:hover li{
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+}
+.pt3 ul li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.pt3 ul li:hover {
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
   }
