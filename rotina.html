@@ -42,7 +42,7 @@
             </ul>
         </nav>
         <script>
-            document.getElementById("menu-toggle").addEventListener("click", function(){
+            document.getElementById("menu-toggle").addEventListener("click", function () {
                 console.log("Menu toggle clicado!");
                 const menu = document.querySelector(".menu");
                 menu.classList.toggle("active")
@@ -61,7 +61,7 @@
                         <div class="image-box">
                             <img src="./src/img.rotina/pexels-thngocbich-760720.jpg" alt="Calendário">
                         </div>
-                        <div>
+                        <div class="paragrafo1">
                             <h3>Bem-vindo(a)</h3>
                             <p>
                                 Aqui é onde sua rotina ganha vida! Imagine um espaço criado especialmente para
@@ -81,66 +81,6 @@
                     </div>
         </section>
         <hr>
-        <section class="comeco">
-            <h1>Como ser mais produtivo e trocar maus hábitos por bons? </h1>
-            <p>
-                Criamos uma lista de coisas na qual você pode fazer para começar a adquirir novos hábitos se
-                acostumar com a rotina.
-            </p>
-            <ul class="list-box">
-                <div>
-                    <li>
-                        <span>Estabeleça um objetivo claro e específico</span> <br>
-                        Defina o que você quer alcançar e como isso se alinha aos seus valores. Por exemplo: "Quero
-                        acordar
-                        às 6h para ter mais tempo para estudar
-                    </li>
-                    <li>
-                        <span>Quebre os hábitos em passos menores</span> <br>
-                        Comece devagar para evitar se sentir sobrecarregado. Se você quer ler mais, inicie com 5 a 10
-                        minutos por dia.
-                    </li>
-                    <li>
-                        <span>Crie um planejamento semanal</span> <br>
-                        Organize suas tarefas e objetivos semanalmente. Isso ajuda a visualizar suas metas e a se
-                        concentrar
-                        nas prioridades.
-                    </li>
-                </div>
-                <div>
-                    <li>
-                        <span>Estabeleça um horário fixo para suas atividades</span> <br>
-                        Construa uma rotina diária com horários consistentes. Acordar, fazer exercícios, trabalhar e
-                        descansar sempre nos mesmos horários ajuda seu corpo a se adaptar.
-                    </li>
-                    <li>
-                        <span>Comece com o hábito mais fácil</span> <br>
-                        Eleve sua motivação iniciando por atividades mais simples, que exigem menos tempo e energia. Com
-                        o
-                        tempo, passe para hábitos mais complexos.
-                    </li>
-                    <li>
-                        <span>Faça uma lista de recompensas</span> <br>
-                        Estabeleça pequenas recompensas ao final do dia ou da semana para te motivar. Pode ser algo
-                        simples,
-                        como ver uma série ou comer algo especial.
-                    </li>
-                </div>
-            </ul>
-        </section>
-        <hr>
-        <section class="beneficios">
-            <h1>Benefícios de uma Rotina Bem Estruturada</h1>
-            <div class="text">
-                <p>
-                    Os benefícios de ter uma rotina estruturada vão além da produtividade. Ela ajuda a melhorar a
-                    saúde mental, pois você sabe o que esperar do seu dia. Ter momentos dedicados ao trabalho,
-                    lazer, autocuidado e descanso faz com que você tenha uma vida mais equilibrada e saudável.
-                </p>
-
-            </div>
-        </section>
-
         <section class="como_organizar">
             <h1>Como Organizar sua Rotina</h1>
             <p>
@@ -323,9 +263,10 @@
                 </div>
                 <!-- formulário -->
                 <button type="button" onclick="generateRoutine()">Gerar Sugestões</button>
-              
+
             </form>
-            <p class="lembrete">As sugestões feitas são baseadas em pesquisas feitas por membros de nossa equipe e podem não se
+            <p class="lembrete">As sugestões feitas são baseadas em pesquisas feitas por membros de nossa equipe e podem
+                não se
                 aplicar a todas as pessoas, para melhores sugestões, busque um especialista.</p>
         </section>
         <section class="respostasforms">
@@ -338,9 +279,9 @@
                         const data = Object.fromEntries(formData.entries());
                         let routineForm = "Sugestões de melhora para a sua rotina:\n\n";
                         const resultElement = document.getElementById('result');
-                        resultElement.innerHTML = routineForm; 
+                        resultElement.innerHTML = routineForm;
                         resultElement.classList.add('result-text');
-                       
+
                         if (data.sono == "4h ou menos") {
                             routineForm += "- Suas horas de sono são insuficientes para a recuperação física e mental. Tente aumentar gradualmente seu sono para pelo menos 7 horas por noite. Crie um ambiente relaxante e uma rotina para dormir melhor.\n";
                         } else if (data.sono == "5-6h") {
@@ -388,11 +329,14 @@
                         } else if (data.exercicios == "todos os dias") {
                             routineForm += "- Exercitar-se todos os dias demonstra disciplina, mas não se esqueça de dar ao seu corpo tempo para descansar e se recuperar, especialmente se estiver fazendo atividades intensas. Dias de descanso ativo, como yoga ou caminhadas leves, são uma boa opção\n";
                         }
+
                         document.getElementById('result').textContent = routineForm;
+                        localStorage.setItem('rotina', routineForm);
+
+
+                        window.location.href = "outra-pagina.html";
                     }
-                    
                 </script>
-                
             </div>
         </section>
         <section class="referencias">

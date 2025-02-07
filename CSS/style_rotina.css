@@ -191,7 +191,7 @@ header nav {
 	align-items: center;
 	padding: 10px 20px;
 }
-  
+
 .menu {
 	list-style: none;
 	justify-content: right;
@@ -203,7 +203,7 @@ header nav {
 	font-size: 0.8rem;
 	font-weight: bold;
 }
-  
+
 .menu li a {
 	color: #2f2a19;
 	text-decoration: none;
@@ -218,7 +218,7 @@ header nav {
 	display: none;
 	flex-direction: column;
 	gap: 5px;
-	margin: 0 5vw 0 ;
+	margin: 0 5vw 0;
 	cursor: pointer;
 }
 
@@ -663,7 +663,6 @@ footer ul.logos li {
 /*==========================================
          RESPONSIVIDADE (Media Queries)
 ============================================*/
-
 @media (max-width: 768px) {
 	header nav {
 		flex-direction: column;
@@ -685,7 +684,9 @@ footer ul.logos li {
 		margin: 0;
 	}
 
-	.comeco h1, .beneficios h1, .rotina_exemplo h1 {
+	.comeco h1,
+	.beneficios h1,
+	.rotina_exemplo h1 {
 		font-size: 2.5rem;
 	}
 
@@ -701,3 +702,59 @@ footer ul.logos li {
 		width: 100%;
 	}
 }
+
+/*========RESPONSIVIDADE===========*/
+@media (max-width: 768px) {
+	.content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.image-box {
+		order: -1;
+		margin-bottom: 20px;
+	}
+
+	.image-box img {
+		width: 100%;
+		max-width: 768px;
+	}
+
+	.paragrafo1 {
+		padding: 10px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+}
+/*=========BOTÃO ANIMADO==========*/
+.forms button {
+    margin: 3vw 0 0 15vw;
+    padding: 1.2vw 2vw 1.2vw 2vw;
+    color: white;
+    background-color: #333;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forms button:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.forms button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+

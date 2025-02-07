@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões de Rotina</title>
+    <link rel="stylesheet" href="CSS/style_outraPagina.css">
+</head>
+
+<body>
+    <h1>Sugestões de Rotina</h1>
+    <div id="result"></div>
+
+    <script>
+        const rotinaSalva = localStorage.getItem('rotina');
+        if (rotinaSalva) {
+            document.getElementById('result').textContent = rotinaSalva;
+        } else {
+            document.getElementById('result').textContent = "Nenhuma sugestão de rotina encontrada.";
+        }
+    </script>
+
+
+    <button id="backButton" onclick="goHome()">Voltar à Página Inicial</button>
+
+    <script>
+
+
+        function goHome() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
