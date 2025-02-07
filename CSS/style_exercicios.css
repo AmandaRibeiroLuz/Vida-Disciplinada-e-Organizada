@@ -276,7 +276,7 @@ body main img.banner {
 }
 
 body section.menus h2 {
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	font-weight: bold;
 	text-align: center;
 	margin: 4vw;
@@ -286,7 +286,7 @@ body section.menus h2 {
 body main section.menus {
 	font-size: 0.9rem;
 	background-color: #e4ddd6;
-	padding: 5vw;
+	padding: 2vw;
 	align-items: center;
 	line-height: 1.3rem;
 }
@@ -425,8 +425,8 @@ main section.pt3 ul li {
 	/*Arredondamento da borda*/
 	margin: 2vw;
 	padding: 2vw 2vw 2vw 2vw;
+	transition: box-shadow 0.3s ease;
 }
-
 main section.pt3 h4 {
 	font-weight: bold;
 	margin: 20px;
@@ -496,7 +496,17 @@ body main section.pt4 ul li p {
 	font-size: 1rem;
 	line-height: 1.3rem;
 }
-
+body main section.pt4 ul li a{
+	margin: 4vw;
+	background-color: #e4ddd6;
+	color: #704a2f;
+	border-radius: 10px;
+	border-bottom: #e4ddd6;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
 /*=========================================
 				Referências
 ===========================================*/
@@ -569,7 +579,7 @@ footer ul.logos li {
 	margin: 1vw;
 }
 /*====================================
-------------Respondividade------------
+------------Responsividade------------
 ======================================*/
 @media (max-width: 700px) {
 	body {
@@ -590,14 +600,30 @@ footer ul.logos li {
    body p.txt2 {
 	margin: 2vw;
    }
+   body section.menus div.chatice p.txt2 {
+	margin: 4vw 0 7vw 4vw;
+   }
    body section.menus div.chatice a {
-	margin: 15vw;
+	margin: 20vw;
+   }
+   body section.pt3 ul {
+	justify-content: center;
    }
    body section.pt3 ul li p{
-	font-size: clamp(10px, 8vw, 8px);
+	font-size: clamp(15px, 12vw, 15px);
+	flex-wrap: wrap;
    }
    body section.pt3 ul li h4 {
-	text-align: center;
+	width: 100%;
+	margin: 0.5vw;
+	padding: 5vw 0 5vw 0;
+	word-break: break-all;
+   }
+   body section.pt4 div {
+	flex-direction: column;
+   }
+   body section.pt4 div video {
+	width: 85%;
    }
 /*=================Footer===============*/
 	footer {
@@ -619,3 +645,73 @@ footer ul.logos li {
 		text-align: left;
 	}
 } 
+/*animação*/
+
+.animacao1 {
+	display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Animação suave */
+}
+.animacao1:active {
+	transform: scale(0.9); /* Reduz o tamanho quando clicado */
+	background-color: #ffffff; /* Muda a cor ao ser clicado */
+  }
+.animacao1:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+}
+  .animacao2 {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #3498db;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .animacao2:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+  }
+  
+  .animacao2:active {
+	transform: scale(0.95);
+	background-color: #2980b9;
+  }
+.animacao3 li{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.animacao3:hover li{
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+}
+.pt3 ul li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.pt3 ul li:hover {
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+  }
