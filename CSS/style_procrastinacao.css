@@ -331,12 +331,17 @@ section.text ul li.img img {
 /*========================================
 				SECTION.CAUSAS
 ======================================*/
-section.causas ul li {
+section.causas ul {
 	width: 100%;
 	background-color: #e4ddd6;
+
 }
 
-section.causas ul li h2 {
+section.causas ul li {
+	display: flex;
+}
+
+section.causas ul h2 {
 	font-size: 2.5rem;
 	padding: 7vw 0 2.5vw 0;
 	text-align: center;
@@ -348,17 +353,13 @@ section.causas ul li p {
 	margin: 0 0 0 4vw;
 }
 
-section.causas ul li div {
-	display: flex;
-}
-
-section.causas ul li div img {
+section.causas ul li img {
 	margin: 4vw 10vw 7vw 0;
 	width: 40%;
 	border: 5px solid #2f2a19;
 }
 
-section.causas ul li div p {
+section.causas ul li p {
 	padding: 3vw 3vw 5vw 0;
 	margin: 0 7vw 0 10vw;
 	font-size: 1rem;
@@ -366,19 +367,6 @@ section.causas ul li div p {
 	line-height: 1.35rem;
 	text-align: justify;
 
-}
-
-section.causas ul li div.conserto {
-	background-color: white;
-}
-
-section.causas ul li div.conserto p {
-	padding: 3vw 10vw 5vw 10vw;
-	font-size: 1rem;
-	width: 100%;
-	line-height: 1.5rem;
-	text-align: justify;
-	margin: 3vw 0 0 0;
 }
 
 /*=======================================
@@ -458,44 +446,32 @@ section.direction {
 	text-align: center;
 }
 
-section.direction p.text {
-	text-align: justify;
-	background-color: white;
-	padding: 5vw 0 5vw 0;
-	margin: 0 10vw 0 10vw;
-	line-height: 1.5rem;
-}
-
 section.direction p.responda {
 	padding: 7vw 0 1vw 0;
 	font-size: 1.2rem;
-	background-color: #e4ddd6;
-
+	margin: 2vw 10vw;
 }
 
 section.direction p.label {
 	font-size: 1.2rem;
 	color: #704a2f;
-	background-color: #e4ddd6;
 	padding: 3vw 0 1vw 0;
 	font-weight: bold;
-
 }
 
 section.direction div {
-	background-color: #e4ddd6;
 	padding: 1vw 6vw 8vw 11vw;
 	display: flex;
 }
 
 section.direction div ul li {
-	width: 40%;
+	width: 50%;
 	font-size: 1.2rem;
 	background-color: #704a2f;
 	border: #d1ae95;
 	text-align: center;
 	padding: 2vw;
-	margin: 2vw 15vw 0 10vw;
+	margin: 2vw 10vw 0 10vw;
 	border-radius: 100px;
 }
 
@@ -513,12 +489,12 @@ section.direction ul li a:hover {
 }
 
 h2.dicastitle {
-	margin: 4vw 15vw 3vw 15vw;
+	padding: 4vw 15vw 3vw 15vw;
 	font-size: 3rem;
+	background-color: #e4ddd6;
 	text-align: center;
 	line-height: 3.3rem;
 	font-weight: bold;
-	padding: 1.5vw 0.7vw 1.5vw 0.7vw;
 	color: #2f2a19;
 	font-family: 'Times New Roman', Times, serif;
 }
