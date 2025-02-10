@@ -357,7 +357,7 @@ main section.introducaoTRES p.imagem img {
 ==================================================*/
 main section.introOrganiza {
    background-color: white;
-   padding:  0;
+   padding: 0;
 }
 
 main section.introOrganiza p.paragrafo {
@@ -384,22 +384,23 @@ main section.introOrganiza p.imagem {
 main section.introOrganiza p.imagem img {
    border: 5px solid #704a2f;
 }
+
 p.topo {
-	text-align: center;
-	background-color: #e4ddd6;
-	padding: 2vw 4vw;
+   text-align: center;
+   background-color: #e4ddd6;
+   padding: 2vw 4vw;
 
 }
 
 p.topo a {
-	color: #2f2a19;
-	text-decoration: underline;
-	font-weight: bold;
-	font-size: 1.2rem;
+   color: #2f2a19;
+   text-decoration: underline;
+   font-weight: bold;
+   font-size: 1.2rem;
 }
 
 p.topo a:hover {
-	color: #704a2f;
+   color: #704a2f;
 }
 
 /*==========================================
@@ -501,7 +502,7 @@ footer ul li.contato {
    main section.introducao div.dividir div.texto {
       text-align: center;
       width: 100%;
-      margin: 2vw 5vw 2vw 5vw;
+      margin: 2vw;
    }
 
    main section.introducao div.dividir div.texto p.paragrafo {
@@ -516,64 +517,82 @@ footer ul li.contato {
    }
 
    section.introducao p.imagem img {
-      width: 70%;
+      width: 80%; 
+      margin: 2vw 4vw;
 
    }
 
-
-/*================================================
+   /*================================================
                    Introdução 2                
 ==================================================*/
-section.introducaoDOIS p.imagem img {
-   width: 80%;
-   margin: 0 13vw 0 7vw;
-}
+   section.introducaoDOIS {
+      padding: 5vw 0;
+   }
 
-/*================================================
+   section.introducaoDOIS p.imagem img {
+      width: 95%;
+      margin: 0 1vw;
+   }
+   section.introducaoDOIS p.paragbaixo {
+      margin: 0 1vw;
+      width: 80%;
+   }
+
+
+   /*================================================
                    Introdução 3                
 ==================================================*/
-main section.introducaoTRES {
-   display: block;
-   flex-wrap: wrap;
-   justify-content: center;
-   text-align: center;
-   margin: none;
-   width: 100%;
-   padding: 3vw 0;
-   display: flex;
-   align-items: center;
-}
+   main section.introducaoTRES {
+      display: block;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      margin: none;
+      width: 100%;
+      padding: 5vw 0;
+      display: flex;
+      align-items: center;
+   }
 
-main section.introducaoTRES p.imagem img {
-   width: 90%;
-   margin: 0 auto; 
-}
-/*================================================
+   main section.introducaoTRES p.imagem img {
+      width: 95%;
+      margin: 0 4vw;
+   }
+
+   section.introducaoTRES p.paragrafo {
+      width: 84%;
+   }
+
+   /*================================================
                    Introdução 3                
 ==================================================*/
 
-main section.introOrganiza p.imagem img {
-   width: 90%; 
-   margin: 0 auto;
-}
+   main section.introOrganiza p.imagem img {
+      width: 95%;
+      margin: 0 auto;
+   }
 
-/*===============FOOTER==============*/
-footer {
-   align-items: center;
+   main section.introOrganiza p.topo {
+      padding: 4vw 0
+   }
 
-}
+   /*===============FOOTER==============*/
+   footer {
+      align-items: center;
 
-footer ul {
-   display: block;
-}
+   }
 
-footer ul.alunos {
-   margin: 0;
-   width: 90%;
-}
+   footer ul {
+      display: block;
+   }
 
-footer ul.esq {
-   width: 84%;
-   text-align: left;
-}
+   footer ul.alunos {
+      margin: 0;
+      width: 90%;
+   }
+
+   footer ul.esq {
+      width: 84%;
+      text-align: left;
+   }
 }

@@ -845,30 +845,28 @@ footer ul li.contato {
 	section.causas h2 {
 		margin: 0 10vw;
 	}
-
-	section.causas ul li div {
+	section.causas ul li {
 		display: block;
-		flex-wrap: wrap;
+	}
+
+	section.causas ul li  {
 		width: 100%;
 		justify-content: center;
 		text-align: center;
 		margin: none;
 	}
 
-	section.causas ul li div img {
+	section.causas ul li img {
 		width: 80%;
-		margin: 0 10vw;
+		margin: 8vw 10vw;
 	}
 
-	section.causas ul li div p {
+	section.causas ul li p {
 		margin: 0 10vw;
-		width: 78%;
+		width: 80%;
 		text-align: justify;
 	}
 
-	section.causas ul li div.conserto p {
-		width: 80%;
-	}
 
 	/*============SECTION.PROBLEMA============*/
 
@@ -889,7 +887,7 @@ footer ul li.contato {
 
 	}
 
-	/*===========SECTION.DIRWCTION=============*/
+	/*===========SECTION.DIRECTION=============*/
 	section.direction p.responda {
 		padding: 4vw 8vw;
 	}
@@ -909,13 +907,14 @@ footer ul li.contato {
 	}
 
 	section.direction div ul li {
-		margin: 5vw 12vw;
+		margin: 5vw 6vw;
 	}
 
 	section.direction ul li p {
 		width: 100%;
 		padding: 2.5vw 0;
 	}
+	
 
 	/*===============FOOTER==============*/
 	footer {
