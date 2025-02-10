@@ -174,16 +174,7 @@ header nav {
 	justify-content: left;
 	width: 40px;
 	margin: 0 0 0 4vw;
-	transition: transform 0.3s ease
- }
- .navBar p img:active {
-	transform: scale(0.9); /* Reduz o tamanho quando clicado */
-	 background-color: #ffffff; /* Muda a cor ao ser clicado */
- }
- .navBar p img:hover {
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-	 transform: scale(1.1);
- }
+}
 
 .navbar {
 	display: flex;
@@ -375,46 +366,37 @@ section.vantagens h2.resposta {
 	color: #704a2f;
 	margin: 5vw 10vw 4vw 10vw;
 }
-
-section.vantagens p {
-	margin: 4vw 10vw 4vw 10vw;
-	line-height: 1.3rem;
-}
-
-section.vantagens div.maior {
+section.vantagens div.maior{
 	display: flex;
+	width: 100% ;
 }
-
-section.vantagens div.maior div.lista {
+section.vantagens div.maior div.lista{
 	width: 50%;
-	margin: 2vw 2vw 2vw 10vw;
+	
 }
-
-section.vantagens ul {
-	background-color: #cdbca5;
+section.vantagens div.maior div.lista ul {
+	background-color: #704a2f;
 	border-radius: 25px;
 	padding: 2vw;
-	margin: 0 5vw 0 0;
+	margin: 0 1.5vw 0 10vw ;
 }
 
-section.vantagens ul li {
-	text-align: justify;
-	color: #2f2a19;
+section.vantagens div.maior div.lista ul li {
+	text-align: center;
+	color: #e4ddd6;
 	margin: 2vw;
 	font-weight: bold;
 }
-
-section.vantagens div.maior div.text {
+section.vantagens div.maior div.img{
 	width: 50%;
 }
-
-section.vantagens div.maior div.text p {
-	margin: 5vw 10vw 2vw 2vw;
+section.vantagens div.maior div.img p.img{
+	margin: 0 10vw 0 1.5vw;
 }
-
-section.vantagens p.img img {
+section.vantagens div.maior div.img p.img img {
 	border: #2f2a19 solid 9px;
-	width: 100%;
+	border-radius: 25px;
+	width: 95%;
 }
 
 /*==========================================
@@ -423,11 +405,6 @@ section.vantagens p.img img {
 section.rotina {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
-}
-
-section.rotina p {
-	margin: 4vw 10vw 4vw 10vw;
-	line-height: 1.4rem;
 }
 
 section.rotina h2 {
@@ -446,16 +423,24 @@ section.rotina h3 {
 	margin: 9vw 25vw 3vw 25vw ;
 }
 
-section.rotina p.diferente {
+section.rotina p {
 	background-color: #704a2f;
 	color: #cdbca5;
 	padding: 2vw;
 	border-radius: 1.3vw;
 	font-family: 'Times New Roman', Times, serif;
+	line-height: 1.4rem;
+	margin: 4vw 10vw 4vw 10vw;
+}
+section.rotina p.img{
+	background-color: #cdbca5;
 }
 section.rotina img {
-	width: 100%;
-	border: #704a2f solid 7px;
+	width: 100%;	
+	border-radius: 20px;
+	background-color: #704a2f;
+	padding: 7px 15px;
+	
 }
 /*==========================================
            		 Lista
@@ -464,21 +449,46 @@ section.lista {
 	background-color: #e4ddd6;
 	padding: 6vw 0 5vw 0;
 }
-
+section.lista ul div{
+	display: flex;
+	width: 100%;
+}
+section ul div li{
+	width: 100%;
+}
 section.lista ul li h3 {
 	text-align: center;
 	font-weight: bold;
-	margin: 9vw 10vw 3vw 10vw;
-	background-color: #632b04;
-	color: #e4ddd6;
-	padding: 20px;
-	border-radius: 2vw;
+	margin: 3vw 10vw 3vw 10vw;
+	background-color: #d1ae95;
+	padding:  10px 5px;
+	border-radius: 10px;
+}
+section.lista ul li p {
+	text-align: center;
+	margin: 2vw 10vw 2vw 10vw;
+	background-color: aliceblue;
+	padding: 10px;
+	border: #2f2a19 solid 2px ;
+	line-height: 1.4rem;
+}
+/*====================
+	Lista dividida
+==================== */
+section ul div li.left h3{
+	margin: 3vw 2vw 3vw 10vw;
+}
+section ul div li.right h3{
+	margin: 3vw 10vw 3vw 2vw;
+}
+section ul div li.left p{
+	margin: 2vw 2vw 2vw 10vw;
+}
+section ul div li.right p{
+	margin: 2vw 10vw 2vw 2vw;
 }
 
-section.lista ul li p {
-	margin: 2vw 10vw 2vw 10vw;
-	;
-}
+/*IMG*/
 section.lista img {
 	border: #632b04 solid 9px;
 	width: 100%;
