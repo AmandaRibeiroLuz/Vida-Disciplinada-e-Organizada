@@ -262,13 +262,6 @@ header nav ul li.atual a {
 /*================================================
                    Introdução                 
 ==================================================*/
-body main h1 {
-   padding: 3vw 0 3vw 0;
-   text-align: center;
-   font-size: 2.6rem;
-   font-weight: bold;
-   background-color: #e4ddd6;
-}
 
 main section.introducao {
    background-color: #e4ddd6;
@@ -364,18 +357,18 @@ main section.introducaoTRES p.imagem img {
 ==================================================*/
 main section.introOrganiza {
    background-color: white;
-   padding: 3vw 0;
+   padding:  0;
 }
 
 main section.introOrganiza p.paragrafo {
-   margin: 2vw 10vw 5vw 10vw;
+   margin: 2vw 10vw 7vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
 
 main section.introOrganiza p.paragBaixo {
-   margin: 5vw 10vw 1.5vw 10vw;
+   margin: 5vw 10vw 4vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
@@ -390,6 +383,23 @@ main section.introOrganiza p.imagem {
 
 main section.introOrganiza p.imagem img {
    border: 5px solid #704a2f;
+}
+p.topo {
+	text-align: center;
+	background-color: #e4ddd6;
+	padding: 2vw 4vw;
+
+}
+
+p.topo a {
+	color: #2f2a19;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+p.topo a:hover {
+	color: #704a2f;
 }
 
 /*==========================================
@@ -458,6 +468,7 @@ footer ul.alunos li {
 footer ul li.contato {
    margin: 2vw 0 2vw 0;
 }
+
 
 /*==============RESPONSIVIDADE================*/
 
@@ -565,23 +576,4 @@ footer ul.esq {
    width: 84%;
    text-align: left;
 }
-}
-p.topo {
-	text-align: center;
-	background-color: #e4ddd6;
-	padding: 2vw 4vw;
-	border-top-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	margin: 2vw 10vw;
-}
-
-p.topo a {
-	color: #2f2a19;
-	text-decoration: underline;
-	font-weight: bold;
-	font-size: 1.2rem;
-}
-
-p.topo a:hover {
-	color: #704a2f;
 }
