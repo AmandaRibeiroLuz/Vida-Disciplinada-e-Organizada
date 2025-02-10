@@ -630,54 +630,40 @@ section.referencias nav ul li a {
 ============================================*/
 footer {
 	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
+	padding: 2vw 10vw 2vw 10vw;
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
-	text-align: center;
+}
+
+footer ul.esq {
+	text-align: right;
+	margin: 2vw 0 0 0;
+	justify-content: right;
 }
 
 footer ul li a {
 	color: #e4ddd6;
 }
 
-footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+footer ul.alunos li.des {
+	margin: 0 0 1vw 0;
 }
 
-footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
-}
-
-footer ul li.alunos {
-	display: flex;
+footer ul.alunos li {
+	display: block;
 	font-size: 0.8rem;
 }
 
-footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
-}
-
-footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
-}
-
-footer ul.logos li {
-	margin: 1vw;
+footer ul li.contato {
+	margin: 2vw 0 2vw 0;
 }
 
 /*==========================================
          RESPONSIVIDADE (Media Queries)
 ============================================*/
 @media (max-width: 768px) {
-	header nav {
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.menu {
 		width: 80%;
 		padding: 5vw;
@@ -702,44 +688,44 @@ footer ul.logos li {
 	.forms h1 {
 		font-size: 1.8rem;
 	}
-
-	footer {
-		flex-direction: column;
-	}
-
-	footer ul {
-		width: 100%;
-	}
 }
 
 /*========RESPONSIVIDADE===========*/
 @media (max-width: 768px) {
-	.content {
-		flex-direction: column;
-		align-items: center;
+	/*=========================*/
+	main section.banner h1.inicio {
+		font-size: 2rem;
+		padding: 3vw;
 	}
-
-	.image-box {
-		order: -1;
-		margin-bottom: 20px;
+	main section.banner h2.tittle {
+		margin: 0 0 5vw 0;
 	}
-
-	.image-box img {
-		width: 100%;
-		max-width: 768px;
+	main section.banner div.intro {
+		flex-wrap: wrap;
 	}
-
-	.paragrafo1 {
-		padding: 10px;
+	main section.banner div.intro div.paragrafo1 {
+		justify-content: center;
 	}
-
-	h3 {
-		font-size: 20px;
+	main section.banner div.intro div.paragrafo1 h3{
+		font-size: 2rem;
+		margin: 3vw;
 	}
-
-	p {
-		font-size: 14px;
-		line-height: 1.4;
+	main section.banner div.intro div.paragrafo1 p {
+		width: 85%;
+	}
+	/*================================*/
+	main section.como_organizar h1{
+		font-size: 2rem;
+	}
+	main section.como_organizar p {
+		font-size: 1rem;
+	}
+	/*=================================*/
+	section.rotina_exemplo h1 {
+		font-size: 2rem;
+	}
+	section.rotina_exemplo p {
+		font-size: 1rem;
 	}
 }
 /*=========BOTÃO ANIMADO==========*/
