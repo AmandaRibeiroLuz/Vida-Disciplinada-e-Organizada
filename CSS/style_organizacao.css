@@ -713,7 +713,7 @@ footer ul li.contato {
 		justify-content: center;
 	}
 
-	main section.beneficios div.dividir div.text h1 {
+	main section.beneficios div.dividir div.text h2 {
 		width: 155%;
 	}
 
@@ -749,7 +749,7 @@ footer ul li.contato {
 		justify-content: center;
 	}
 
-	main section.modelo div.dividir div.text h1 {
+	main section.modelo div.dividir div.text h2 {
 		width: 155%;
 	}
 
@@ -784,7 +784,7 @@ footer ul li.contato {
 		margin: none;
 	}
 
-	main section.influencias div.dividir div h1 {
+	main section.influencias div.dividir div h2 {
 		width: 110%;
 	}
 
