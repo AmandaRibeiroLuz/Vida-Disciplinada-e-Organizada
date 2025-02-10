@@ -421,7 +421,20 @@ main section.time details ul li.bege p.img img {
 	margin: 2vw;
 	border-radius: 10rem;
 }
-
+/*==========================================
+            	Animações
+============================================*/
+main section details summary {
+  transition: transform 0.3s ease
+}
+main section details summary:active {
+	transform: scale(0.9); /* Reduz o tamanho quando clicado */
+	background-color: #ffffff; /* Muda a cor ao ser clicado */
+  }
+main section details summary:hover {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	transform: scale(1.1);
+}
 /*==========================================
                 FOOTER
 ============================================*/

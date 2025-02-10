@@ -593,6 +593,9 @@ footer ul.logos li {
 		width: 200px;
 		margin: 0 15vw;
    }
+   section.menus ul li p {
+	text-align: justify;
+   }
    body div.chato {
 	display: block;
 	margin: 3vw;
