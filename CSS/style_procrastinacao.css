@@ -350,8 +350,10 @@ section.causas ul li {
 	display: flex;
 }
 
-section.causas ul h2 {
+section.causas h2 {
 	font-size: 2.5rem;
+	width: 100%;
+	background-color: #e4ddd6;
 	padding: 7vw 0 2.5vw 0;
 	text-align: center;
 	font-weight: bold;
