@@ -749,7 +749,7 @@ p.topo {
 	padding: 2vw 4vw;
 	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
-	margin: 2vw 10vw;
+	margin: 2vw 10vw 6vw 10vw;
 }
 
 p.topo a {
@@ -924,11 +924,9 @@ footer ul li.contato {
 		padding: 2.5vw 0;
 	}
 	
-
 	/*===============FOOTER==============*/
 	footer {
 		align-items: center;
-
 	}
 
 	footer ul {
@@ -937,12 +935,12 @@ footer ul li.contato {
 
 	footer ul.alunos {
 		margin: 0;
-		width: 90%;
+		width: 65%;
 	}
 
 	footer ul.esq {
-		width: 84%;
-		text-align: left;
+		width: 90%;
+		justify-content: left;
 	}
 
 }
