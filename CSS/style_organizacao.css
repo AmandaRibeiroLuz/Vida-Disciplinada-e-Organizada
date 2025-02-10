@@ -275,7 +275,7 @@ main section.motivo {
 	padding: 3vw 0 3vw 0;
 }
 
-main section.motivo h1 {
+main section.motivo h2 {
 	margin: 4vw 10vw 3vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -315,7 +315,7 @@ main section.beneficios div.dividir div.text {
 	width: 50%;
 }
 
-main section.beneficios div.dividir div.text h1 {
+main section.beneficios div.dividir div.text h2 {
 	margin: 4vw 3vw 5vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -346,7 +346,7 @@ main section.trabalho {
 	padding: 3vw 0 3vw 0;
 }
 
-main section.trabalho h1 {
+main section.trabalho h2 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -390,7 +390,7 @@ main section.modelo div.dividir div.text {
 	width: 50%;
 }
 
-main section.modelo div.dividir div.text h1 {
+main section.modelo div.dividir div.text h2 {
 	margin: 4vw 1vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -417,7 +417,7 @@ main section.expectativas {
 	padding: 3vw 0 3vw 0;
 }
 
-main section.expectativas h1 {
+main section.expectativas h2 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -478,7 +478,7 @@ main section.influencias div.dividir div {
 	width: 70%;
 }
 
-main section.influencias div.dividir div h1 {
+main section.influencias div.dividir div h2 {
 	margin: 4vw 10vw 2vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -501,7 +501,7 @@ main section.passos {
 	text-align: center;
 }
 
-main section.passos h1 {
+main section.passos h2 {
 	margin: 4vw 10vw 4vw 10vw;
 	font-size: 2rem;
 	text-align: center;
@@ -555,7 +555,7 @@ main section.videos {
 	text-align: center;
 }
 
-main section.videos h1 {
+main section.videos h2 {
 	margin: 4vw 20vw 4vw 20vw;
 	font-size: 2rem;
 	text-align: center;
@@ -574,11 +574,22 @@ main section.videos p {
 main section.videos p iframe {
 	border: 5px solid #704a2f;
 }
+
+main section.videos p.topo {
+	margin: 8vw 10vw 3vw 10vw;
+}
+
 main section.videos p.topo a {
 	background-color: #704a2f;
-	padding: 2vw 10vw;
+	padding: 2vw 9vw;
 	color: #e4ddd6;
-	margin: 5vw 0 0 0;
+	margin: 2vw 10vw;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+main section.videos p.topo a:hover {
+	color: #cdbca5;
 }
 
 /*==========================================
@@ -589,14 +600,26 @@ main section.referencias {
 	padding: 2vw 0 2vw 0;
 }
 
-main section.referencias h1 {
+main section.referencias h2 {
 	font-size: 1rem;
 	font-weight: bold;
 	padding: 2vw 10VW 2vw 10VW;
 	text-align: center;
 }
 
-main section.referencias h2 {
+main section.referencias h3 {
+	font-size: 1rem;
+	margin: 2vw 10vw 2vw 10vw;
+	text-decoration: underline;
+}
+
+main section.referencias h4 {
+	font-size: 1rem;
+	margin: 2vw 10vw 2vw 10vw;
+	text-decoration: underline;
+}
+
+main section.referencias h5 {
 	font-size: 1rem;
 	margin: 2vw 10vw 2vw 10vw;
 	text-decoration: underline;
@@ -665,9 +688,11 @@ footer ul li.contato {
 	header nav.navBar p {
 		margin: 0 0 0 2vw;
 	}
+
 	header .navBar {
 		width: none;
 	}
+
 	header div.menu-toggle {
 		margin: 0 9vw 0 0;
 	}
