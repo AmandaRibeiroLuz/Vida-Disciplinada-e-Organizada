@@ -283,7 +283,9 @@ header nav ul li.atual a {
 /*==========================================
 					BANNER
 ===========================================*/
-img.banner {
+main section.title{
+	background-image: url('/home/amanda.luz/Documentos/Vida-Disciplinada-e-Organizada/src/img.procrastinacao/procrastinacao.png');
+	height: 60vw;
 	width: 100%;
 }
 
@@ -846,16 +848,8 @@ footer ul li.contato {
 		overflow-y: scroll;
 	}
 
-
-	/*================HEADER===================*/
-	header .navBar {
-		width: none;
-	}
-
 	/*=============SECTION.CAUSAS=============*/
-	section.causas h2 {
-		margin: 0 10vw;
-	}
+
 	section.causas ul li {
 		display: block;
 	}
@@ -864,7 +858,6 @@ footer ul li.contato {
 		width: 100%;
 		justify-content: center;
 		text-align: center;
-		margin: none;
 	}
 
 	section.causas ul li img {
