@@ -262,14 +262,16 @@ header nav ul li.atual a {
 	border-radius: 0.5rem;
 }
 
+/*==========================================
+                SECTION.OBJETIVO
+============================================*/
+main section.banner img {
+	width: 100%;
+}
 
 /*==========================================
                 SECTION.OBJETIVO
 ============================================*/
-main img.banner {
-	width: 100%;
-}
-
 main section.objetivo {
 	background-color: #cdbca5;
 	padding: 3vw 0 3vw 0;
@@ -287,7 +289,14 @@ main section.objetivo details summary {
 	color: #cdbca5;
 }
 
-main section.objetivo details p.objetivo {
+main section.objetivo details p {
+	margin: 3vw 10vw 3vw 10vw;
+	text-align: justify;
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+}
+
+main section.objetivo details ul li {
 	margin: 3vw 10vw 3vw 10vw;
 	text-align: justify;
 	font-size: 1.1rem;
@@ -314,7 +323,7 @@ main section.desenvolvimento details summary {
 	color: #e4ddd6;
 }
 
-main section.desenvolvimento details p.desenvolvimento {
+main section.desenvolvimento details p {
 	margin: 3vw 10vw 3vw 10vw;
 	text-align: justify;
 	font-size: 1.1rem;
@@ -341,14 +350,14 @@ main section.historia details summary {
 	color: #cdbca5;
 }
 
-main section.historia details p.historia {
+main section.historia details p {
 	margin: 3vw 10vw 3vw 10vw;
 	text-align: justify;
 	font-size: 1.1rem;
 	line-height: 1.3rem;
 }
 
-main section.historia details p.historia span {
+main section.historia details p span {
 	font-style: italic;
 }
 
@@ -375,59 +384,71 @@ main section.time details summary {
 main section.time details ul li.branco {
 	display: flex;
 	background-color: #e4ddd6;
-	gap: 1vw;
 	width: 100%;
+	justify-content: center;
 	align-items: center;
 }
 
-main section.time details ul li.branco p.img img {
+main section.time details ul li.bege {
+	display: flex;
+	background-color: #cdbca5;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+main section.time details ul li.branco div.img p img {
 	width: 80%;
 	border: 5px solid #704a2f;
 	margin: 2vw;
 	border-radius: 10rem;
 }
 
-main section.time details ul li.branco p.img {
-	margin: 2vw 0 2vw 10vw;
-}
-
-main section.time details ul li.branco p.inform span {
-	font-size: 1.6rem;
-	font-family: 'Times New Roman', Times, serif;
-	font-weight: bold;
-}
-
-main section.time details ul li.bege {
-	width: 100%;
-	display: flex;
-	gap: 1vw;
-	align-items: center;
-	background-color: #cdbca5;
-}
-
-main section.time details ul li.bege p {
-	font-size: 1rem;
-	margin: 2vw 0 2vw 10vw;
-	word-wrap: break-word;
-}
-
-main section.time details ul li.bege p.inform span {
-	font-size: 1.6rem;
-	font-family: 'Times New Roman', Times, serif;
-	font-weight: bold;
-}
-
-main section.time details ul li.bege p.inform {
-	line-height: 40px;
-	margin: 0 10vw 0 0;
-}
-
-main section.time details ul li.bege p.img img {
+main section.time details ul li.bege div.img p img {
 	width: 80%;
 	border: 5px solid #2f2a19;
 	margin: 2vw;
 	border-radius: 10rem;
 }
+
+main section.time details ul li.branco div.texto {
+	text-align: center;
+}
+
+main section.time details ul li.bege div.texto {
+	text-align: center;
+}
+
+main section.time details ul li.branco div.texto h2{
+	font-size: 1.3rem;
+	margin: 0 0 2vw 0;
+}
+
+main section.time details ul li.bege div.texto h2{
+	font-size: 1.3rem;
+	margin: 0 0 2vw 0;
+}
+
+main section.time details ul li.bege div.texto p {
+	line-height: 1.3rem;
+}
+
+main section.time details ul li.branco div.texto p {
+	line-height: 1.3rem;
+}
+
+main section.time details ul li.branco div.texto p span {
+	font-size: 1.6rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
+main section.time details ul li.bege div.texto p span {
+	font-size: 1.6rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+
 /*==========================================
             	Animações
 ============================================*/
@@ -447,44 +468,38 @@ main section details summary:hover {
 ============================================*/
 footer {
 	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
+	padding: 2vw 10vw 2vw 10vw;
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
+	justify-content: space-between;
+}
 
+footer ul.esq {
+	text-align: right;
+	margin: 2vw 0 0 0;
+	justify-content: right;
 }
 
 footer ul li a {
 	color: #e4ddd6;
 }
 
-footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+footer ul.alunos li.des {
+	margin: 0 0 1vw 0;
 }
 
-footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
-}
-
-footer ul li.alunos {
-	display: flex;
-
+footer ul.alunos li {
+	display: block;
 	font-size: 0.8rem;
+
 }
 
-footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
+footer ul li.contato {
+	margin: 2vw 0 2vw 0;
 }
 
-footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
-}
-
-footer ul.logos li {
-	margin: 1vw;
-}
-
-/*==============RESPONSIVIDADE================*/
+/*==============RESPONSIVIDADE================ */
 
 @media (max-width: 768px) {
 	body {
@@ -499,22 +514,23 @@ footer ul.logos li {
 	/*================================================
                    Seções Principais               
 ==================================================*/
-	main section.objetivo details summary,
-	main section.desenvolvimento details summary,
-	main section.historia details summary,
-	main section.time details summary {
-	  margin: 4vw 10vw;
-	  font-size: 1.5rem;
-	  padding: 1.5vw 0;
-	}
-  
-	main section.objetivo details p.objetivo,
-	main section.desenvolvimento details p.desenvolvimento,
-	main section.historia details p.historia {
-	  margin: 3vw 5vw;
-	  font-size: 1rem;
-	  line-height: 1.5rem;
-	}
+main section.objetivo details summary,
+main section.desenvolvimento details summary,
+main section.historia details summary,
+main section.time details summary {
+  margin: 4vw 10vw;
+  font-size: 1.5rem;
+  padding: 1.5vw 0;
+}
+
+main section.objetivo details p,
+main section.objetivos details ul li,
+main section.desenvolvimento details p,
+main section.historia details p {
+  margin: 3vw 8vw;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
   
 	/*================================================
                  Time                
@@ -549,22 +565,21 @@ main section.time details ul li.branco,
     margin: 2vw auto;
   }
 	/*===============FOOTER==============*/
-footer {
-	align-items: center;
- 
- }
- 
- footer ul {
-	display: block;
- }
- 
- footer ul.alunos {
-	margin: 0;
-	width: 90%;
- }
- 
- footer ul.esq {
-	width: 84%;
-	text-align: left;
- }
+	footer {
+		align-items: center;
+	}
+
+	footer ul {
+		display: block;
+	}
+
+	footer ul.alunos {
+		margin: 0;
+		width: 65%;
+	}
+
+	footer ul.esq {
+		width: 90%;
+		justify-content: left;
+	}
  }
