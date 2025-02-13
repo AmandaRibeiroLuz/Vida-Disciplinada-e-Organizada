@@ -511,59 +511,51 @@ footer ul li.contato {
 	   width: none;
 	}
 	
-	/*================================================
+/*================================================
                    Seções Principais               
 ==================================================*/
-main section.objetivo details summary,
-main section.desenvolvimento details summary,
-main section.historia details summary,
-main section.time details summary {
-  margin: 4vw 10vw;
-  font-size: 1.5rem;
-  padding: 1.5vw 0;
-}
+	main section.objetivo details summary,
+	main section.desenvolvimento details summary,
+	main section.historia details summary,
+	main section.time details summary {
+		margin: 4vw 10vw;
+		font-size: 1.5rem;
+	}
 
-main section.objetivo details p,
-main section.objetivos details ul li,
-main section.desenvolvimento details p,
-main section.historia details p {
-  margin: 3vw 8vw;
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-  
-	/*================================================
+	main section.objetivo details p,
+	main section.objetivo details ul li,
+	main section.desenvolvimento details p,
+	main section.historia details p {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+/*================================================
                  Time                
 ==================================================*/
-main section.time details ul li.branco,
-  main section.time details ul li.bege {
-    flex-direction: column;
-    gap: 2vw;
-    align-items: center;
-    text-align: center;
-  }
+	main section.time details ul li.branco,
+	main section.time details ul li.bege {
+		flex-direction: column;
+		text-align: center;
+		padding: 3vw 0;
+	}
 
-  main section.time details ul li.branco {
-    background-color: #e4ddd6;
-    justify-content: center;
-	
-  }
+	main section.time details ul li.branco div.texto h2,
+	main section.time details ul li.bege div.texto h2 {
+		font-size: 1.3rem;
+		margin: 2vw 0 5vw 0;
+	}
 
-  main section.time details ul li.bege {
-    background-color: #cdbca5;
-    justify-content: center;
-  }
+	main section.time details ul li.branco div.img p img,
+	main section.time details ul li.bege div.img p img {
+		width: 60%;
+		margin: 5vw 0;
+	}
 
-  main section.time details ul li.branco p.img img,
-  main section.time details ul li.bege p.img img {
-    width: 60%;
-    margin: 1vw auto;
-  }
-
-  main section.time details ul li.branco p,
-  main section.time details ul li.bege p {
-    margin: 2vw auto;
-  }
+	main section.time details ul li.branco div.texto p,
+	main section.time details ul li.bege div.texto p {
+	  margin: 1vw 0;
+	}
 	/*===============FOOTER==============*/
 	footer {
 		align-items: center;
