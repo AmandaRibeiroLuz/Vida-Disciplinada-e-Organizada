@@ -181,9 +181,9 @@ header nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
-  }
-  
-  .menu {
+}
+
+.menu {
 	list-style: none;
 	justify-content: right;
 	padding: 0;
@@ -193,32 +193,33 @@ header nav {
 	justify-content: right;
 	font-size: 0.8rem;
 	font-weight: bold;
-  }
-  
-  .menu li a {
+}
+
+.menu li a {
 	color: #2f2a19;
 	text-decoration: none;
-  }
-  
-  .menu li a:hover {
-	color: #704a2f;
-  }
-  
-  /* Botão de Toggle */
-  .menu-toggle {
+}
+
+.menu li a:hover {
+	color: #d1ae95;
+}
+
+/* Botão de Toggle */
+.menu-toggle {
 	display: none;
 	flex-direction: column;
 	gap: 5px;
-	margin: 0 5vw 0 ;
+	margin: 0 5vw 0;
 	cursor: pointer;
-  }
-  
-  .menu-toggle span {
+}
+
+.menu-toggle span {
 	width: 25px;
 	height: 3px;
 	background-color: white;
-  }
-  .menu {
+}
+
+.menu {
 	display: none;
 	flex-direction: column;
 	background-color: #e4ddd6;
@@ -229,19 +230,19 @@ header nav {
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
 	padding: 5vw;
-  }
+}
 
-  .menu li {
+.menu li {
 	margin: 10px 0;
-  }
+}
 
-  .menu-toggle {
+.menu-toggle {
 	display: flex;
-  }
+}
 
-  .menu.active {
+.menu.active {
 	display: flex;
-  }
+}
 
 header nav ul li.atual a {
 	background-color: #704a2f;
@@ -263,15 +264,11 @@ body.estudosTrabalho main h2 {
 
 body.estudosTrabalho main p {
 	text-align: justify;
-	
+
 }
 
 body.estudosTrabalho main p.img {
 	text-align: center;
-}
-
-body.estudosTrabalho main p.img img {
-	width: 45%;
 }
 
 body.estudosTrabalho main hr {
@@ -295,18 +292,19 @@ section.intro {
 }
 
 section.intro h2 {
-	margin: 4vw 0 0 0;
+	margin: 5vw 0;
 }
 
 section.intro p {
-	margin: 2vw 10vw 2vw 10vw;
+	margin: 3vw 10vw;
+	line-height: 1.4;
 }
 
 section.intro p.video video {
-	margin: 0 10vw 4vw 10vw;
+
 	text-align: center;
 	border: 9px solid #704a2f;
-	width: 80%;
+	width: 100%;
 }
 
 /*==========================================
@@ -327,8 +325,8 @@ section.importancia div.maior {
 }
 
 section.importancia div.maior div.image {
-	width: 50%;
-	margin: 2vw 2vw 2vw 10vw;
+	margin: 2vw 3vw 2vw 10vw;
+	width: 80%;
 }
 
 section.importancia p.image img {
@@ -337,12 +335,11 @@ section.importancia p.image img {
 }
 
 section.importancia div.maior div.texto {
-	width: 50%;
-	margin: 2vw 10vw 2vw 2vw;
+	width: 80%;
+	margin: 2vw 10vw 2vw 3vw;
 }
 
 section.importancia p {
-	margin: 0.7vw 0 0 5vw;
 	line-height: 1.3rem;
 }
 
@@ -355,46 +352,52 @@ section.vantagens {
 }
 
 section.vantagens h2.vantagem {
-	margin: 7vw 10vw 3 10vw;
+	margin: 7vw 10vw 0 10vw;
 }
 
 section.vantagens h2.resposta {
 	font-weight: bold;
-	background-color: #cdbca5;
-	padding: 10px 10px 10px 10px;
-	border-radius: 100px;
 	color: #704a2f;
-	margin: 5vw 10vw 4vw 10vw;
+	margin: 3vw 10vw;
+	padding: 3vw;
+	border-top: 1px solid #704a2f;
 }
-section.vantagens div.maior{
+
+section.vantagens div.maior {
 	display: flex;
-	width: 100% ;
+	width: 100%;
 }
-section.vantagens div.maior div.lista{
-	width: 50%;
-	
+
+section.vantagens div.maior div.lista {
+	width: 90%;
+
 }
+
 section.vantagens div.maior div.lista ul {
-	background-color: #704a2f;
+	background-color: #cdbca5;
 	border-radius: 25px;
 	padding: 2vw;
-	margin: 0 1.5vw 0 10vw ;
+	margin: 0 1.5vw 0 10vw;
+	list-style-type: disc;
 }
 
 section.vantagens div.maior div.lista ul li {
-	text-align: center;
-	color: #e4ddd6;
-	margin: 2vw;
+	text-align: justify;
+	color: #704a2f;
+	margin: 1.5vw 4vw;
 	font-weight: bold;
 }
-section.vantagens div.maior div.img{
-	width: 50%;
+
+section.vantagens div.maior div.img {
+	width: 90%;
 }
-section.vantagens div.maior div.img p.img{
+
+section.vantagens div.maior div.img p.img {
 	margin: 0 10vw 0 1.5vw;
 }
+
 section.vantagens div.maior div.img p.img img {
-	border: #2f2a19 solid 9px;
+	border: #cdbca5 solid 9px;
 	border-radius: 25px;
 	width: 95%;
 }
@@ -409,6 +412,14 @@ section.rotina {
 
 section.rotina h2 {
 	margin: 4vw;
+	border-bottom: 1px solid #2f2a19;
+	padding: 3vw;
+}
+
+section.rotina p.intr {
+	line-height: 1.4rem;
+	text-align: justify;
+	margin: 2vw 10vw 4vw 10vw;
 }
 
 section.rotina h3 {
@@ -418,30 +429,35 @@ section.rotina h3 {
 	text-align: center;
 	background-color: #e4ddd6;
 	padding: 1.5vw;
-	border-radius: 10vw;
+	border-radius: 6px;
 	color: #632b04;
-	margin: 9vw 25vw 3vw 25vw ;
+	margin: 8vw 25vw 2vw 25vw;
 }
 
-section.rotina p {
-	background-color: #704a2f;
-	color: #cdbca5;
-	padding: 2vw;
+section.rotina p.text {
+	background-color: #e4ddd6;
+	color: #2f2a19;
+	padding: 3vw;
 	border-radius: 1.3vw;
 	font-family: 'Times New Roman', Times, serif;
 	line-height: 1.4rem;
-	margin: 4vw 10vw 4vw 10vw;
+	margin: 2vw 10vw 6vw 10vw;
 }
-section.rotina p.img{
+
+section.rotina p.img {
 	background-color: #cdbca5;
+	width: 100%;
 }
+
 section.rotina img {
-	width: 100%;	
-	border-radius: 20px;
+	width: 78%;
+	margin: 2vw 10vw 0 10vw;
+	border-radius: 10px;
 	background-color: #704a2f;
-	padding: 7px 15px;
-	
+	padding: 1vw;
+
 }
+
 /*==========================================
            		 Lista
 ============================================*/
@@ -449,55 +465,78 @@ section.lista {
 	background-color: #e4ddd6;
 	padding: 6vw 0 5vw 0;
 }
-section.lista ul div{
+
+section.lista h2 {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 2.5rem;
+	padding: 0 0 3vw 0;
+	border-bottom: 1px solid #2f2a19;
+}
+
+section.lista ul div {
 	display: flex;
 	width: 100%;
 }
-section ul div li{
+
+section ul div li {
 	width: 100%;
+	margin: 2vw 0;
 }
+
 section.lista ul li h3 {
 	text-align: center;
 	font-weight: bold;
-	margin: 3vw 10vw 3vw 10vw;
-	background-color: #d1ae95;
-	padding:  10px 5px;
+	margin: 6vw 10vw 1vw 10vw;
+	background-color: #704a2f;
+	color: #e4ddd6;
+	padding: 2vw;
 	border-radius: 10px;
 }
+
 section.lista ul li p {
 	text-align: center;
-	margin: 2vw 10vw 2vw 10vw;
+	margin: 1vw 10vw 5vw 10vw;
 	background-color: aliceblue;
-	padding: 10px;
-	border: #2f2a19 solid 2px ;
+	padding: 2vw;
+	border-radius: 10px;
+	border: #2f2a19 solid 2px;
 	line-height: 1.4rem;
 }
+
 /*====================
 	Lista dividida
 ==================== */
-section ul div li.left h3{
+section ul div li.left h3 {
 	margin: 3vw 2vw 3vw 10vw;
 }
-section ul div li.right h3{
+
+section ul div li.right h3 {
 	margin: 3vw 10vw 3vw 2vw;
 }
-section ul div li.left p{
+
+section ul div li.left p {
 	margin: 2vw 2vw 2vw 10vw;
 }
-section ul div li.right p{
+
+section ul div li.right p {
 	margin: 2vw 10vw 2vw 2vw;
 }
 
 /*IMG*/
 section.lista img {
-	border: #632b04 solid 9px;
-	width: 100%;
+	border: #704a2f solid 9px;
+	border-radius: 10px;
+	width: 78%;
+	margin: 4vw 0 0 0;
 }
+
 section.lista p.video video {
-	margin: 5vw 10vw 4vw 10vw;
+	margin: 0 10vw 4vw 10vw;
 	text-align: center;
-	width: 80%;
-	border: 5px solid #704a2f;
+	width: 76%;
+	border: #704a2f solid 9px;
+	border-radius: 10px;
 }
 
 /*==========================================
@@ -530,38 +569,157 @@ section.referencias p {
 ============================================*/
 footer {
 	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
+	padding: 2vw 10vw 2vw 10vw;
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
+	justify-content: space-between;
+}
+
+footer ul.esq {
+	text-align: right;
+	margin: 2vw 0 0 0;
+	justify-content: right;
 }
 
 footer ul li a {
 	color: #e4ddd6;
 }
 
-footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+footer ul.alunos li.des {
+	margin: 0 0 1vw 0;
 }
 
-footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
-}
-
-footer ul li.alunos {
-	display: flex;
-
+footer ul.alunos li {
+	display: block;
 	font-size: 0.8rem;
+
 }
 
-footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
+footer ul li.contato {
+	margin: 2vw 0 2vw 0;
 }
+/*==================================================
+					RESPONSIVIDADE
+====================================================*/
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
 
-footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
-}
+	/*=============SECTION.INTRO===================*/
+	section.intro h2 {
+		margin: 2vw 10vw;
+	}
 
-footer ul.logos li {
-	margin: 1vw;
+	section.intro p {
+		margin: 4vw 10vw;
+	}
+
+	section.intro img {
+		margin: 2vw 10vw;
+		width: 100%;
+	}
+
+	/*=============SECTION.IMPORTANCIA===================*/
+	section.importancia h2 {
+		margin: 2vw 10vw;
+	}
+
+	section.importancia div {
+		display: block;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	section.importancia div div.image {
+		width: 100%;
+
+	}
+
+	section.importancia div div.image img {
+		margin: 0 7vw 0 0;
+		width: 90%;
+	}
+
+	section.importancia div div.texto p {
+		margin: 0 0 0 7vw;
+	}
+
+	/*=================SECTION.VANTAGENS============*/
+	section.vantagens h2 {
+		margin: 2vw 10vw;
+
+	}
+
+	section.vantagens div.maior {
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	section.vantagens div.maior div.img p img {
+		margin: 3vw 0 5vw 9vw;
+	}
+
+	section.vantagens div.maior div.lista ul {
+		margin: 5vw 0 2vw 10vw;
+	}
+
+	/*================SECTION.ROTINA===============*/
+	section.rotina h2 {
+		margin: 2vw 10vw;
+	}
+
+	/*================SECTION.LISTA===============*/
+	section.lista h2 {
+		margin: 2vw auto;
+	}
+
+	section.lista div {
+		display: block;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	section.lista ul div li.left {
+		margin: 0 9vw 0 0;
+	}
+
+	section.lista ul div li.right {
+		margin: 0 0 0 9vw;
+	}
+
+	/*===============FOOTER==============*/
+	footer {
+		align-items: center;
+		padding: 4vw 6vw;
+	}
+
+	footer ul {
+		display: block;
+	}
+
+	footer ul.alunos {
+		margin: 0;
+		width: 70%;
+	}
+
+	footer ul.alunos li p {
+		margin: 0;
+	}
+
+	footer ul.esq {
+		width: 90%;
+		justify-content: left;
+	}
+
+	footer ul.esq li {
+		margin: 0 3vw 0 0;
+	}
+
+	footer ul.esq li p {
+		margin: 0;
+	}
+
 }

@@ -192,15 +192,19 @@ header nav {
 	width: 40px;
 	margin: 0 0 0 4vw;
 	transition: transform 0.3s ease
- }
- .navBar p img:active {
-	transform: scale(0.9); /* Reduz o tamanho quando clicado */
-	 background-color: #ffffff; /* Muda a cor ao ser clicado */
- }
- .navBar p img:hover {
+}
+
+.navBar p img:active {
+	transform: scale(0.9);
+	/* Reduz o tamanho quando clicado */
+	background-color: #ffffff;
+	/* Muda a cor ao ser clicado */
+}
+
+.navBar p img:hover {
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-	 transform: scale(1.1);
- }
+	transform: scale(1.1);
+}
 
 .navbar {
 	display: flex;
@@ -227,7 +231,7 @@ header nav {
 }
 
 .menu li a:hover {
-	color: #704a2f;
+	color: #d1ae95;
 }
 
 /* Botão de Toggle */
@@ -283,9 +287,12 @@ header nav ul li.atual a {
 /*==========================================
 					BANNER
 ===========================================*/
-main section.title{
+/*main section.title{
 	background-image: url('/home/amanda.luz/Documentos/Vida-Disciplinada-e-Organizada/src/img.procrastinacao/procrastinacao.png');
 	height: 60vw;
+	width: 100%;
+}*/
+section.title img.banner {
 	width: 100%;
 }
 
@@ -478,27 +485,24 @@ section.direction div {
 }
 
 section.direction div ul li {
-	width: 50%;
+	margin: 6vw 6vw 4vw 6vw;
+}
+
+
+section.direction ul li a {
+	color: #e4ddd6;
+	padding: 2vw 6vw;
+	width: 100%;
 	font-size: 1.2rem;
 	background-color: #704a2f;
 	border: #d1ae95;
 	text-align: center;
-	padding: 2vw;
-	margin: 2vw 10vw 0 10vw;
 	border-radius: 100px;
-}
-
-section.direction div ul li:hover {
-	background-color: #2f2a19;
-}
-
-section.direction ul li a {
-	color: #e4ddd6;
-
 }
 
 section.direction ul li a:hover {
 	color: #d1ae95;
+	background-color: #2f2a19;
 }
 
 h2.dicastitle {
@@ -854,7 +858,7 @@ footer ul li.contato {
 		display: block;
 	}
 
-	section.causas ul li  {
+	section.causas ul li {
 		width: 100%;
 		justify-content: center;
 		text-align: center;
@@ -897,7 +901,7 @@ footer ul li.contato {
 	}
 
 	section.direction p.label {
-		padding: 3vw 18vw;
+		padding: 3vw 10vw;
 		font-size: 1.5rem;
 	}
 
@@ -907,18 +911,19 @@ footer ul li.contato {
 	}
 
 	section.direction div ul {
-		width: 150%;
+		width: 95%;
 	}
 
-	section.direction div ul li {
-		margin: 5vw 6vw;
+	section.direction div ul li a {
+		margin: 5vw;
+		padding: 3vw 8vw;
 	}
 
 	section.direction ul li p {
 		width: 100%;
 		padding: 2.5vw 0;
 	}
-	
+
 	/*===============FOOTER==============*/
 	footer {
 		align-items: center;
