@@ -282,7 +282,7 @@ main section.introducao div.dividir {
 }
 
 main section.introducao div.dividir div p.imagem {
-   margin: 2vw 5vw 2vw 10vw;
+   margin: 5vw 10vw 1.5vw 10vw;
    width: 50%;
 }
 
@@ -293,7 +293,7 @@ main section.introducao div.dividir div p.imagem img {
 main section.introducao div.dividir div.texto {
    text-align: center;
    width: 50%;
-   margin: 2vw 10vw 2vw 5vw;
+   margin:  5vw 10vw 1.5vw 10vw;
 }
 
 main section.introducao div.dividir div.texto p.paragrafo {
