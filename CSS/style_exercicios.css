@@ -390,7 +390,7 @@ main section.atividade h4 {
 
 main section.atividade p.texto {
 	color: #e4ddd6;
-	margin: 2vw 0 0 0;
+	margin: 2vw 8vw 0 8vw;
 }
 
 main section.atividade span {
@@ -606,66 +606,78 @@ footer ul li.contato {
 	}
 
 /*================ MENUS ===================*/
-section.menus div.Imagem {
+section.menus div.imagem {
 	text-align: center;
 }
 	section.menus img{
-		width: 350px;
+		width: 320px;
    }
-   section.menus ul li p {
+   section.menus p {
 	text-align: justify;
+	font-size: 0.9rem;
    }
-   body div.chato {
+   section.menus div.dividir {
 	display: block;
+	flex-wrap: wrap;
 	margin: 3vw;
    }
-   body p.txt2 {
+   section.menus p.paragrafo {
 	margin: 2vw;
    }
-   body section.menus div.chatice p.txt2 {
+   section.menus div.texto p {
 	margin: 4vw 0 7vw 4vw;
    }
-   body section.menus div.chatice a {
+   section.menus div.text p.link a {
 	margin: 20vw;
    }
-   body section.pt3 ul {
-	justify-content: center;
+   section.atividade p.texto {
+	font-size: 0.9rem;
    }
-   body section.pt3 ul li p{
-	font-size: clamp(15px, 12vw, 15px);
+   section.exercicios ul {
+	justify-content: center;
+	display: block;
 	flex-wrap: wrap;
    }
-   body section.pt3 ul li h4 {
+   section.exercicios ul li {
+	width: 100;
+   }
+   section.exercicios ul li p{
+	font-size: 0.9rem;
+   }
+   section.exercicios ul li h4 {
 	width: 100%;
 	margin: 0.5vw;
 	padding: 5vw 0 5vw 0;
 	word-break: break-all;
    }
-   body section.pt4 div {
-	flex-direction: column;
+   section.treino div.videos {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: center;
    }
-   body section.pt4 div video {
+   section.treino div.videos video {
 	width: 85%;
    }
+   section.treino div.videos p {
+   }
 /*=================Footer===============*/
-	footer {
-		align-items: center;
+footer {
+	align-items: center;
+}
 
-	}
+footer ul {
+	display: block;
+}
 
-	footer ul {
-		display: block;
-	}
+footer ul.alunos {
+	margin: 0;
+	width: 65%;
+}
 
-	footer ul.alunos {
-		margin: 0;
-		width: 90%;
-	}
-
-	footer ul.esq {
-		width: 84%;
-		text-align: left;
-	}
+footer ul.esq {
+	width: 90%;
+	justify-content: left;
+}
 } 
 /*animação*/
 
@@ -724,7 +736,7 @@ section.menus div.Imagem {
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 	transform: scale(1.05);
 }
-.pt3 ul li {
+.exercicios ul li {
 	display: inline-block;
 	text-align: center;
 	text-decoration: none;
@@ -732,7 +744,7 @@ section.menus div.Imagem {
 	border: none;
 	cursor: pointer;
 }
-.pt3 ul li:hover {
+.exercicios ul li:hover {
 	transition: all 0.3s ease-in-out;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 	transform: scale(1.05);
