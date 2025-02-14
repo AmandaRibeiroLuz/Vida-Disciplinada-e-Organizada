@@ -610,6 +610,10 @@ footer ul li.contato {
 		overflow-y: scroll;
 	}
 
+	header ul.menu.menu.active {
+		width: 35%;
+	}
+	
 	/*=============SECTION.INTRO===================*/
 	section.intro h2 {
 		margin: 2vw 10vw;

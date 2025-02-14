@@ -604,6 +604,9 @@ footer ul.logos li {
 		width: 200px;
 		margin: 0 15vw;
    }
+   header ul.menu.menu.active {
+	width: 35%;
+	}
    section.menus ul li p {
 	text-align: justify;
    }

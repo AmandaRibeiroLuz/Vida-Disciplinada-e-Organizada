@@ -490,6 +490,10 @@ footer ul li.contato {
       width: none;
    }
 
+   header ul.menu.menu.active {
+		width: 35%;
+	}
+
    /*================================================
                    Introdução                 
 ==================================================*/

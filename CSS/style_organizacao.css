@@ -706,6 +706,9 @@ footer ul li.contato {
 	header div.menu-toggle {
 		margin: 0 9vw 0 0;
 	}
+	header ul.menu.menu.active {
+		width: 35%;
+	}
 
 	/*===================SECTION.MOTIVO===================*/
 	main section.motivo p.video video {

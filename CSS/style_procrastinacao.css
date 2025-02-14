@@ -854,6 +854,10 @@ footer ul li.contato {
 		overflow-y: scroll;
 	}
 
+	header ul.menu.menu.active {
+		width: 35%;
+	}
+
 	/*=============SECTION.CAUSAS=============*/
 
 	section.causas ul li {

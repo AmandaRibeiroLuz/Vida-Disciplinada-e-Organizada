@@ -675,6 +675,10 @@ footer ul li.contato {
 		display: flex;
 	}
 
+	header ul.menu.menu.active {
+		width: 35%;
+	}
+
 	.list-box {
 		flex-direction: column;
 		width: 80%;
