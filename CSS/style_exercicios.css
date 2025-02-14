@@ -600,13 +600,17 @@ footer ul.logos li {
    header .navBar {
 		width: none;
    }
-   section.menus img.imgzinha{
-		width: 200px;
-		margin: 0 15vw;
-   }
    header ul.menu.menu.active {
 	width: 35%;
 	}
+
+/*================ MENUS ===================*/
+section.menus div.Imagem {
+	text-align: center;
+}
+	section.menus img{
+		width: 350px;
+   }
    section.menus ul li p {
 	text-align: justify;
    }
