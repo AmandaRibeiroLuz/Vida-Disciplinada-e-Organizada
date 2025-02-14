@@ -454,7 +454,7 @@ section.comeco {
         	 SECTION ROTINA.EXEMPLO
 ============================================*/
 table {
-	width: 100%;
+	width: 120%;
 	border: 1px solid #ddd;
 	border-collapse: collapse;
 	margin-top: 1rem;
@@ -477,7 +477,7 @@ table td {
 }
 
 .table {
-	width: 58%;
+	width: 80%;
 	display: flex;
 	justify-content: center;
 	margin: 1vw 0 3vw 0
@@ -504,7 +504,7 @@ table td {
 .rotina_exemplo p {
 	font-size: 30px;
 	text-align: justify;
-	margin: 0 10vw 0 10vw;
+	margin: 0 6vw 0 6vw;
 }
 
 /*==========================================
@@ -518,7 +518,7 @@ table td {
 
 .forms h1 {
 	background-color: #e4ddd6;
-	margin: 1vw 10vw 1vw 11vw;
+	margin: 1vw 1vw 1vw 1vw;
 	padding: 2vw 8vw 2vw 8vw;
 	border: 2px solid white;
 	font-size: 2.2rem;
@@ -529,7 +529,7 @@ table td {
 }
 
 .forms p.sub {
-	margin: 2vw 11vw 2vw 11vw;
+	margin: 2vw 6vw 2vw 6vw;
 	color: #e4ddd6;
 	font-size: 1.2rem;
 	text-align: center;
@@ -537,10 +537,10 @@ table td {
 
 .forms form {
 	border: 2px solid white;
-	padding: 3vw 5vw 5vw 5vw;
-	margin: 0 11vw 0 11vw;
+	padding: 3vw 12vw 5vw 10vw;
+	margin: 0 6vw 0 1vw;
 	background-color: #e4ddd6;
-	width: 60%;
+	width: 70%;
 	line-height: 1.3rem;
 }
 
@@ -549,9 +549,9 @@ table td {
 }
 
 .forms p.lembrete {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	text-align: center;
-	margin: 2vw 11vw 1vw 11vw;
+	margin: 2vw 5vw 1vw 5vw;
 	color: #e4ddd6;
 }
 
