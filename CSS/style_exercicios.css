@@ -398,22 +398,21 @@ main section.atividade span {
 }
 
 /*============================
-			Parte 3
+		EXERCICIOS
 ==============================*/
 
-body main section.pt3 {
-	padding: 3vw 5vw 3vw 5vw;
+main section.exercicios {
+	padding: 3vw 0;
 	text-align: center;
 	background-color: #e4ddd6;
 }
 
-body main section section.pt3 {
+main section.exercicios {
 	font-size: 0.9rem;
-	background-color: #e4ddd6;
 	padding: 5vw;
 }
 
-body section.pt3 h1 {
+main section.exercicios h2 {
 	font-size: 1.6rem;
 	font-weight: bold;
 	text-align: center;
@@ -421,7 +420,7 @@ body section.pt3 h1 {
 	font-family: 'Times New Roman', Times, serif;
 }
 
-main section.pt3 ul {
+main section.exercicios ul {
 	display: flex;
 	flex-wrap: wrap;
 	/*Flex Wrap passa Pra baixo quando não tem mais espaço*/
@@ -429,7 +428,7 @@ main section.pt3 ul {
 	margin: 0 15px 0 15px;
 }
 
-main section.pt3 ul li {
+main section.exercicios ul li {
 	width: 30%;
 	background-color: #2f2a19;
 	border-radius: 15px;
@@ -438,63 +437,64 @@ main section.pt3 ul li {
 	padding: 2vw 2vw 2vw 2vw;
 	transition: box-shadow 0.3s ease;
 }
-main section.pt3 h4 {
+main section.exercicios h4 {
 	font-weight: bold;
 	margin: 20px;
 	color: #e4ddd6;
 	line-height: 1.3rem;
 }
 
-main section.pt3 ul li p {
+main section.exercicios ul li p {
 	color: #e4ddd6;
 	font-size: 0.9rem;
 	line-height: 1.3rem;
 }
 
-main section.pt3 span {
+main section.exercicios span {
 	font-weight: bold;
 }
 
-main section.pt3 p.txtout {
+main section.exercicios p.texto {
 	margin: 2vw;
 }
 
 /*======================================
-				PARTE 4
+				TREINO
 ========================================*/
 
-body main section.pt4 {
+main section.treino {
 	background-color: #704a2f;
 	color: #e4ddd6;
 	align-items: center;
-	padding: 2vw;
+	padding: 3vw 0;
 }
 
-body main section.pt4 h1 {
+main section.treino h2 {
 	text-align: center;
 	padding: 4vw;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
-body main section.pt4 div.videojose p video {
-	border: 5px solid #e4ddd6;
-	margin: 3vw 4vw 3vw 4vw;
-}
-
-body main section.pt4 div.videojose {
+main section.treino div.videos {
 	display: flex;
+	justify-content: center;
 }
 
-body main section.pt4 ul li {
+main section.treino div.videos p video {
+	border: 5px solid #e4ddd6;
+	margin: 2vw 5vw;
+}
+
+main section.treino ul li {
 	background-color: #e4ddd6;
 	color: black;
-	margin: 10vw;
+	margin: 5vw 10vw;
 	border-radius: 2vw;
 }
 
-section.pt4 h4 {
+section.treino h4 {
 	padding: 4vw;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.6rem;
@@ -502,12 +502,17 @@ section.pt4 h4 {
 	line-height: 1.3rem;
 }
 
-body main section.pt4 ul li p {
+main section.treino ul li p {
 	padding: 2vw;
 	font-size: 1rem;
 	line-height: 1.3rem;
 }
-body main section.pt4 ul li a{
+
+main section.treino p.topo {
+	text-align: center;
+}
+
+main section.treino p a{
 	margin: 4vw;
 	background-color: #e4ddd6;
 	color: #704a2f;
@@ -555,40 +560,36 @@ main section.referenciasjose nav ul li a {
 
 footer {
 	background-color: #704a2f;
-	padding: 2vw 0vw 2vw 0;
+	padding: 2vw 10vw 2vw 10vw;
 	color: #e4ddd6;
 	display: flex;
 	font-size: 0.8rem;
+	justify-content: space-between;
+}
+
+footer ul.esq {
+	text-align: right;
+	margin: 2vw 0 0 0;
+	justify-content: right;
 }
 
 footer ul li a {
 	color: #e4ddd6;
 }
 
-footer ul li.direitos p {
-	margin: 0 4vw 0.2vw 6vw;
+footer ul.alunos li.des {
+	margin: 0 0 1vw 0;
 }
 
-footer ul li.des p {
-	margin: 1vw 1vw 1vw 6vw;
-}
-
-footer ul li.alunos {
-	display: flex;
+footer ul.alunos li {
+	display: block;
 	font-size: 0.8rem;
 }
 
-footer ul li.alunos p {
-	margin: 0.5vw 0 0.6vw 6vw;
+footer ul li.contato {
+	margin: 2vw 0 2vw 0;
 }
 
-footer ul.logos {
-	margin: 2vw 4vw 1vw 18vw;
-}
-
-footer ul.logos li {
-	margin: 1vw;
-}
 /*====================================
 ------------Responsividade------------
 ======================================*/
