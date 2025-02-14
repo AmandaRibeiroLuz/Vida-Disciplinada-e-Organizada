@@ -292,6 +292,7 @@
                         const form = document.getElementById('routineForm');
                         const formData = new FormData(form);
                         const data = Object.fromEntries(formData.entries());
+                        let routineForm = "Sugestões de melhora para a sua rotina:\n\n";
                         const resultElement = document.getElementById('result');
                         resultElement.innerHTML = routineForm;
                         resultElement.classList.add('result-text');
