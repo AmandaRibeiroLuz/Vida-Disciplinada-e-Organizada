@@ -219,9 +219,9 @@ header nav {
 	padding: 0;
 	margin: 0;
 	display: flex;
-	gap: 20px;
+	gap: 30px;
 	justify-content: right;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: bold;
 }
 
@@ -259,11 +259,10 @@ header nav {
 	width: 150px;
 	border-bottom-left-radius: 1vw;
 	border-bottom-right-radius: 1vw;
-	padding: 5vw;
 }
 
 .menu li {
-	margin: 10px 0;
+	margin: 0 0 2vw 0;
 }
 
 .menu-toggle {
@@ -272,6 +271,8 @@ header nav {
 
 .menu.active {
 	display: flex;
+	padding: 3vw;
+	width: 15%;
 }
 
 header nav ul li.atual a {
@@ -280,6 +281,7 @@ header nav ul li.atual a {
 	padding: 8px;
 	border-radius: 0.5rem;
 }
+
 
 /*==========================================
 					MAIN
