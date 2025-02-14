@@ -280,121 +280,121 @@ body main h1.titulo {
 }
 
 /*===========================
-			Div
+			MENUS
 =============================*/
-body main img.banner {
+main div img.banner {
 	width: 100%;
 }
 
-body section.menus h2 {
-	font-size: 1.3rem;
-	font-weight: bold;
-	text-align: center;
-	margin: 4vw;
-	font-family: 'Times New Roman', Times, serif;
-}
-
-body main section.menus {
-	font-size: 0.9rem;
+main section.menus {
 	background-color: #e4ddd6;
-	padding: 2vw;
+	padding: 3vw 0;
 	align-items: center;
 	line-height: 1.3rem;
 }
 
-body div.cabecario {
+main section.menus h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
 	margin: 4vw;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-body main section section.menus div.Imagem {
-	padding: 5vw;
+main section.menus p.paragrafo {
+	margin: 0 10vw;
+	text-align: justify;
+}
+
+main section.menus div.dividir {
+	display: flex;
+	margin: 0 10vw;
+	align-items: center;
+}
+
+main section.menus div.dividir div.imagem {
+	margin: 4vw 10vw 0 0;
 	width: 100%;
 }
 
-body div.chato {
-	display: flex;
-	margin: 4vw;
-}
-
-body img.imgzinha {
+main section.menus div.dividir div.imagem img {
 	border: 5px solid #704a2f;
 }
 
-body section.menus div.chatice {
-	margin: 4vw;
+main section.menus div.texto {
+	margin: 4vw 0;
 }
 
-body main section.menus h3.txt1 {
+main section.menus div.texto h3 {
 	font-weight: bold;
-	font-size: 1.2rem;
-	padding: 10vw 0 0 0;
+	font-size: 1.4rem;
+	margin: 0 0 5vw 0;
 	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
 }
 
-body p.txt2 {
-	margin: 4vw 0 4vw 0;
-	font-size: 1rem;
-	font-weight: normal;
+main section.menus div.texto p {
+	margin: 4vw 0 0 0;
+	font-size: 0.9rem;
+	text-align: justify;
 }
 
-body section.menus div.chatice a {
-	margin: 4vw;
+main section.menus div.texto p.link {
+	text-align: center;
+}
+
+main section.menus div.texto p.link a {
+	margin: 0;
 	background-color: #2f2a19;
 	color: #e4ddd6;
-	border-radius: 10px;
-	border-bottom: #2f2a19;
+	border-radius: 15px;
 	font-weight: bold;
 	font-size: 1.3rem;
-	padding: 20px;
+	padding: 2vw 3vw;
 	font-family: 'Times New Roman', Times, serif;
+	justify-content: center;
 }
 
 /*==========================================
-           		 parte2
+           		 ATIVIDADE
 ============================================*/
 
-body main section.pt2 {
-	padding: 3vw 5vw 3vw 5vw;
+main section.atividade {
+	padding: 3vw 0;
 	text-align: center;
 	background-color: #704a2f;
 }
 
-main section.pt2 ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0 15px 0 15px;
-}
-
-main section.pt2 ul li {
-	width: 30%;
-	justify-content: space-around;
-	background-color: #e4ddd6;
-	border-radius: 15px;
-	margin: 2vw;
-	padding: 3vw 6vw 3vw 6vw;
-}
-
-main section.pt2 span {
-	font-weight: bold;
-}
-
-main section.pt2 h4 {
-	font-weight: bold;
-	margin: 10px;
-}
-
-body section.pt2 h2 {
-	font-size: 1.6rem;
+main section.atividade h2 {
+	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: center;
-	margin: 4vw;
+	margin: 2vw;
 	font-family: 'Times New Roman', Times, serif;
 	color: #e4ddd6;
 }
 
-main section.pt2 p.txt3 {
+main section.atividade ul li {
+	width: 25%;
+	justify-content: space-around;
+	background-color: #e4ddd6;
+	border-radius: 15px;
+	margin: 2vw;
+	padding: 3vw 6vw;
+}
+
+main section.atividade h4 {
+	font-weight: bold;
+	margin: 10px;
+}
+
+main section.atividade p.texto {
 	color: #e4ddd6;
+	margin: 2vw 0 0 0;
+}
+
+main section.atividade span {
+	font-weight: bold;
 }
 
 /*============================
