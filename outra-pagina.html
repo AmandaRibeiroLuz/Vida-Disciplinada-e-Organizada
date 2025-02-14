@@ -15,9 +15,9 @@
     <script>
         const rotinaSalva = localStorage.getItem('rotina');
         if (rotinaSalva) {
-            document.getElementById('result').textContent = rotinaSalva;
+            document.getElementById('result').innerHTML = rotinaSalva;
         } else {
-            document.getElementById('result').textContent = "Nenhuma sugestão de rotina encontrada.";
+            document.getElementById('result').innerHTML = "Nenhuma sugestão de rotina encontrada.";
         }
     </script>
 
