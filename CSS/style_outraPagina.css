@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F4E1D2; 
+    background-color: #e4ddd6; 
     color: #4A3C31; 
     margin: 0;
     padding: 0;
@@ -11,8 +11,10 @@ body {
 /* título principal */
 h1 {
     text-align: center;
-    color: #4A3C31;
-    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #704a2f;
+    font-weight: bold;
+    padding: 3vw;
     background-color: #C8A48D; 
     margin-bottom: 30px;
     border-radius: 8px;
@@ -20,8 +22,8 @@ h1 {
 }
 
 #result {
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 3vw 10vw;
+    font-size: 1.5rem;
     padding: 20px;
     background-color: #D9C0A7; 
     color: #4A3C31;
@@ -33,7 +35,7 @@ h1 {
 }
 
 #result div {
-    margin-bottom: 20px;
+    margin-bottom: 4vw;
 }
 #result:empty {
     text-align: center;
