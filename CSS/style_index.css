@@ -154,10 +154,37 @@ a {
 /*==========================================
                INDEX
 ============================================*/
-/*=============BANNER===========*/
-main img.banner {
-   width: 100%;
+/*==========================================
+					BANNER
+===========================================*/
+main section.title {
+	background-image: url("../src/img.home/Vita_Ordinata_banner.png");
+	height: 60vw;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position:static;
 }
+
+main section.title h1 {
+	position: absolute;
+	top: 60%;
+	left: 32%;
+	transform: translate(-50%, -50%);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 9vw;
+	color: #704a2f;
+   text-align: center;
+}
+
+section.title img.banner {
+	width: 100%;
+}
+section.title h1 {
+	font-size: 3.5vw;
+	
+}
+/*======================================*/
 
 header {
    border-bottom: 2.5px solid #2f2a19;
@@ -280,116 +307,116 @@ main section.introducao div.dividir {
    width: 100%;
 }
 
-main section.introducao div.dividir div p.imagem {
-   margin: 5vw 10vw 1.5vw 8vw;
-   width: 50%;
-}
-
-main section.introducao div.dividir div p.imagem img {
-   border: 5px solid #704a2f;
-}
-
 main section.introducao div.dividir div.texto {
    text-align: center;
    width: 50%;
    margin: 9vw 3vw 1.5vw 10vw;
 }
 
-main section.introducao div.dividir div.texto p.paragrafo {
+main section.introducao div.dividir div.texto p {
    font-size: 0.9rem;
    text-align: justify;
    line-height: 1.3rem;
 }
 
+main section.introducao div.dividir div.imagem p {
+   margin: 5vw 10vw 1.5vw 8vw;
+   width: 50%;
+}
+
+main section.introducao div.dividir div.imagem p img {
+   border: 5px solid #704a2f;
+}
+
 /*================================================
-                         Introducao 2        
+                  Introducao 2        
 ==================================================*/
-main section.introducaoDOIS {
+main section.introducaoDois {
    background-color: white;
    padding: 3vw 0;
 }
 
-main section.introducaoDOIS p.paragrafo {
+main section.introducaoDois p.paragrafo {
    margin: 2vw 10vw 5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
 
-main section.introducaoDOIS p.paragBaixo {
+main section.introducaoDois p.imagem {
+   width: 80%;
+   text-align: center;
+   background-color: #cdbca5;
+   padding: 3vw 10vw 3vw 10vw;
+}
+
+main section.introducaoDois p.imagem img {
+   border: 5px solid #704a2f;
+}
+
+main section.introducaoDois p.paragrafoBaixo {
    margin: 5vw 10vw 1.5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
 
-main section.introducaoDOIS p.imagem {
-   width: 80%;
-   text-align: center;
-   background-color: #cdbca5;
-   padding: 3vw 10vw 3vw 10vw;
-}
-
-main section.introducaoDOIS p.imagem img {
-   border: 5px solid #704a2f;
-}
-
 /*================================================
-                         Introducao 3        
+                  Introducao 3        
 ==================================================*/
-main section.introducaoTRES {
+main section.introducaoTres {
    background-color: #e4ddd6;
    padding: 3vw 0;
    display: flex;
    align-items: center;
 }
 
-main section.introducaoTRES p.paragrafo {
+main section.introducaoTres p.paragrafo {
+   margin: 2vw 10vw 5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
-   margin: 3vw 5vw 3vw 10vw;
    text-align: justify;
 }
 
-main section.introducaoTRES p.imagem {
+main section.introducaoTres p.imagem {
    margin: 3vw 10vw 3vw 5vw;
 }
 
-main section.introducaoTRES p.imagem img {
+main section.introducaoTres p.imagem img {
    border: 5px solid #704a2f;
 }
 
 /*================================================
-                         Intro Organiza       
+               Intro Organizacao      
 ==================================================*/
-main section.introOrganiza {
+main section.introOrganizacao {
    background-color: white;
    padding: 0;
 }
 
-main section.introOrganiza p.paragrafo {
-   margin: 2vw 10vw 7vw 10vw;
+main section.introOrganizacao p.paragrafo {
+   margin: 4vw 10vw 5vw 10vw;
    font-size: 0.9rem;
    line-height: 1.3rem;
    text-align: justify;
 }
 
-main section.introOrganiza p.paragBaixo {
-   margin: 5vw 10vw 4vw 10vw;
-   font-size: 0.9rem;
-   line-height: 1.3rem;
-   text-align: justify;
-}
-
-main section.introOrganiza p.imagem {
+main section.introOrganizacao p.imagem {
    width: 80%;
    text-align: center;
    background-color: #cdbca5;
    padding: 3vw 10vw 3vw 10vw;
 }
 
-main section.introOrganiza p.imagem img {
+main section.introOrganizacao p.imagem img {
    border: 5px solid #704a2f;
+}
+
+main section.introOrganizacao p.paragrafoBaixo {
+   margin: 5vw 10vw 4vw 10vw;
+   font-size: 0.9rem;
+   line-height: 1.3rem;
+   text-align: justify;
 }
 
 p.topo {
@@ -427,8 +454,7 @@ main section.referencias h2 {
 main section.referencias nav ul li {
    font-size: 0.8rem;
    margin: 2vw 0vw 2vw 0vw;
-
-
+   word-wrap: break-word;
 }
 
 main section.referencias nav ul li a {
@@ -480,9 +506,9 @@ footer ul li.contato {
       overflow-y: scroll;
    }
 
-   header .navBar {
-      width: none;
-   }
+   main section.title h1 {
+		top: 13%;
+	}
 
    header ul.menu.menu.active {
 		width: 35%;
@@ -500,7 +526,6 @@ footer ul li.contato {
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
-      margin: none;
       width: 100%;
    }
 
@@ -510,19 +535,19 @@ footer ul li.contato {
       margin: 2vw;
    }
 
-   main section.introducao div.dividir div.texto p.paragrafo {
+   main section.introducao div.dividir div.texto p {
       margin: 0vw 8vw 0vw 8vw;
 
    }
 
-   main section.introducao div.dividir div p.imagem {
+   main section.introducao div.dividir div.imagem p {
       width: 100%;
       margin: 0;
       text-align: center;
    }
 
-   section.introducao p.imagem img {
-      width: 80%; 
+   section.introducao div.dividir div.imagem p img {
+      width: 77%; 
       margin: 2vw 4vw;
 
    }
@@ -530,15 +555,19 @@ footer ul li.contato {
    /*================================================
                    Introdução 2                
 ==================================================*/
-   section.introducaoDOIS {
+   section.introducaoDois {
       padding: 5vw 0;
    }
 
-   section.introducaoDOIS p.imagem img {
-      width: 95%;
-      margin: 0 1vw;
+   section.introducaoDois p.imagem {
+      width: 100%;
+      text-align: center;
    }
-   section.introducaoDOIS p.paragbaixo {
+
+   section.introducaoDois p.imagem img {
+      width: 97%;
+   }
+   section.introducaoDois p.paragrafoBaixo {
       margin: 0 1vw;
       width: 80%;
    }
@@ -547,57 +576,67 @@ footer ul li.contato {
    /*================================================
                    Introdução 3                
 ==================================================*/
-   main section.introducaoTRES {
+   main section.introducaoTres {
       display: block;
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
-      margin: none;
       width: 100%;
       padding: 5vw 0;
       display: flex;
       align-items: center;
    }
 
-   main section.introducaoTRES p.imagem img {
-      width: 95%;
-      margin: 0 4vw;
-   }
-
-   section.introducaoTRES p.paragrafo {
+   main section.introducaoTres p.paragrafo {
       width: 84%;
    }
 
-   /*================================================
-                   Introdução 3                
-==================================================*/
-
-   main section.introOrganiza p.imagem img {
-      width: 95%;
-      margin: 0 auto;
+   section.introducaoTres p.imagem {
+      width: 100%;
+      text-align: center;
    }
 
-   main section.introOrganiza p.topo {
+   main section.introducaoTres p.imagem img {
+      width: 93%;
+      margin: 0 4vw;
+   }
+
+   /*================================================
+                   IntroOrganizacao               
+==================================================*/
+
+   main section.introOrganizacao p.imagem img {
+      width: 97%;
+   }
+
+   main section.introOrganizacao p.topo {
       padding: 4vw 0
+   }
+
+/*================================================
+                   Referências               
+==================================================*/
+
+   main section.referencias nav ul li p {
+      line-height: 1rem;
    }
 
    /*===============FOOTER==============*/
    footer {
-      align-items: center;
+		align-items: center;
+	}
 
-   }
+	footer ul {
+		display: block;
+	}
 
-   footer ul {
-      display: block;
-   }
+	footer ul.alunos {
+		margin: 0;
+		width: 65%;
+	}
 
-   footer ul.alunos {
-      margin: 0;
-      width: 90%;
-   }
-
-   footer ul.esq {
-      width: 84%;
-      text-align: left;
-   }
+	footer ul.esq {
+		width: 90%;
+		justify-content: left;
+	}
 }
