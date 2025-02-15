@@ -302,43 +302,13 @@ header nav ul li.atual a {
 					BANNER
 ===========================================*/
 main section.title {
-	background-image: url("../src/img.procrastinacao/procrastinacao.png");
+	background-image: url("../src/img.procrastinacao/procrastinacao.banner.png");
 	height: 60vw;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	position:static;
-}
 
-main section.title h1 {
-	position: absolute;
-	top: 40%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 7vw;
-	color: #704a2f;
-
-}
-
-main section.title p {
-	position: absolute;
-	top: 55%;
-	font-size: 3.2vw;
-	left: 35%;
-	font-family: 'Times New Roman', Times, serif;
-	transform: translate(-50%, -50%);
-	color: #704a2f;
-	width: 50%;
-	max-width: 800px;
-}
-
-section.title img.banner {
-	width: 100%;
-}
-section.title h1 {
-	font-size: 3.5vw;
-	
 }
 /*========================================
 				SECTION.TEXTO
@@ -528,27 +498,20 @@ section.direction div {
 }
 
 section.direction div ul li {
-	margin: 4vw 6vw;
-}
-section.direction ul li p.botao {
- margin: 0;
- padding: 0;
- 
+	margin: 4vw 12vw;
 }
 
 section.direction ul li p.botao a {
     color: #e4ddd6;
     display: inline-block;
-    width: 300px;
-    height: 40px;
-    line-height: 40px;
+    width: 25vw;
+    height: 4vw;
     font-size: 1.4rem;
     background-color: #704a2f;
     border: 1px solid #d1ae95;
     text-align: center;
 	align-items: center;
     border-radius: 100px;
-    padding: 10px 20px;
 }
 
 
@@ -966,7 +929,7 @@ footer ul li.contato {
 
 	/*===========SECTION.DIRECTION=============*/
 	section.direction p.responda {
-		padding: 4vw 8vw;
+		padding: 4vw ;
 	}
 
 	section.direction p.label {
@@ -979,18 +942,15 @@ footer ul li.contato {
 		display: block;
 	}
 
-	section.direction div ul {
+	section.direction div ul li {
 		width: 100%;
+		margin: 1vw 10vw;
+		
 	}
 
 	section.direction div ul li a {
-		margin: 1vw 0;
-		padding: 3vw 8vw;
-	}
-
-	section.direction ul li p {
-		width: 100%;
-		padding: 0;
+		padding: 6vw 25vw;
+		margin: 2vw 19vw 2vw 0;
 	}
 
 	/*===============FOOTER==============*/
