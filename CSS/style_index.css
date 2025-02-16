@@ -158,31 +158,13 @@ a {
 					BANNER
 ===========================================*/
 main section.title {
-	background-image: url("../src/img.home/Vita_Ordinata_banner.png");
+	background-image: url("../src/img.home/banner_vita_ordinata.png");
 	height: 60vw;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	position:static;
-}
 
-main section.title h1 {
-	position: absolute;
-	top: 60%;
-	left: 32%;
-	transform: translate(-50%, -50%);
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 9vw;
-	color: #704a2f;
-   text-align: center;
-}
-
-section.title img.banner {
-	width: 100%;
-}
-section.title h1 {
-	font-size: 3.5vw;
-	
 }
 /*======================================*/
 
@@ -203,12 +185,27 @@ header nav {
 }
 
 .navBar p img {
-   border-radius: 50px;
-   justify-content: left;
-   width: 40px;
-   margin: 0 0 0 4vw;
-   transition: transform 0.3s ease
-}
+	border-radius: 50px;
+	justify-content: left;
+	width: 40px;
+	margin: 0 0 0 4vw;
+	transition: transform 0.3s ease;
+	animation: 1s rolarLogo;
+ }
+ @keyframes rolarLogo{
+	0%{
+		transform: rotate(0deg);
+		margin: 0 0 0 4vw;
+	}
+	50%{
+		transform: rotate(180deg);
+		margin: 0 0 0 10vw;
+	}
+	100%{
+		transform: rotate(0deg);
+		margin: 0 0 0 4vw;
+	}
+ }
 .navBar p img:active {
    transform: scale(0.9); /* Reduz o tamanho quando clicado */
 	background-color: #ffffff; /* Muda a cor ao ser clicado */
