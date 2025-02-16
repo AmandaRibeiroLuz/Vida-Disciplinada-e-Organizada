@@ -530,10 +530,6 @@ footer ul li.contato {
 	   overflow-x: hidden;
 	   overflow-y: scroll;
 	}
- 
-	header .navBar {
-	   width: none;
-	}
 
 	header ul.menu.menu.active {
 		width: 35%;
