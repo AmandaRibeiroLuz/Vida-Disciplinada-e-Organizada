@@ -294,6 +294,18 @@ body main h1.titulo {
 	text-align: center;
 }
 
+/*==========================================
+					BANNER
+===========================================*/
+main section.title {
+	background-image: url("../src/img.exercicios/3.png");
+	height: 60vw;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position:static;
+}
+
 /*===========================
 			MENUS
 =============================*/
@@ -611,9 +623,7 @@ footer ul li.contato {
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}
-   header .navBar {
-		width: none;
-   }
+
    header ul.menu.menu.active {
 	width: 35%;
 	}
@@ -651,9 +661,7 @@ section.menus div.imagem {
 	display: block;
 	flex-wrap: wrap;
    }
-   section.exercicios ul li {
-	width: 90;
-   }
+   
    section.exercicios ul li p{
 	font-size: 0.9rem;
    }
