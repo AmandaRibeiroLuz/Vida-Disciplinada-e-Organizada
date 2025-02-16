@@ -177,8 +177,24 @@ header nav {
 	justify-content: left;
 	width: 40px;
 	margin: 0 0 0 4vw;
-	transition: transform 0.3s ease
+	transition: transform 0.3s ease;
+	animation: 1s rolarLogo;
  }
+ @keyframes rolarLogo{
+	0%{
+		transform: rotate(0deg);
+		margin: 0 0 0 4vw;
+	}
+	50%{
+		transform: rotate(180deg);
+		margin: 0 0 0 10vw;
+	}
+	100%{
+		transform: rotate(0deg);
+		margin: 0 0 0 4vw;
+	}
+ }
+
  .navBar p img:active {
 	transform: scale(0.9); /* Reduz o tamanho quando clicado */
 	 background-color: #ffffff; /* Muda a cor ao ser clicado */
@@ -266,10 +282,15 @@ header nav ul li.atual a {
 
 
 /*==========================================
-                SECTION.OBJETIVO
+                SECTION.TITLE
 ============================================*/
-main section.banner img {
+main section.title {
+	background-image: url("../src/img.sobre/banner_sobre_nos.png");
+	height: 60vw;
 	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position:static;
 }
 
 /*==========================================
