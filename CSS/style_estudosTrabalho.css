@@ -303,8 +303,13 @@ body.estudosTrabalho main hr {
 /*==========================================
             	Banner
 ============================================*/
-main p.banner img {
+main section.title {
+	background-image: url("../src/img.trabalhoEstudos/banner.png");
+	height: 60vw;
 	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position:static;
 }
 
 /*==========================================
